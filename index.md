@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Thank You!
+cover: true
 sitemap: false
 ---
 
