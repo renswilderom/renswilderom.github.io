@@ -25,7 +25,7 @@ invert_sidebar: true
 ## Research subjects
 Social scientists sometimes have a little bit of fun when renaming their interviewees to protect their anonymity. But, the real fun is of course reserved for the marine biologists, who can invent completely new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
 
-Building on the legendary Dolphin dataset (Lusseau et al. 2003), NetworkX and existing community detection algorithms, this script allows you to study your communities of choice. More specifically, it allows you to retrieve community-level metrics such as density and transitivity.
+Building on the legendary Dolphin dataset (Lusseau et al. 2003), NetworkX and existing community detection algorithms, this script allows you to study your communities of choice. More specifically, it allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
 
 First: create a new dataset called "df_dol," compute a graph object, and run a community detection algorithm.  
 
