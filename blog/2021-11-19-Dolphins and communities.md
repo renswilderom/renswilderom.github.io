@@ -3,7 +3,9 @@ layout: post
 title: Dolphins and communities
 image: /assets/img/blog/Jacques-Cousteau-Swimming.jpg
 accent_image:
-  background: url('/assets/img/blog/Jacques-Cousteau-Swimming.jpg') center/cover
+  background: none
+  <!-- background: url('/assets/img/blog/Jacques-Cousteau-Swimming.jpg') center/cover -->
+
   overlay: false
 accent_color: '#ccc'
 theme_color: '#ccc'
