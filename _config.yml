@@ -94,16 +94,16 @@ accent_image:          none
 # accent_image:          /assets/img/sidebar-bg.jpg
 
 # When you highlight the text
-accent_color:          rgb(253, 251, 236)
-# Ivory
-# accent_color:          rgb(79,177,186)
+accent_color:          rgb(79,177,186)
 
+# Ivory is: 253, 251, 236
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
+
+# Color of sidebar, when picture is none (currently Middle grey)
 theme_color:           rgb(133, 126, 123)
-# Middle grey
 # theme_color:           rgb(8,46,57)
 
 

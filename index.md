@@ -42,6 +42,8 @@ containing example content:
 └── NOTICE.md
 ~~~
 
+{% avatar renswilderom %}
+
 [documentation]: docs/README.md
 [install]: docs/install.md
 [upgrade]: docs/upgrade.md
