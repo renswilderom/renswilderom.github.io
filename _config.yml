@@ -103,7 +103,7 @@ accent_color:          rgb(79,177,186)
 # Defaults to `accent_color`.
 
 # Color of sidebar, when picture is none (currently Middle grey)
-theme_color:           rgb(38, 84, 124)
+theme_color:           rgb(133, 126, 123)
 # USAFA blue: 38, 84, 124
 # Space cadet: 23, 23, 56
 # Middle grey: 133, 126, 123
