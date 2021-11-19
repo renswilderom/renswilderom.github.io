@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Hydejack, Stripe-ified
-image: /assets/img/blog/jj-ying.jpg
-accent_image: 
-  background: url('/assets/img/blog/jj-ying.jpg') center/cover
+title: Dolphins and communities
+image: /assets/img/blog/Jacques-Cousteau-Swimming.jpg
+accent_image:
+  background: url('/assets/img/blog/Jacques-Cousteau-Swimming.jpg') center/cover
   overlay: false
 accent_color: '#ccc'
 theme_color: '#ccc'
 description: >
-  Version 9.1 provides minor design changes, new features, and closes multiple issues.
+  Retrieving community-level metrics from Python's NetworkX
 invert_sidebar: true
 ---
 
@@ -21,14 +21,14 @@ What's New in Hydejack 9.1?
 
 
 ## Stripe-ified Design
-Most elements now have rounded borders, making the design look more modern (dare I say "Stripe-ified") than ever before. 
+Most elements now have rounded borders, making the design look more modern (dare I say "Stripe-ified") than ever before.
 
 The goal of Hydejack was always to provide a theme that looks "designed" combined the amenities of a typical Jekyll theme for coders.
 This is an important step in maintaining this goal.
 
 At the same time, I'm introducing nerdy elements like [breadcrumbs](#serp-breadcrumbs), that are almost ornamental in nature.
-You wouldn't find these on other Stripe-like designs, but I think they are appealing to developer types like myself. 
-Like most additions to Hydejack, they can be disabled via configuration. 
+You wouldn't find these on other Stripe-like designs, but I think they are appealing to developer types like myself.
+Like most additions to Hydejack, they can be disabled via configuration.
 
 
 ## Inverted Sidebars
@@ -53,8 +53,8 @@ Headers are added by making the first line a comment of the form `(file|title): 
     // file: 'hello-world.js'
     console.log('Hello World!');
     ~~~
-    
-Code blocks with and without headers now also come with a copy button. 
+
+Code blocks with and without headers now also come with a copy button.
 In the case of header-less code blocks, the button only shows on hover to prevent potential overlap.
 
 
@@ -77,7 +77,7 @@ Added breadcrumbs above page title:
 Bread crumbs are now shown above each page title.
 {:.figcaption}
 
-Note that this requires a [directory-like URL structure](https://qwtel.com/posts/software/urls-are-directories/) on your entire site, 
+Note that this requires a [directory-like URL structure](https://qwtel.com/posts/software/urls-are-directories/) on your entire site,
 otherwise the intermediate links will point to nonexisting sites.
 
 On a side note, Hydejack now has built-in tooltips for abbreviations like SERP (activated via tap/click).
@@ -93,12 +93,12 @@ Note that this depends on the `last_modified_at` property of the page, which mus
 
 
 ## Clap Button Preview
-I've been trying something new with [**getclaps.app**](https://getclaps.app/), a feedback and analytics tool for personal sites like those powered by Hydejack. 
+I've been trying something new with [**getclaps.app**](https://getclaps.app/), a feedback and analytics tool for personal sites like those powered by Hydejack.
 It looks like this:
 
 <clap-button style="--clap-button-color:var(--body-color);margin:2rem auto 3rem;width:3rem;height:3rem;font-size:smaller" nowave></clap-button>
 
-It is a separate product from Hydejack and not enabled by default. Because it depends on a backend component, it requires a monthly fee. 
+It is a separate product from Hydejack and not enabled by default. Because it depends on a backend component, it requires a monthly fee.
 If enabled, it is placed below posts and pages where the dingbat character (❖) used to be.
 
 I can't claim that this product is fully baked (feedback welcome), but I've been using it on my personal site and here for the last couple of months with no issues.
