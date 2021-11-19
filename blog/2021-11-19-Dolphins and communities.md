@@ -4,7 +4,6 @@ title: Dolphins and communities
 image: /assets/img/blog/Jacques-Cousteau-Swimming.jpg
 accent_image:
   background: none
-  <!-- background: url('/assets/img/blog/Jacques-Cousteau-Swimming.jpg') center/cover -->
 
   overlay: false
 accent_color: '#ccc'
@@ -13,6 +12,9 @@ description: >
   Retrieving community-level metrics from Python's NetworkX
 invert_sidebar: true
 ---
+
+<!-- background: url('/assets/img/blog/Jacques-Cousteau-Swimming.jpg') center/cover -->
+
 
 # Dolphins and communities
 
