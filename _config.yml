@@ -102,7 +102,7 @@ accent_color:          rgb(79,177,186)
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
 
-# Color of sidebar, when picture is none
+# Color of sidebar, when picture is none (currently Middle grey)
 theme_color:           rgb(133, 126, 123)
 # USAFA blue: 38, 84, 124
 # Space cadet: 23, 23, 56
