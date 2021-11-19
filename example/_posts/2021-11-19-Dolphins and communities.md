@@ -12,26 +12,49 @@ description: >
 invert_sidebar: true
 ---
 
-# What's New in Hydejack 9.1?
+# Dolphins and communities
 
-What's New in Hydejack 9.1?
+Dolphins and communities
 
 * toc
 {:toc}
 
 
-## Stripe-ified Design
-Most elements now have rounded borders, making the design look more modern (dare I say "Stripe-ified") than ever before.
+## Research subjects
+Social scientists sometimes have a little bit of fun when renaming their interviewees to protect their anonymity. But, the real fun is of course reserved for the marine biologists, who can invent completely new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
 
-The goal of Hydejack was always to provide a theme that looks "designed" combined the amenities of a typical Jekyll theme for coders.
-This is an important step in maintaining this goal.
+Building on the legendary Dolphin dataset (Lusseau et al. 2003), NetworkX and existing community detection algorithms, this script allows you to study your communities of choice. More specifically, it allows you to retrieve community-level metrics such as density and transitivity.
 
-At the same time, I'm introducing nerdy elements like [breadcrumbs](#serp-breadcrumbs), that are almost ornamental in nature.
-You wouldn't find these on other Stripe-like designs, but I think they are appealing to developer types like myself.
-Like most additions to Hydejack, they can be disabled via configuration.
+First: create a new dataset called "df_dol," compute a graph object, and run a community detection algorithm.  
+
+```yml
+Code
+```
+
+Second: we loop through the list of communities, calculate different community-level metrics, and add them to a Pandas dataframe.
+
+~~~js
+// file: 'hello-world.js'
+console.log('Hello World!');
+~~~
+
+## Credits
+
+References:
+Lusseau, D. et al. (2003) The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations, Behavioral Ecology and Sociobiology 54, 396-405.
+
+Photo is taken from:
+Cousteau, J.Y. (1975) Dolphins. The Undersea discoveries of Jacques-Yves Cousteau
+
+Original data:
+http://www-personal.umich.edu/~mejn/netdata/
+
+NetworkX Documentation:
+https://networkx.org/
 
 
-## Inverted Sidebars
+
+<!-- ## Inverted Sidebars
 The colors on the sidebar can now be inverted to allow brighter sidebar images. This can be enabled per-page in the fort matter:
 
 ```yml
@@ -114,4 +137,4 @@ There are many more changes and bugfixes in 9.1. See the [CHANGELOG](/changelog/
 
 <span>Photo by <a href="https://unsplash.com/@jjying?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">JJ Ying</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
-*[SERP]: Search Engine Results Page
+*[SERP]: Search Engine Results Page -->
