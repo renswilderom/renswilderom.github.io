@@ -12,7 +12,7 @@ Social scientists sometimes have a little bit of fun when renaming their intervi
 
 Building on the legendary Dolphin dataset (Lusseau et al. 2003), NetworkX and existing community detection algorithms, this script allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
 
-The result will look like this:
+The result will look more or less like this (the example below actually adds some extra variables to the dataframe):
 
 |Community    |   Density |   Transitivity |
 |---:|----------:|---------------:|
@@ -23,15 +23,13 @@ The result will look like this:
 
 ## The code
 
-Here is how to get there. First, create a new dataset called "df_dol," compute a graph object (i.e. a network), and perform community detection.
+Here is how to get there. First, we create a new dataframe called "df_dol," compute a graph object (i.e. a network), and perform community detection.
 
 ```python
 # Create the dataset
 import pandas as pd
 source = ['Beak', 'Beak', 'Beak', 'Beak', 'Beak', 'Beak', 'Beescratch', 'Beescratch', 'Beescratch', 'Beescratch', 'Beescratch', 'Beescratch', 'Beescratch', 'Beescratch', 'Bumper', 'Bumper', 'Bumper', 'Bumper', 'CCL', 'CCL', 'CCL', 'Cross', 'DN16', 'DN16', 'DN16', 'DN16', 'DN21', 'DN21', 'DN21', 'DN21', 'DN21', 'DN21', 'DN63', 'DN63', 'DN63', 'DN63', 'DN63', 'Double', 'Double', 'Double', 'Double', 'Double', 'Feather', 'Feather', 'Feather', 'Feather', 'Feather', 'Fish', 'Fish', 'Fish', 'Five', 'Fork', 'Gallatin', 'Gallatin', 'Gallatin', 'Gallatin', 'Gallatin', 'Grin', 'Grin', 'Grin', 'Grin', 'Grin', 'Grin', 'Grin', 'Grin', 'Grin', 'Grin', 'Haecksel', 'Haecksel', 'Haecksel', 'Haecksel', 'Haecksel', 'Haecksel', 'Hook', 'Hook', 'Hook', 'Hook', 'Hook', 'Jet', 'Jet', 'Jet', 'Jet', 'Jet', 'Jonah', 'Jonah', 'Jonah', 'Jonah', 'Jonah', 'Jonah', 'Knit', 'Knit', 'Kringel', 'Kringel', 'Kringel', 'Kringel', 'Kringel', 'Kringel', 'MN105', 'MN105', 'MN105', 'MN105', 'MN105', 'MN60', 'MN60', 'MN60', 'MN83', 'MN83', 'MN83', 'Mus', 'Mus', 'Notch', 'Oscar', 'Oscar', 'Patchback', 'Patchback', 'Patchback', 'Patchback', 'Patchback', 'PL', 'PL', 'Ripplefluke', 'Scabs', 'Scabs', 'Scabs', 'Scabs', 'Scabs', 'Scabs', 'Shmuddel', 'Shmuddel', 'Shmuddel', 'SN100', 'SN100', 'SN100', 'SN100', 'SN4', 'SN4', 'SN4', 'SN4', 'SN63', 'SN63', 'SN63', 'SN63', 'SN89', 'SN9', 'SN90', 'SN90', 'SN96', 'SN96', 'Stripes', 'Stripes', 'Topless', 'Topless', 'Topless', 'TR120', 'TR82', 'TR99', 'Trigger', 'TSN83', 'Upbang']
-
 target = ['Fish', 'Grin', 'Haecksel', 'SN9', 'SN96', 'TR77', 'Jet', 'Knit', 'Notch', 'Number1', 'Oscar', 'SN100', 'SN90', 'Upbang', 'Fish', 'SN96', 'Thumper', 'Zipfel', 'Double', 'Grin', 'Zap', 'Trigger', 'Feather', 'Gallatin', 'Wave', 'Web', 'Feather', 'Gallatin', 'Jet', 'Upbang', 'Wave', 'Web', 'Knit', 'Number1', 'PL', 'SN9', 'Upbang', 'Kringel', 'Oscar', 'SN4', 'Topless', 'Zap', 'Gallatin', 'Jet', 'Ripplefluke', 'SN90', 'Web', 'Patchback', 'SN96', 'TR77', 'Trigger', 'Scabs', 'Jet', 'Ripplefluke', 'SN90', 'Upbang', 'Web', 'Hook', 'MN83', 'Scabs', 'Shmuddel', 'SN4', 'SN63', 'SN9', 'Stripes', 'TR99', 'TSN103', 'Jonah', 'MN83', 'SN9', 'Topless', 'Vau', 'Zap', 'Kringel', 'Scabs', 'SN4', 'SN63', 'TR99', 'MN23', 'Mus', 'Number1', 'Quasi', 'Web', 'Kringel', 'MN105', 'MN83', 'Patchback', 'Topless', 'Trigger', 'PL', 'Upbang', 'Oscar', 'SN100', 'SN63', 'Thumper', 'TR77', 'TR99', 'Patchback', 'Scabs', 'SN4', 'Topless', 'Trigger', 'SN100', 'Topless', 'Trigger', 'Patchback', 'Topless', 'Trigger', 'Notch', 'Number1', 'Number1', 'PL', 'TR77', 'SMN5', 'Stripes', 'Topless', 'Trigger', 'TSN103', 'SN96', 'TR77', 'Zig', 'Shmuddel', 'SN4', 'SN63', 'SN9', 'Stripes', 'TR99', 'SN4', 'Thumper', 'TR88', 'SN4', 'SN89', 'SN9', 'Zap', 'SN9', 'Stripes', 'Topless', 'Zipfel', 'Stripes', 'Thumper', 'TSN103', 'Whitetip', 'Web', 'TSN103', 'Upbang', 'Web', 'TR77', 'TR99', 'TR120', 'TSN83', 'TR99', 'Trigger', 'Zap', 'TR88', 'Web', 'Trigger', 'Vau', 'Zipfel', 'Web']
-
 dict = {'source': source, 'target': target}
 df_dol = pd.DataFrame(dict)    
 print(df_dol)
@@ -49,7 +47,6 @@ print("Network density:", density)
 from networkx.algorithms import community
 communities = community.asyn_fluidc(g, 4, max_iter=100, seed=None)
 # Alternatively, change "asyn_fluid" into "greedy_modularity_communities"
-
 ```
 
 Second, we loop through the list of communities, calculate different community-level metrics, and add them to a Pandas dataframe.
@@ -101,6 +98,7 @@ for index,c in enumerate(communities):
 
 # Create dictionary of lists        
 dict = {'density':dens_list,'transitivity':trans_list,'top_betweenness':top_between_list, 'members':member_list}
+
 # And convert to dataframe which contains the specific characteristics of each community
 df_community = pd.DataFrame(dict)
 
@@ -117,9 +115,9 @@ df_community
 
 ## Sources
 
-Cousteau, J.Y. (1975) Dolphins. The Undersea discoveries of Jacques-Yves Cousteau (photo).
+Cousteau, J.Y. (1975) _Dolphins. The Undersea discoveries of Jacques-Yves Cousteau_ (photo source).
 
-Lusseau, D. et al. (2003) The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations, Behavioral Ecology and Sociobiology 54, 396-405.
+Lusseau, D. et al. (2003) The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations, _Behavioral Ecology and Sociobiology_, 54, 396-405.
 
 [Original data](http://www-personal.umich.edu/~mejn/netdata/)
 
