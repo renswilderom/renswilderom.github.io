@@ -53,6 +53,10 @@ menu:
     url:               /blog/
   - title:             Publications
     url:               /publications/
+  - title:             About me
+    url:               /about/
+  - title:             PhD
+    url:               /phd/
   # - title:             Projects
   #   url:               /projects/
   # - title:             Résumé*
