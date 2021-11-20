@@ -1,26 +1,31 @@
 ---
 layout: post
 title: Dolphins and communities
-image: /assets/img/blog/Jacques-Cousteau-Swimming.jpg
-accent_image:
-  background: none
-
-  overlay: true # was false
-accent_color: '#ccc'
-theme_color: '#ccc'
+image:
+  path: /assets/img/blog/Jacques-Cousteau-Swimming.jpg
 description: >
   Retrieving community-level metrics from Python's NetworkX
-invert_sidebar: false
+sitemap: false
 ---
-
-<!-- background: url('/assets/img/blog/Jacques-Cousteau-Swimming.jpg') center/cover -->
 
 ## Research subjects
 Social scientists sometimes have a little bit of fun when renaming their interviewees to protect their anonymity. But, the real fun is of course reserved for the marine biologists, who can invent completely new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
 
-Building on the legendary Dolphin dataset (Lusseau et al. 2003), NetworkX and existing community detection algorithms, this script allows you to study your communities of choice. More specifically, it allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
+Building on the legendary Dolphin dataset (Lusseau et al. 2003), NetworkX and existing community detection algorithms, this script allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
 
-First: create a new dataset called "df_dol," compute a graph object, and run a community detection algorithm.  
+The result will look like this:
+
+|Community    |   Density |   Transitivity |
+|---:|----------:|---------------:|
+|  0 |  0.27619  |       0.484615 |
+|  1 |  0.226316 |       0.42233  |
+|  2 |  0.345455 |       0.482143 |
+|  3 |  0.275    |       0.445161 |
+
+
+How to get there?
+
+First: create a new dataset called "df_dol," compute a graph object (i.e. a network), and perform community detection.
 
 ```python
 # Create the dataset
