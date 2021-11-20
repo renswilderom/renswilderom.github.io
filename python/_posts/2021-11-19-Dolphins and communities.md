@@ -8,8 +8,6 @@ description: >
 sitemap: false
 ---
 
-## Background
-
 Social scientists sometimes have a little bit of fun when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who may invent new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
 
 Building on the legendary Dolphin dataset (Lusseau et al. 2003), NetworkX and existing community detection algorithms, this script allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
@@ -25,7 +23,7 @@ The result will look like this:
 
 ## The code
 
-Here is how you get there. First, create a new dataset called "df_dol," compute a graph object (i.e. a network), and perform community detection.
+Here is how to get there. First, create a new dataset called "df_dol," compute a graph object (i.e. a network), and perform community detection.
 
 ```python
 # Create the dataset
@@ -119,10 +117,8 @@ df_community
 
 ## Sources
 
-Photo is taken from:
-Cousteau, J.Y. (1975) Dolphins. The Undersea discoveries of Jacques-Yves Cousteau.
+Cousteau, J.Y. (1975) Dolphins. The Undersea discoveries of Jacques-Yves Cousteau (photo).
 
-References:
 Lusseau, D. et al. (2003) The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations, Behavioral Ecology and Sociobiology 54, 396-405.
 
 [Original data](http://www-personal.umich.edu/~mejn/netdata/)
