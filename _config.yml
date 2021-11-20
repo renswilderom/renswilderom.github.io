@@ -107,9 +107,16 @@ theme_color:           rgb(133, 126, 123)
 # theme_color:           rgb(8,46,57)
 
 
+
+# Fonts for normal text:
+# Playfair+Display
+# Merriweather
+
+# Roboto+Slap (original I think)
+
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
-google_fonts:          Playfair+Display:500|Lora:400,400i,700,700i
+google_fonts:          Merriweather:500|Lora:400,400i,700,700i
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
@@ -117,7 +124,7 @@ font:                  Lora, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          Playfair Display, Helvetica, Arial, sans-serif
+font_heading:          Merriweather, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
 font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
