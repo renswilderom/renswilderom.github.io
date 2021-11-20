@@ -8,7 +8,7 @@ description: >
 sitemap: false
 ---
 
-## Research subjects
+## Background
 
 Social scientists sometimes have a little bit of fun when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who may invent new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
 
@@ -119,11 +119,11 @@ df_community
 
 ## Sources
 
-References:
-Lusseau, D. et al. (2003) The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations, Behavioral Ecology and Sociobiology 54, 396-405.
-
 Photo is taken from:
 Cousteau, J.Y. (1975) Dolphins. The Undersea discoveries of Jacques-Yves Cousteau.
+
+References:
+Lusseau, D. et al. (2003) The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations, Behavioral Ecology and Sociobiology 54, 396-405.
 
 [Original data](http://www-personal.umich.edu/~mejn/netdata/)
 
