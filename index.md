@@ -1,16 +1,11 @@
 ---
 layout: page
-title: Thank You!
+title: Welcome
 cover: true
 sitemap: true
 ---
 
-Thank you for buying the PRO version of Hydejack! 🎉
-
-More than one year ago I was looking for a blogging platform but couldn't find it:
-One that would let me write posts in markdown with my own editor,
-one that didn't look awful buy modern design standards, and one that felt snappy on a mobile phone.
-That and more is now Hydejack. I hope you enjoy it [as much as I do](https://qwtel.com/).
+The panel on the left shows you some areas to explore: from a taster of my PhD project to a collection of handy Python scripts. Always have been curious about my private life? See the About section!
 
 ## First Steps
 Start by reading the [Documentation]{:.heading.flip-title}.
