@@ -9,6 +9,7 @@ sitemap: false
 ---
 
 ## Research subjects
+
 Social scientists sometimes have a little bit of fun when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who may invent new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
 
 Building on the legendary Dolphin dataset (Lusseau et al. 2003), NetworkX and existing community detection algorithms, this script allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
@@ -22,10 +23,9 @@ The result will look like this:
 |  2 |  0.345455 |       0.482143 |
 |  3 |  0.275    |       0.445161 |
 
+## The code
 
-How to get there?
-
-First: create a new dataset called "df_dol," compute a graph object (i.e. a network), and perform community detection.
+Here is how you get there. First, create a new dataset called "df_dol," compute a graph object (i.e. a network), and perform community detection.
 
 ```python
 # Create the dataset
@@ -54,7 +54,7 @@ communities = community.asyn_fluidc(g, 4, max_iter=100, seed=None)
 
 ```
 
-Second: we loop through the list of communities, calculate different community-level metrics, and add them to a Pandas dataframe.
+Second, we loop through the list of communities, calculate different community-level metrics, and add them to a Pandas dataframe.
 
 ```python
 # Create empty lists which will later be turned into a dataframe
