@@ -118,7 +118,7 @@ df_community
 
 
 
-## Credits
+## Sources
 
 References:
 Lusseau, D. et al. (2003) The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations, Behavioral Ecology and Sociobiology 54, 396-405.
@@ -126,11 +126,9 @@ Lusseau, D. et al. (2003) The bottlenose dolphin community of Doubtful Sound fea
 Photo is taken from:
 Cousteau, J.Y. (1975) Dolphins. The Undersea discoveries of Jacques-Yves Cousteau
 
-Original data:
-http://www-personal.umich.edu/~mejn/netdata/
+[Original data](http://www-personal.umich.edu/~mejn/netdata/)
 
-NetworkX Documentation:
-https://networkx.org/
+[NetworkX Documentation](https://networkx.org/)
 
 
 
