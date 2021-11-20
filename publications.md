@@ -18,3 +18,14 @@ Van geheimzinnig buitenlands virus naar binnenlands systemisch risico: een studi
 
 
 ## Manuscripts submitted and in preparation
+
+Innovation as a sequence of network and category interactions: exploring dynamics in the Dutch dance genre stream. Status: “revise and resubmit” at _Poetics_.
+
+How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005. With Giselinde Kuipers and Alex van Venrooij. Status: will be submitted in due course.
+
+A taxonomy of genre growth. How new genre communities and market information regimes interact. With Alex van Venrooij. Status: will be submitted in due course.
+
+Disruption in public technology projects: How markets shape public
+in preparation	technologies. With Giovanni Esposito and others. Status: will be submitted in due course.
+
+Negotiating Morality Online: a mixed methods analysis of sex related topics on a Dutch discussion forum. With Myra Bosman and Giselinde Kuipers. Status: will be submitted in due course.
