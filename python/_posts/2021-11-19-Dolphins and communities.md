@@ -5,19 +5,15 @@ image: /assets/img/blog/Jacques-Cousteau-Swimming.jpg
 accent_image:
   background: none
 
-  overlay: false
+  overlay: true # was false
 accent_color: '#ccc'
 theme_color: '#ccc'
 description: >
   Retrieving community-level metrics from Python's NetworkX
-invert_sidebar: false
+invert_sidebar: true
 ---
 
 <!-- background: url('/assets/img/blog/Jacques-Cousteau-Swimming.jpg') center/cover -->
-
-* toc
-{:toc}
-
 
 ## Research subjects
 Social scientists sometimes have a little bit of fun when renaming their interviewees to protect their anonymity. But, the real fun is of course reserved for the marine biologists, who can invent completely new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
