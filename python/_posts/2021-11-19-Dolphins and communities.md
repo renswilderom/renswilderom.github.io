@@ -118,11 +118,12 @@ References:
 Lusseau, D. et al. (2003) The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations, Behavioral Ecology and Sociobiology 54, 396-405.
 
 Photo is taken from:
-Cousteau, J.Y. (1975) Dolphins. The Undersea discoveries of Jacques-Yves Cousteau
+Cousteau, J.Y. (1975) Dolphins. The Undersea discoveries of Jacques-Yves Cousteau.
 
 [Original data](http://www-personal.umich.edu/~mejn/netdata/)
 
 [NetworkX Documentation](https://networkx.org/)
+
 <!-- ## Inverted Sidebars
 The colors on the sidebar can now be inverted to allow brighter sidebar images. This can be enabled per-page in the fort matter:
 
