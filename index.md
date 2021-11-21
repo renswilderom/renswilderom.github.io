@@ -9,8 +9,8 @@ The panel on the left shows you some areas to explore: from blogposts containing
 
 <!-- ![home](/assets/img/home_2.jpeg) -->
 
-<p align="center">
+<!-- <p align="center">
 <img src="/assets/img/home_3.jpeg" alt="Carpathian" width="600" height="600" />
 </p>
 
-Photo by the author, Carpathian mountains, Ukraine, 2021.
+Photo by the author, Carpathian mountains, Ukraine, 2021. -->
