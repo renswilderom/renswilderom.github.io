@@ -8,11 +8,11 @@ description: >
 sitemap: false
 ---
 
-Social scientists sometimes have a little bit of fun when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who may invent new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
+Social scientists can have a bit of fun when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who may invent new, captivating names for their research subjects, such as Bumber, Ripplefluke, and TR77.
 
 Building on the legendary Dolphin dataset (Lusseau et al. 2003), NetworkX and existing community detection algorithms, this script allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
 
-The result will look more or less like this (the example below actually adds some extra variables to the dataframe):
+The result will look more or less like this (note that the example below actually adds some extra variables to the dataframe):
 
 |Community    |   Density |   Transitivity |
 |---:|----------:|---------------:|
