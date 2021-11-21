@@ -10,8 +10,7 @@ slug: python
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This is a featured category, which have their own page.
-  Check out `_featured_tags/example.md` to learn how to create your own.
+  The documentation that comes with Python packages usually provide some basic example codes to start using the software. But, as analysts we want more: we like to extract meaningful information from the models that these packages provide. And this is what the scripts in this blog section will help you to achieve!
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true
