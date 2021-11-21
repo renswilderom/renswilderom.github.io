@@ -6,7 +6,7 @@ description: >
 hide_description: true
 ---
 
-Once Jekyll is running, you can start with basic configuration by adding various entries to `_config.yml`. 
+Once Jekyll is running, you can start with basic configuration by adding various entries to `_config.yml`.
 Besides the documentation here, you can also read the [annotated config file][config].
 
 When making changes to `_config.yml`, it is necessary to restart the Jekyll process for changes to take effect.
@@ -72,7 +72,7 @@ If you save a blurred image as JPG, it will also drastically reduce its file siz
 The `accent_image` property also accepts the special value `none` which will remove the default image.
 
 If your sidebar image contains bright colors, the white text can be difficult to read. In this case, consider setting
-`invert_sidebar: true` in the front matter to invert the text colors in the sidebar. 
+`invert_sidebar: true` in the front matter to invert the text colors in the sidebar.
 Use [front matter defaults][fmd] to enable this on all pages (see below).
 
 Note that these values can be overwritten on a per-page basis, i.e. you can create a unique look for each page.
@@ -432,10 +432,10 @@ When using Hydejack's offline feature, the pages listed here will be downloaded 
 
 ## Enabling math blocks
 
-Hydejack supports [math blocks][ksynmath] with either [KaTeX] or [MathJax]. 
+Hydejack supports [math blocks][ksynmath] with either [KaTeX] or [MathJax].
 
-The _MathJax implementation_ comes with a client-side runtime and works on GitHub Pages. 
-It is the more heavy-weight of the two and doesn't work without JavaScript enabled. 
+The _MathJax implementation_ comes with a client-side runtime and works on GitHub Pages.
+It is the more heavy-weight of the two and doesn't work without JavaScript enabled.
 Due to the size of the complete MathJax package, it only works partially with offline support enabled.
 
 The _KaTeX implementation_ pre-renders the KaTeX output during site building.
@@ -452,7 +452,7 @@ kramdown:
   math_engine_opts:    {}
 ```
 
-The KaTeX implementation also requires the `kramdown-math-katex` gem in your `Gemfile`. 
+The KaTeX implementation also requires the `kramdown-math-katex` gem in your `Gemfile`.
 If you intend to use MathJax instead, this step is not required.
 
 ```ruby
@@ -461,11 +461,11 @@ gem "kramdown-math-katex"
 ```
 
 There are a couple of things to know about this gem:
-*  It is not supported on GitHub Pages. 
+*  It is not supported on GitHub Pages.
    You have to build the site on your machine before uploading to GitHub,
-   or use a more permissive cloud building tool such as Netlify. 
+   or use a more permissive cloud building tool such as Netlify.
 *  You need some kind of JavaScript runtime on your machine.
-   Usually installing [NodeJS](https://nodejs.org/en/download/) will suffice. 
+   Usually installing [NodeJS](https://nodejs.org/en/download/) will suffice.
    Alternatively, adding `gem "duktape"` will also do.
    For more, see <https://github.com/kramdown/math-katex#documentation>
 
@@ -484,7 +484,7 @@ You can either override these files, or override the path in the config file via
 ```yml
 # file: "_config.yml"
 favicon: /favicon.ico
-apple_touch_icon: /assets/img/logo.png
+apple_touch_icon: /assets/img/profile_picture_3.png
 ```
 
 ### Changing the App Icons
@@ -503,11 +503,11 @@ By default, Hydejack includes its own favicon, as well as app icons in 8 differe
 
 To change the default icons you have to replce all of them. To make this manageable, I recommend using the following tools:
 
-First, use the [Maskable.app Editor](https://maskable.app/editor) to confine your logo/picture to the "minimum safe area". More on maskable app icons, see [this article on web.dev](https://web.dev/maskable-icon). 
+First, use the [Maskable.app Editor](https://maskable.app/editor) to confine your logo/picture to the "minimum safe area". More on maskable app icons, see [this article on web.dev](https://web.dev/maskable-icon).
 Make sure the base image is at least 512x512 pixels in size.
 
-Then use the [Web App Manifest Generator](https://app-manifest.firebaseapp.com/) to automatically resize the icons. 
-Upload the icon downloaded from Maskable.app and then click "Generate .zip". 
+Then use the [Web App Manifest Generator](https://app-manifest.firebaseapp.com/) to automatically resize the icons.
+Upload the icon downloaded from Maskable.app and then click "Generate .zip".
 In the zip, ignore the `manifest.json` and look for the `icons` folder. Copy it into the `assets` folder of your site.
 
 To change the favicon, place your own `favicon.ico` (32x32, PNG) into `assets/icons`.
