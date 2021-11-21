@@ -5,7 +5,7 @@ cover: true
 sitemap: true
 ---
 
-## Manuscripts published
+## Papers published
 
 - Intersecting fields: the influence of proximate field dynamics
 on the development of electronic/dance music in the US and UK.
@@ -17,7 +17,7 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 - Van geheimzinnig buitenlands virus naar binnenlands systemisch risico: een studie naar de veranderende frames over COVID-19. With Christian Bröer and Mathilde van Rijsewijk. Published at _[Tijdschrift Sociologie](https://sociologie.scholasticahq.com/article/23627-van-geheimzinnig-buitenlands-virus-naar-binnenlands-systemisch-risico-een-studie-naar-de-veranderende-frames-over-covid-19)_.
 
 
-## Manuscripts submitted and in preparation
+## Papers submitted or in preparation
 
 - Innovation as a sequence of network and category interactions: exploring dynamics in the Dutch dance genre stream. Status: “revise and resubmit” at _Poetics_.
 
