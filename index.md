@@ -9,7 +9,20 @@ The panel on the left shows you some areas to explore: from blogposts containing
 
 
 <!-- ![home](/assets/img/home_2.jpeg) -->
-<img src="/assets/img/home_2.jpeg"; alt="Carpathian"; width="500"; height="500"; background-position:50% 50%; background-repeat:no-repeat;/>
+html, body
+{
+    height: 75%;
+    width:75%;
+    margin:0;
+    padding:0;
+    background:img src="/assets/img/home_2.jpeg";
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+}
+
+
+
+
 
 <!-- <img src="/assets/img/home_2.jpeg" alt="Carpathian" width="500" height="500" background-position:50% 50% background-repeat:no-repeat/> -->
 
