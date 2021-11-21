@@ -1,4 +1,18 @@
 // Uncomment to disable dingbat icons below posts
 // hr.dingbat { display: none }
 
+# The navbar
+# Don't forget to switch on/of the following line in _config.yml
+# no_inline_css:       false
+
 #_navbar { display: none }
+
+# The color of the right column
+html {
+--body-bg: #F9F7F1;
+--border-color: #F9F7F1;
+}
+
+# Floral white light: F9F7F1
+# Floral white warm: FCFAEE
+# Ivory: FDFBEC
