@@ -10,4 +10,5 @@ The panel on the left shows you some areas to explore: from blogposts containing
 
 <!-- ![home](/assets/img/home_2.jpeg) -->
 <img src="/assets/img/home_2.jpeg" alt="Carpathian" width="450" height="450"/>
+
 Photo taken by the author, Carpathian mountains, Ukraine, 2021.
