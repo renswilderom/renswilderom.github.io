@@ -9,4 +9,4 @@ The panel on the left shows you some areas to explore: from blogposts containing
 
 
 ![home](/assets/img/home_2.jpeg)
-Photo by author, taken in Carpathian mountains, 2021
+Photo taken by the author in the Carpathian mountains, Ukraine, 2021
