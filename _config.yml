@@ -52,8 +52,8 @@ menu:
     url:               /blog/
   - title:             Publications
     url:               /publications/
-  - title:             PhD
-    url:               /phd/
+  # - title:             PhD
+  #   url:               /phd/
   - title:             About me
     url:               /about/
   # - title:             Projects
