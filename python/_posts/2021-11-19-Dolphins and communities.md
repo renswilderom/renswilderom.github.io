@@ -25,7 +25,7 @@ The result will look more or less like this (note that the code below actually a
 
 Here is how to get there.
 
-First, you need a working Python programming environment (for this I strongly recommend [Anaconda](https://www.anaconda.com/)). In case you are not working with Anaconda, then you need to install the _Pandas_ and _NetworkX_ packages (this page will help you to get started with Python).
+First, you need a working Python programming environment (for this I strongly recommend [Anaconda](https://www.anaconda.com/)). In case you are not working with Anaconda, then you need to install the _Pandas_ and _NetworkX_ packages ([this page](https://renswilderom.github.io/blog/python/2021-11-22-How-to-get-started-with-Python/) will help you to get started with Python).
 
 Second, copy-paste the code below in your Python programming environment. Here we create a new dataframe called ```df_dol```, compute a graph object (a technical term for a network), and perform community detection.
 
@@ -117,7 +117,7 @@ df_community['members'] = df_community['members'].str.replace(',', ', ')
 # When printing in Jupyter Notebooks simply write "df_community" in the bottom of a cell without "print()"
 print(df_community)
 ```
-Et voila! You should now have a dataframe called ```df_community```. This can be saved as a .CSV or .XLXS file. Or, you can copy it to a clipboard or print it to Markdown, as shown in the code below.
+Et voila! You should now have a dataframe called ```df_community```. This can be saved as a .CSV or .XLXS file. You may also copy it to a clipboard or print it to Markdown format, as shown in the code below.
 
 
 ```python
@@ -141,7 +141,6 @@ df_community.to_clipboard()
 # Print to Markdown
 print(df_community.to_markdown())
 ```
-
 
 
 ## Sources
