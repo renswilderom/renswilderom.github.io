@@ -12,7 +12,7 @@ Social scientists may have a bit of fun when renaming their interviewees to prot
 
 Building on the legendary Dolphin dataset (Lusseau et al. 2003), NetworkX and existing community detection algorithms, this script allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
 
-The result will look more or less like this (note that the example below actually adds some extra variables to the dataframe):
+The result will look more or less like this (note that the code below actually adds some extra variables to the dataframe):
 
 |Community    |   Density |   Transitivity |
 |---:|----------:|---------------:|
@@ -23,7 +23,11 @@ The result will look more or less like this (note that the example below actuall
 
 ## The code
 
-Here is how to get there. First, we create a new dataframe called "df_dol," compute a graph object (i.e. a network), and perform community detection.
+Here is how to get there.
+
+First, you need a working Python programming environment (for this I strongly recommend [Anaconda](https://www.anaconda.com/)). In case you are not working with Anaconda, then you need to install the _Pandas_ and _NetworkX_ packages (this page will help you to get started with Python).
+
+Second, copy-paste the code below in your Python programming environment. Here we create a new dataframe called ```df_dol```, compute a graph object (a technical term for a network), and perform community detection.
 
 ```python
 # Create the dataset
@@ -41,7 +45,7 @@ nodes = g.nodes()
 edges = g.edges()
 print(nx.info(g))
 density = nx.density(g)
-print("Network density:", density)
+print('Network density:', density)
 
 # Run the community detection algorithm of your choice (e.g. fluid communities or greedy modularity)
 from networkx.algorithms import community
@@ -110,8 +114,35 @@ df_community['members'] = [','.join(map(str, l)) for l in df_community['members'
 df_community['members'] = df_community['members'].str.replace(',', ', ')
 
 # Print df
-df_community
+# When printing in Jupyter Notebooks simply write "df_community" in the bottom of a cell without "print()"
+print(df_community)
 ```
+Et voila! You should now have a dataframe called ```df_community```. This can be saved as a .CSV or .XLXS file. Or, you can copy it to a clipboard or print it to Markdown, as shown in the code below.
+
+
+```python
+# Optional steps with the dataframe
+
+# Save as .CSV
+import os
+path = 'Path/to/the/location/where/the/file/will/be/saved/' #change this to location on your computer
+os.chdir(path)
+df_community.to_csv('df_community.csv', sep='\t', encoding='utf-8')
+
+# Save as .XLSX
+import os
+path = 'Path/to/the/location/where/the/file/will/be/saved/' #change this to location on your computer
+os.chdir(path)
+df_community.to_excel("df_community.xlsx")
+
+# Copy to clipboard
+df_community.to_clipboard()
+
+# Print to Markdown
+print(df_community.to_markdown())
+```
+
+
 
 ## Sources
 
