@@ -8,7 +8,7 @@ description: >
 sitemap: false
 ---
 
-Social scientists may have a bit of fun now and then, for example, when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who can invent entirely new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
+Social scientists can have a bit of fun now and then, for instance, when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who can invent entirely new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
 
 Building on the Dolphin dataset (Lusseau et al. 2003), Python's NetworkX package and existing community detection algorithms, this script allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
 
