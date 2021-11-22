@@ -19,7 +19,7 @@ Here is a scraper built with Selenium and BeautifulSoup4 to take full advantage 
 Here is how to get there.
 
 First, you need a working Python programming environment (for this I strongly recommend [Anaconda](https://www.anaconda.com/)). In the scripts below, I assume that you have Anaconda installed. If this is the case, then you just need to:
-* install the _Selenium_ package separately.
-* [Download](https://github.com/mozilla/geckodriver/releases) Geckodriver zip file for your system and install it by copy-pasting the geckodriver.exe file to the equivalent of ```C:\Users\User\anaconda3\Scripts``` on your local computer (i.e., the path that corresponds to the ```Scripts``` folder in the installation of Anaconda on your local computer).
+* install the _Selenium_ package separately (see [this link](https://renswilderom.github.io/blog/python/2021-11-22-How-to-get-started-with-Python/)).
+* [download](https://github.com/mozilla/geckodriver/releases) the Geckodriver zip file for your system (e.g. geckodriver-v0.30.0-win64.zip) and install it by copy-pasting the geckodriver.exe file to the equivalent of ```C:\Users\User\anaconda3\Scripts``` on your computer (i.e., the path that corresponds to the ```Scripts``` folder in the installation of Anaconda on your computer).
 
 If you are not working with Anaconda, then you also need to install the _Pandas_ and _BeautifulSoup4_ packages. [This page](https://renswilderom.github.io/blog/python/2021-11-22-How-to-get-started-with-Python/) will help you to get started with Python and its various packages.   
