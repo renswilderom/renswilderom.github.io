@@ -8,11 +8,11 @@ description: >
 sitemap: false
 ---
 
-Social scientists can have a bit of fun now and then, for instance, when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who can invent entirely new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
+Social scientists may have some fun now and then, for instance, when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who can invent entirely new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
 
-Building on the Dolphin dataset (Lusseau et al. 2003), Python's NetworkX package and existing community detection algorithms, this script allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
+Building on the Dolphin dataset (Lusseau et al. 2003, see the code below for how much fun these researchers had), Python's NetworkX package and existing community detection algorithms, the script allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
 
-The result will look more or less like this (note that the code below actually adds some extra variables to the dataframe):
+The result will similar to this table (note that the code below actually adds some extra variables to the dataframe):
 
 |Community    |   Density |   Transitivity |
 |---:|----------:|---------------:|
@@ -25,7 +25,7 @@ The result will look more or less like this (note that the code below actually a
 
 Here is how to get there.
 
-First, you need a working Python programming environment (for this I strongly recommend [Anaconda](https://www.anaconda.com/)). In the scripts below, I assume that you have Anaconda installed. If you are not working with Anaconda, then you also need to install the _Pandas_ and _NetworkX_ packages seperately. [This page](https://renswilderom.github.io/blog/python/2021-11-22-How-to-get-started-with-Python/) will help you to get started with Python and its various packages.   
+First, you need a working Python programming environment (for this I strongly recommend [Anaconda](https://www.anaconda.com/)). In the script below, I assume that you have Anaconda installed. If you are not working with Anaconda, then you also need to install the _Pandas_ and _NetworkX_ packages seperately. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python and its various packages.   
 
 Second, copy-paste the code below in your Python programming environment. Here we create a new dataframe called ```df_dol```, compute a graph object (a technical term for a network), and perform community detection.
 
