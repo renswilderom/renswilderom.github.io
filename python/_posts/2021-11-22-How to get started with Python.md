@@ -10,4 +10,4 @@ sitemap: false
 
 Photo by [Bonnie Kittle](https://unsplash.com/@bonniekdesign) on [Unsplash](https://unsplash.com/).
 
-This page will be updated soon
+This page will soon be updated
