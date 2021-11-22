@@ -7,3 +7,5 @@ description: >
   Web scraping with Selenium and Beautiful Soup.
 sitemap: false
 ---
+
+Photo by [Chris Barbalis](https://unsplash.com/@cbarbalis) on [Unsplash](https://unsplash.com/).
