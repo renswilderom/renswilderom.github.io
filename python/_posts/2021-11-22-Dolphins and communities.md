@@ -53,7 +53,7 @@ communities = community.asyn_fluidc(g, 4, max_iter=100, seed=None)
 # Alternatively, change "asyn_fluid" into "greedy_modularity_communities"
 ```
 
-Second, we loop through the list of communities, calculate different community-level metrics, and add them to a Pandas dataframe.
+Third, we loop through the list of communities, calculate different community-level metrics, and add them to a Pandas dataframe.
 
 ```python
 # Create empty lists which will later be turned into a dataframe
