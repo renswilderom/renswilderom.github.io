@@ -5,7 +5,7 @@ cover: true
 sitemap: true
 ---
 
-The panel on the left shows you some areas to explore: from blogposts containing handy [Python scripts](https://renswilderom.github.io/blog/python/) to an [About me](https://renswilderom.github.io/about/) section to bring you up-to-date about my professional (and soon also private ji:slightly smiling face) life!
+The panel on the left shows you some areas to explore: from blogposts containing handy [Python scripts](https://renswilderom.github.io/blog/python/) to an [About me](https://renswilderom.github.io/about/) section to bring you up-to-date about my professional (and soon also private) life!
 
 <!-- ![home](/assets/img/home_2.jpeg) -->
 
