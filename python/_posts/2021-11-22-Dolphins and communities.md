@@ -25,7 +25,7 @@ The result will look more or less like this (note that the code below actually a
 
 Here is how to get there.
 
-First, you need a working Python programming environment (for this I strongly recommend [Anaconda](https://www.anaconda.com/)). In case you are not working with Anaconda, then you need to install the _Pandas_ and _NetworkX_ packages ([this page](https://renswilderom.github.io/blog/python/2021-11-22-How-to-get-started-with-Python/) will help you to get started with Python).
+First, you need a working Python programming environment (for this I strongly recommend [Anaconda](https://www.anaconda.com/)). In the scripts below, I assume that you have Anaconda installed. If you are not working with Anaconda, then you also need to install the _Pandas_ and _NetworkX_ packages seperately. [This page](https://renswilderom.github.io/blog/python/2021-11-22-How-to-get-started-with-Python/) will help you to get started with Python and its various packages).   
 
 Second, copy-paste the code below in your Python programming environment. Here we create a new dataframe called ```df_dol```, compute a graph object (a technical term for a network), and perform community detection.
 
