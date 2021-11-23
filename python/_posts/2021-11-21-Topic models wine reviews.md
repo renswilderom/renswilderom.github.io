@@ -85,18 +85,23 @@ print_top_words(lda_tf, tf_feature_names, n_top_words)
 ```
 
 Output:
+
 Topic #0:
 flavors wine apple finish citrus acidity fruit fresh palate aromas green lemon pear crisp pineapple notes nose clean peach lime light vanilla chardonnay white grapefruit texture melon dry sweet honey
+
 Topic #1:
 wine drink fruit acidity tannins ripe fruits rich character flavors fruity structure black wood ready years texture red soft juicy aging age firm dense fresh crisp currant dry spice structured
+
 Topic #2:
 palate flavors white wine aromas acidity fruit dry pinot finish offers bright fresh cherry ripe mineral peach red elegant drink notes savory soft spice light stone hint noir long easy
+
 Topic #3:
 black cherry flavors aromas tannins palate fruit wine finish oak berry plum notes spice chocolate dark drink blackberry red ripe offers licorice nose tobacco cassis vanilla firm dried coffee pepper
+
 Topic #4:
 flavors aromas cabernet blend palate fruit finish cherry red sauvignon nose black merlot syrah berry pepper plum shows wine notes spice dried herbal blackberry franc spicy earthy cranberry tart light
 
-Well, these topics are pretty similar, which is not so surprising. Yet, I believe that it could be said that topic #0 relates more to a citrussy/acidity range of flavours, whereas topic #2 relates more to a spice/pepper range of flavors.
+These topics appear to be pretty similar, which is not so surprising. Yet, I believe that it could be said that topic #0 relates more to an acidity/citrusy range of flavors, whereas topic #2 covers more to a spice/pepper range of flavors.
 
 ### Transforming topic models' output to time series data
 
