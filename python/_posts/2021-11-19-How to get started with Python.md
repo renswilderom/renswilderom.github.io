@@ -8,6 +8,6 @@ description: >
 sitemap: false
 ---
 
-Photo by [Bonnie Kittle](https://unsplash.com/@bonniekdesign) on [Unsplash](https://unsplash.com/).
+Photo by [Bonnie Kittle](https://unsplash.com/@bonniekdesign).
 
 This page will soon be updated
