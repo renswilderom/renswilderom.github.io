@@ -1,5 +1,16 @@
+---
+layout: post
+title: Time series topic models with wine review data
+image:
+  path: /assets/img/blog/bonnie-kittle-GiIZSko7Guk-unsplash.jpg
+description: >
+  A friendly introduction to some powerful tools
+sitemap: false
+---
+
+
 ```python
-# Read the .CSV as a dataframe 
+# Read the .CSV as a dataframe
 import os
 corpus_path = 'C:/Users/User/Downloads/winemag data'
 os.chdir(corpus_path)
@@ -13,7 +24,7 @@ df.head()
 
     This dataset has almost 130K rows and 15 collumns
     (129971, 15)
-    
+
 
 
 
@@ -806,7 +817,7 @@ if (outputEl) {{
 
 
 ```python
-# # Save graph 
+# # Save graph
 # import chart_studio
 # username = 'renswilderom' # your username
 # api_key = 'JQ0okV7QsrTwEJJfp7dp' # your api key - go to profile > settings > regenerate key
@@ -823,7 +834,7 @@ if (outputEl) {{
 
 
 ```python
-# Figure 
+# Figure
 # import chart_studio
 # username = 'renswilderom' # your username
 # api_key = 'JQ0okV7QsrTwEJJfp7dp' # your api key - go to profile > settings > regenerate key
@@ -873,7 +884,7 @@ print(dtm_tf.shape)
 
     (2000, 783)
     Wall time: 133 ms
-    
+
 
 **5-topic model**
 
@@ -886,7 +897,7 @@ lda_tf.fit(dtm_tf)
 ```
 
     Wall time: 9.44 s
-    
+
 
 
 
@@ -907,7 +918,7 @@ def print_top_words(model, feature_names, n_top_words):
                         for i in topic.argsort()[:-n_top_words - 1:-1]]))
     print()
 
-tf_feature_names = tf_vectorizer.get_feature_names() 
+tf_feature_names = tf_vectorizer.get_feature_names()
 print_top_words(lda_tf, tf_feature_names, n_top_words)
 ```
 
@@ -921,10 +932,10 @@ print_top_words(lda_tf, tf_feature_names, n_top_words)
     aromas finish flavors palate notes berry fruit nose mouth like fresh herbal peach feels sweet green bit white apple slightly tastes oak plum acidity creamy offers stone note tones oaky
     Topic #4:
     flavors cherry fruit wine cabernet blend oak black red aromas spice finish chocolate palate sauvignon notes vanilla plum tannins blackberry berry bodied merlot syrah soft shows cassis good raspberry ripe
-    
-    
 
-Well, these topics are pretty similar, which is not so surprising. Yet, I believe that it could be said that topic #0 relates more to a citrussy/acidity range of flavours, whereas topic #2 relates more to a spice/pepper range of flavors. 
+
+
+Well, these topics are pretty similar, which is not so surprising. Yet, I believe that it could be said that topic #0 relates more to a citrussy/acidity range of flavours, whereas topic #2 relates more to a spice/pepper range of flavors.
 
 
 ```python
@@ -934,7 +945,7 @@ pyLDAvis.sklearn.prepare(lda_tf, dtm_tf, tf_vectorizer)
 ```
 
     Wall time: 4.54 s
-    
+
 
 
 
@@ -1029,7 +1040,7 @@ print("finsihed with creating doctopic matrix")
 ```
 
     finsihed with creating doctopic matrix
-    
+
 
 
 ```python
@@ -1132,7 +1143,7 @@ dfm.head()
 # calculate mean, std, cutoff high, and cutoff low
 dfm1 = dfm.describe().loc[['mean','std']]
 dfm2 = dfm1.transpose()
-dfm2['cutoff_low'] = dfm2['mean'] + dfm2['std'] 
+dfm2['cutoff_low'] = dfm2['mean'] + dfm2['std']
 # dfm2.reset_index(level=0, inplace=True)
 
 # Drop first two rows
@@ -1220,7 +1231,7 @@ print(d)
 ```
 
     {'t_0_cutoff_low': 0.6574552316170613, 't_1_cutoff_low': 0.473962220387246, 't_2_cutoff_low': 0.338115691126619, 't_3_cutoff_low': 0.407940380706719, 't_4_cutoff_low': 0.5145088774248614}
-    
+
 
 
 ```python
@@ -1234,7 +1245,7 @@ dfm
 ```
 
     Wall time: 20.9 ms
-    
+
 
 
 
