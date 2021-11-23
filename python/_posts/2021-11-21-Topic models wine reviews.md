@@ -4,7 +4,7 @@ title: Time series topic models with wine review data
 image:
   path: /assets/img/blog/maksym-kaharlytskyi-3uJt73tr4hI-unsplash.jpg
 description: >
-  A friendly introduction to some powerful tools
+  Wine reviews
 sitemap: false
 ---
 
