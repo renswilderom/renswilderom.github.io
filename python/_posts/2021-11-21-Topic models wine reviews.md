@@ -8,4 +8,4 @@ description: >
 sitemap: false
 ---
 
-Photo by [Maksym Kaharlytskyi](https://unsplash.com/@qwitka)
+Photo by [Maksym Kaharlytskyi](https://unsplash.com/@qwitka).
