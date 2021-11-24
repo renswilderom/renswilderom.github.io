@@ -8,8 +8,6 @@ description: >
 sitemap: false
 ---
 
-## A series of Python blogposts
-
 Each blogpost in this series provide a fully working program which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the output of this model. It is my understanding that especially the third step is often missing in existing documentation and tutorials.
 
 To run the script below, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed. If you are not working with Anaconda, then you also need to install the _Pandas_ and _NetworkX_ packages separately. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python in Anaconda and their various packages.   
@@ -33,7 +31,7 @@ The result will similar to this table (note that the code below actually adds so
 
 ### 1. Open and prepare the dataset
 
-First, copy-paste the code below in your Python programming environment. Here we create a new dataframe called ```df_dol```, compute a graph object (a technical term for a network), and perform community detection.
+Copy-paste the code below in your Python programming environment. Here we create a new dataframe called ```df_dol```, which we will later turn into a graph object (a technical term for a network). These data are already "in shape," so there is no data wrangling necessary.
 
 ```python
 # Create the dataset
@@ -48,7 +46,7 @@ print(df_dol)
 
 ### 2. Run the model
 
-Second, analyze the data with networkX, which is pre-installed by Anaconda.
+Analyze the data with networkX, which is pre-installed by Anaconda.
 
 ```python
 # Turn dataframe into graph object
@@ -68,7 +66,7 @@ communities = community.asyn_fluidc(g, 4, max_iter=100, seed=None)
 
 ### 3. Retrieve information from the model
 
-Third, we loop through the list of communities, calculate different community-level metrics, and add them to a Pandas dataframe.
+The code below will loop through the list of communities, calculate different community-level metrics, and add them to a Pandas dataframe.
 
 ```python
 # Create empty lists which will later be turned into a dataframe
