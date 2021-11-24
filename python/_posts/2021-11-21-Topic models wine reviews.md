@@ -16,9 +16,9 @@ To run the script below, you need a working Python programming environment. For 
 
 ## The case: reviews
 
-Studying reviews longitudinally can help, for instance, to analyze how understandings of a product, or a whole group of products (e.g. wines, music, or movies), can change over time. The wine review data and the code below are used to demonstrate how such an analysis of reviews (or similar documents) may look like.
+Studying reviews longitudinally can help, for instance, to analyze how understandings of a product, or a whole group of products (e.g. wines, music, or movies), can change over time. The wine review data and the code below are used to demonstrate how such a code pipeline may look like (the actual results or not that meaningful in this case).
 
-For a meaningful example of how collective understanding of a phenomenon changes over time, I refer to my paper "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on newspaper articles, it shows how distinct understandings of the British dance field were present over a 21 year period.
+For a meaningful example of how collective understanding of a phenomenon can shift, and how we can use topic models to study these, I refer to my paper "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of newspaper articles, the study shows and explains how distinct understandings of the British dance field were present over a 21 year period.
 
 <!-- In a similar way, analyzing historical review data, on, for instance, movies, food, or consumer electronics, can reveal how the meanings of reviewed items may change. The data and code below is used purely for illustrative purposes, but it could be extended to other settings. -->
 
@@ -27,7 +27,7 @@ For a meaningful example of how collective understanding of a phenomenon changes
 
 ### 1. Open and prepare the dataset
 
-Download the [original dataset](https://www.kaggle.com/zynicide/wine-reviews) from Kaggle and save it locally on your computer. There is a little bit of data wrangling, for example, to extract a date from the text.
+Download the [original dataset](https://www.kaggle.com/zynicide/wine-reviews) from Kaggle and save it locally on your computer. This step uses some data wrangling, for example, to extract a date from the title of the review.
 
 
 ```python
@@ -114,7 +114,9 @@ Output:
 
 These topics appear to be pretty similar, which is not so surprising. Yet, topic #0 appears to relate more to a citrusy range of flavors (associated with white wines), whereas topic #2 covers more a spicy range of flavors (associated with red wines).
 
-### 3. Retrieve information from the model (transform topic models' output to time series data)
+### 3. Retrieve information from the model
+
+This is the critical step. Several loops are used to calculate new metrics from the so-called "doc-topic" matrix, which are then turned into a time series dataset. Finally, I used the Plotly package for graphing.
 
 ```python
 # create a doc-topic matrix
@@ -151,7 +153,7 @@ with open('doctopic_wine.csv',mode='w') as fo:
         i+=1
 
 dfm = pd.read_csv('C:/Users/User/Desktop/doctopic_wine.csv', header=None, index_col=False,
-                  names = ["file", "date", "t_0", "t_1","t_2", "t_3", "t_4"])
+                  names = ["file", "date", "t_0", "t_1","t_2", "t_3", "t_4"]) # Again change the location of the file
 
 # calculate mean, std, cutoff high, and cutoff low
 dfm1 = dfm.describe().loc[['mean','std']]
