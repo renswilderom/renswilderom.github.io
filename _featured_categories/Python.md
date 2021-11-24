@@ -10,7 +10,7 @@ slug: python
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Here is some guidance in the world of Python programming. Most data science documentation and tutorials focus on so-called "data wrangling" (getting your data in shape and analyzable) and/or how to run a given model. But, as analysts we want more: we like to retrieve meaningful information from, for instance, social network graphs or machine learning algorithms. And this is what the scripts in this blog section will help you to achieve! Each blogpost provides a fully working program, which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from its output. 
+  Here is some guidance in the world of Python programming. Most data science documentation and tutorials focus on so-called "data wrangling" (getting your data in shape and analyzable) and/or how to run a given model. But, as analysts we want more: we like to retrieve meaningful information from, for instance, social network graphs or machine learning algorithms. And this is what the scripts in this blog section will help you to achieve! 
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true
