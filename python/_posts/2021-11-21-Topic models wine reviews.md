@@ -14,11 +14,14 @@ Each blogpost in this series provide a fully working program which: i) opens and
 
 To run the script below, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed. If you are working with Anaconda, you stil need the install the _Plotly_ and _pyLDAvis_ packages. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and their various packages.  
 
-## The case: ...
+## The case: reviews
+
+Our collective understanding of certain phenomena is likely to change over time. This is, for instance, demonstrated in my paper "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005," which shows how quite sharply contrasting understandings of the British dance field succeeded each other over time.
+
+<!-- In a similar way, analyzing historical review data, on, for instance, movies, food, or consumer electronics, can reveal how the meanings of reviewed items may change. The data and code below is used purely for illustrative purposes, but it could be extended to other settings. -->
 
 
 ## The code
-
 
 ### 1. Open and prepare the dataset
 
