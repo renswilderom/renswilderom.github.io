@@ -16,7 +16,9 @@ To run the script below, you need a working Python programming environment. For 
 
 ## The case: reviews
 
-Our collective understanding of certain phenomena is likely to change over time. This is, for instance, demonstrated in my paper "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005," which shows how quite sharply contrasting understandings of the British dance field succeeded each other over time.
+Studying reviews longitudinally can help, for instance, to analyze how understandings of a product, or a whole group of products (e.g. wines, music, or movies), can change over time. The wine review data and the code below are used to demonstrate how such an analysis of reviews (or similar documents) may look like.
+
+For a meaningful example of how collective understanding of a phenomenon changes over time, I refer to my paper "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on newspaper articles, it shows how distinct understandings of the British dance field were present over a 21 year period.
 
 <!-- In a similar way, analyzing historical review data, on, for instance, movies, food, or consumer electronics, can reveal how the meanings of reviewed items may change. The data and code below is used purely for illustrative purposes, but it could be extended to other settings. -->
 
@@ -110,13 +112,12 @@ Output:
 
 * Topic #4: flavors aromas cabernet blend palate fruit finish cherry red sauvignon nose black merlot syrah berry pepper plum shows wine notes spice dried herbal blackberry franc spicy earthy cranberry tart light
 
-These topics appear to be pretty similar, which is not so surprising. Yet, topic #0 appears to relate more to an acidity/citrusy range of flavors (associated with white wines), whereas topic #2 covers more a spice/pepper range of flavors (associated with red wines).
+These topics appear to be pretty similar, which is not so surprising. Yet, topic #0 appears to relate more to a citrusy range of flavors (associated with white wines), whereas topic #2 covers more a spicy range of flavors (associated with red wines).
 
 ### 3. Retrieve information from the model (transform topic models' output to time series data)
 
 ```python
 # create a doc-topic matrix
-
 path = 'C:/Users/User/Desktop' # Change this path to a preferred location on your computer
 os.chdir(path)
 
