@@ -8,7 +8,7 @@ description: >
 sitemap: false
 ---
 
-Each blogpost in this series provide a fully working program which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the output of this model. It is my understanding that especially the third step is often missing in existing documentation and tutorials.
+Each blogpost in this series provide a fully working program which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the output of this model. It is my understanding that especially the third step is often missing in existing documentation and tutorials, so it forms the area where I like to contribute.
 
 To run the script below, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed. If you are not working with Anaconda, then you also need to install the _Pandas_ and _NetworkX_ packages separately. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python in Anaconda and their various packages.   
 
