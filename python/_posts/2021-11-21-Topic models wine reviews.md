@@ -16,7 +16,7 @@ To run the script below, you need a working Python programming environment. For 
 
 ## The case: reviews
 
-Studying reviews longitudinally can help, for instance, to analyze how understandings of a product, or a whole group of products (e.g. wines, music, or movies), can change over time. The wine review data and the code below are used to demonstrate how such a code pipeline may look like (the actual results or not that meaningful in this case).
+Studying reviews longitudinally can help, for instance, to analyze how understandings of a product, or a whole group of products (e.g. wines, music, or movies), can change over time. The wine review data and the code below are used to demonstrate how such a code pipeline may look like (the actual results do not matter in this case).
 
 For a meaningful example of how collective understanding of a phenomenon can shift, and how we can use topic models to study these, I refer to my paper "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of newspaper articles, the study shows and explains how distinct understandings of the British dance field were present over a 21 year period.
 
