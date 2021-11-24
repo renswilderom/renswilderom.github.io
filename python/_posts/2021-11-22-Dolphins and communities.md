@@ -10,13 +10,13 @@ sitemap: false
 
 Each blogpost in this series provide a fully working program which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the output of this model. Especially the third step is often missing in existing documentation and tutorials, so it is where I like to contribute with this post.
 
-To run the script below, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed. If you are not working with Anaconda, then you also need to install the _Pandas_ and _NetworkX_ packages separately. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and various packages.   
+To run the script below, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed. If you are not working with Anaconda, then you also need to install the _Pandas_ and _NetworkX_ packages separately. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and their various packages.   
 
 ## The case: analyzing dolphin networks
 
 Social scientists may have some fun now and then, for instance, when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who can invent entirely new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
 
-Building on the Dolphin dataset (Lusseau et al. 2003, see the code below for how much fun these researchers had), Python's NetworkX package and existing community detection algorithms, the script allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
+Building on the Dolphin dataset (Lusseau et al. 2003, see the code below for how much fun these researchers had), Python's NetworkX package and existing community detection algorithms, this script allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
 
 The result will similar to this table (note that the code below actually adds some extra variables to the dataframe):
 
@@ -139,13 +139,13 @@ Et voila! You should now have a dataframe called ```df_community```. This can be
 
 # Save as .CSV
 import os
-path = 'Path/to/the/location/where/the/file/will/be/saved/' #change this to location on your computer
+path = 'Path/to/the/location/where/the/file/will/be/saved/' #change this to the relevant location on your computer
 os.chdir(path)
 df_community.to_csv('df_community.csv', sep='\t', encoding='utf-8')
 
 # Save as .XLSX
 import os
-path = 'Path/to/the/location/where/the/file/will/be/saved/' #change this to location on your computer
+path = 'Path/to/the/location/where/the/file/will/be/saved/' #change this to the relevant location on your computer
 os.chdir(path)
 df_community.to_excel("df_community.xlsx")
 

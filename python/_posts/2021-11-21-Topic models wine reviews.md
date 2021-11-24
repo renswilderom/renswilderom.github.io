@@ -10,17 +10,25 @@ sitemap: false
 
 Photo by [Maksym Kaharlytskyi](https://unsplash.com/@qwitka).
 
+Each blogpost in this series provide a fully working program which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the output of this model. Especially the third step is often missing in existing documentation and tutorials, so it is where I like to contribute with this post.
+
+To run the script below, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed. If you are working with Anaconda, you stil need the install the _Plotly_ and _pyLDAvis_ packages. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and their various packages.  
+
+## The case: ...
+
 
 ## The code
 
-The [original dataset](https://www.kaggle.com/zynicide/wine-reviews) can be downloaded from Kaggle.
 
-### Opening and preparing the data
+### 1. Open and prepare the dataset
+
+Download the [original dataset](https://www.kaggle.com/zynicide/wine-reviews) from Kaggle and save it locally on your computer. There is a little bit of data wrangling, for example, to extract a date from the text.
+
 
 ```python
 # Read the .CSV as a dataframe
 import os
-corpus_path = 'C:/Users/User/Downloads/winemag data'
+corpus_path = 'C:/Users/User/Downloads/winemag data' #change this to the location where the data are saved
 os.chdir(corpus_path)
 import pandas as pd
 df = pd.read_csv("winemag-data-130k-v2.csv", encoding='UTF-8')
@@ -40,7 +48,9 @@ df = df[(df['datetime'] > '1989-12-31')]
 df = df[:2000]
 ```
 
-### Topic modeling
+### Run the model
+
+The code below uses an LDA topic model from Scikit-Learn. It creates a plot using pyLDAvis.
 
 ```python
 # Import necessary packages and such
@@ -52,8 +62,9 @@ pyLDAvis.enable_notebook()
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
 
-import warnings
-warnings.filterwarnings('ignore') # only use this when you know the script and want to supress unnecessary warnings
+# import warnings
+# warnings.filterwarnings('ignore')
+# only use this when you know the script and want to suppress unnecessary warnings
 
 # Apply a count vectorizer to the data
 # The run time of this cell is rather quick
@@ -86,24 +97,19 @@ print_top_words(lda_tf, tf_feature_names, n_top_words)
 
 Output:
 
-Topic #0:
-flavors wine apple finish citrus acidity fruit fresh palate aromas green lemon pear crisp pineapple notes nose clean peach lime light vanilla chardonnay white grapefruit texture melon dry sweet honey
+* Topic #0: flavors wine apple finish citrus acidity fruit fresh palate aromas green lemon pear crisp pineapple notes nose clean peach lime light vanilla chardonnay white grapefruit texture melon dry sweet honey
 
-Topic #1:
-wine drink fruit acidity tannins ripe fruits rich character flavors fruity structure black wood ready years texture red soft juicy aging age firm dense fresh crisp currant dry spice structured
+* Topic #1: wine drink fruit acidity tannins ripe fruits rich character flavors fruity structure black wood ready years texture red soft juicy aging age firm dense fresh crisp currant dry spice structured
 
-Topic #2:
-palate flavors white wine aromas acidity fruit dry pinot finish offers bright fresh cherry ripe mineral peach red elegant drink notes savory soft spice light stone hint noir long easy
+* Topic #2: palate flavors white wine aromas acidity fruit dry pinot finish offers bright fresh cherry ripe mineral peach red elegant drink notes savory soft spice light stone hint noir long easy
 
-Topic #3:
-black cherry flavors aromas tannins palate fruit wine finish oak berry plum notes spice chocolate dark drink blackberry red ripe offers licorice nose tobacco cassis vanilla firm dried coffee pepper
+* Topic #3: black cherry flavors aromas tannins palate fruit wine finish oak berry plum notes spice chocolate dark drink blackberry red ripe offers licorice nose tobacco cassis vanilla firm dried coffee pepper
 
-Topic #4:
-flavors aromas cabernet blend palate fruit finish cherry red sauvignon nose black merlot syrah berry pepper plum shows wine notes spice dried herbal blackberry franc spicy earthy cranberry tart light
+* Topic #4: flavors aromas cabernet blend palate fruit finish cherry red sauvignon nose black merlot syrah berry pepper plum shows wine notes spice dried herbal blackberry franc spicy earthy cranberry tart light
 
-These topics appear to be pretty similar, which is not so surprising. Yet, I believe that it could be said that topic #0 relates more to an acidity/citrusy range of flavors, whereas topic #2 covers more to a spice/pepper range of flavors.
+These topics appear to be pretty similar, which is not so surprising. Yet, topic #0 appears to relate more to an acidity/citrusy range of flavors (associated with white wines), whereas topic #2 covers more a spice/pepper range of flavors (associated with red wines).
 
-### Transforming topic models' output to time series data
+### 3. Retrieve information from the model (transform topic models' output to time series data)
 
 ```python
 # create a doc-topic matrix
@@ -185,14 +191,7 @@ dfs = [g_1, g_2, g_3, g_4, g_5]
 from functools import reduce
 df_topic_year = reduce(lambda  left,right: pd.merge(left,right,on=['datetime'],
                                             how='left'), dfs)
-df_topic_year
-```
-
-### Graph it
-
-```python
-# Plotly graph with topic year data
-# The code of this graph allows the use of two y axis (dual axis), but we will not use that here
+# df_topic_year will be used for the plot
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
