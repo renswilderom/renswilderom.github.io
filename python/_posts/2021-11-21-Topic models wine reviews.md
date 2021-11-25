@@ -8,17 +8,15 @@ description: >
 sitemap: false
 ---
 
-Photo by [Maksym Kaharlytskyi](https://unsplash.com/@qwitka).
+Each blogpost in this series provides a fully working script which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the model's output.
 
-Each blogpost in this series provide a fully working program which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the output of this model. Especially the third step is often missing in existing documentation and tutorials, so it is where I like to contribute with this post.
-
-To run the script below, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed. If you are working with Anaconda, you stil need the install the _Plotly_ and _pyLDAvis_ packages. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and their various packages.  
+To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed. Anaconda does not comes with the _Plotly_ and _pyLDAvis_ packages pre-installed, so you need to install these first for this specific script to work. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and their various packages.  
 
 ## The case: reviews
 
-Studying reviews longitudinally can help, for instance, to analyze how understandings of a product, or a whole group of products (e.g. wines, music, or movies), can change over time. The wine review data and the code below are used to demonstrate how such a code pipeline may look like (the actual results do not matter in this case).
+Studying reviews longitudinally can help, for instance, to analyze how understandings of a product, or a whole group of products (e.g. wines, music, or movies), can change over time. The wine review data and the code below are used to demonstrate how such an analytical process in terms of Python code can look like (the actual results do not matter in this case).
 
-For a meaningful example of how collective understanding of a phenomenon can shift, and how we can use topic models to study these, I refer to my paper "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of newspaper articles, the study shows and explains how distinct understandings of the British dance field were present over a 21 year period.
+However, for a meaningful example of shifting understandings, and how we can use topic models to study these, I refer to my paper "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of newspaper articles, the study shows and explains how distinct understandings of the British dance field were present over a 21 year period.
 
 <!-- In a similar way, analyzing historical review data, on, for instance, movies, food, or consumer electronics, can reveal how the meanings of reviewed items may change. The data and code below is used purely for illustrative purposes, but it could be extended to other settings. -->
 
@@ -242,3 +240,7 @@ fig.show()
 Output:
 
 ![wine](/assets/img/blog/wine.png)
+
+## Sources
+
+Photo by [Maksym Kaharlytskyi](https://unsplash.com/@qwitka).
