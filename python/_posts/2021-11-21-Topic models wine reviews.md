@@ -242,7 +242,7 @@ Output:
 ![wine](/assets/img/blog/wine.png)
 
 
-Test output:
+Test output
 
 1
 
