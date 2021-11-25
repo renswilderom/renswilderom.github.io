@@ -262,6 +262,8 @@ Test output
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed"></iframe>
 
 ```
+4
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed"></iframe>
 
 ## Sources
 
