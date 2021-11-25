@@ -251,8 +251,6 @@ Test output:
 </div>
 ~~~
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed"></iframe>
-
 ## Sources
 
 Photo by [Maksym Kaharlytskyi](https://unsplash.com/@qwitka).
