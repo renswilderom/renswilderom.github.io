@@ -237,9 +237,9 @@ fig.update_yaxes(title_text="# Wines reviewed", showgrid=True, gridwidth=0.3, gr
 fig.show()
 ```
 
-<!-- Output:
+Output:
 
-![wine](/assets/img/blog/wine.png) -->
+![wine](/assets/img/blog/wine.png)
 
 
 Test output again
