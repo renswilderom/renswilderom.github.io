@@ -244,24 +244,24 @@ Output:
 
 Test output:
 
+1
+
 {% include disney.html %}
 
-A
 
 
+2
 ```html
 <div>
     <a href="https://plotly.com/~renswilderom/305/" target="_blank" title="Disney" style="display: block; text-align: center;"><img src="https://plotly.com/~renswilderom/305.png" alt="Disney" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
     <script data-plotly="renswilderom:305" src="https://plotly.com/embed.js" async></script>
 </div>
 
+3
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed"></iframe>
 
-<div>
-    <a href="https://plotly.com/~renswilderom/305/" target="_blank" title="Disney" style="display: block; text-align: center;"><img src="https://plotly.com/~renswilderom/305.png" alt="Disney" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-    <script data-plotly="renswilderom:305" src="https://plotly.com/embed.js" async></script>
-</div>
+```
 
 ## Sources
 
