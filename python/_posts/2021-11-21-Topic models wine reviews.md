@@ -245,7 +245,7 @@ Output:
 Test output:
 
 ```html
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed"></iframe>
+<iframe width="600" height="500" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed"></iframe>
 ```
 
 
