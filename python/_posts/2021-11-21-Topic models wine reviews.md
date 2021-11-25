@@ -241,16 +241,6 @@ Output:
 
 ![wine](/assets/img/blog/wine.png)
 
-
-Test output:
-
-```html
-<div>
-    <a href="https://plotly.com/~renswilderom/305/" target="_blank" title="Disney" style="display: block; text-align: center;"><img src="https://plotly.com/~renswilderom/305.png" alt="Disney" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-    <script data-plotly="renswilderom:305" src="https://plotly.com/embed.js" async></script>
-</div>
-~~~
-
 ## Sources
 
 Photo by [Maksym Kaharlytskyi](https://unsplash.com/@qwitka).
