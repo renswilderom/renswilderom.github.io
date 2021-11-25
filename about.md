@@ -9,4 +9,4 @@ I am currently finalizing my PhD dissertation “Genres, webs of fields, and ins
 
 I completed my master in Cultural Sociology (Cum Laude, University of Amsterdam) with a thesis titled “The culinary order: sustainable consumer identities and new organizational forms on the alternative market for foods.”
 
-Whilst the two studies are characterized by rather different substantive domains (dance vs sustainable food), they are also connected due to their shared focus on how the interplay between change-seeking movements and established actors  shapes processes of innovation. This question is studied using qualitative and quantitative methods and by drawing on literature from cultural sociology and organization studies, among others.
+The two studies are characterized by rather different substantive domains (dance vs sustainable food), yet they also share a connection due to their focus on _how the interplay between change-seeking movements and established actors  shapes processes of innovation_. My projects use both qualitative and quantitative methods and draw, predominantly, on the literature from cultural sociology and organization studies.
