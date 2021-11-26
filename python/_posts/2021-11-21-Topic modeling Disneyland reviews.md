@@ -55,7 +55,7 @@ Output:
 For me these topics are really great. I expect that many people are familiar with the experience of leisure activities as absolute wonder (see topic #1) versus leisure activities as moments of pain, which result in enduring traumas. Scanning over the top terms of topic #3 or topic #9, I can imagine some of the horrors that initially enthusiastic Disneyland visitors were going through. This study could be read as a warning.
 
 <p align="center">
-<img src="/assets/img/blog/bastien-nvs-a4UVioeQGGY-unsplash.jpg" alt="disney" width="600"/>
+<img src="/assets/img/blog/bastien-nvs-a4UVioeQGGY-unsplash.jpg" alt="disney" width="400"/>
 </p>
 
 ### 3. Retrieve information from the model
@@ -68,7 +68,7 @@ This is the critical step. Several loops are used to calculate new metrics from 
 
 This gives:
 
-<iframe width="700" height="700" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed"></iframe>
+<iframe width="700" height="400" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed?link=true"></iframe>
 
 Keeping in mind that the main purpose of these data are to demonstrate the workings and potential use of a Python program, the graph quite clearly shows some trends. That is, the "Disneyland as a hassle" theme (topic #3) became with time less vocal in the landscape of Tripadvisor reviews, while the "Disney as a magical world" theme (topic #1) won terrain. Based on personal experience in the restaurant sector, I know that can managers take reviews quite seriously. So, we may hypotisize that Disneyland learned from its mistakes, and became better in offering a fun, worry-free experience :)
 
