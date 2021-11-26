@@ -109,7 +109,7 @@ Output:
 * Topic #8: disneyland paris parks day visit time train ride like world studios just great florida fun orlando attractions walt california different castle better lines mountain trip experience good smaller really tickets
 * Topic #9: ride queue time day pass people fast minutes staff got queues wait hour went just told did hours tickets children closed ticket times didn long way disabled open waiting queuing
 
-For me these topics are really great. I expect that many people are familiar with the experience of leisure activities as absolute wonder (e.g. see topic #1) versus leisure activities as moments of pain, resulting in enduring traumas. Scanning over the top terms of topic #3 or topic #9, I can imagine some of the horrors that initially enthusiastic Disneyland visitors were going through. This study could be read as a warning!
+For me these topics are really great. I expect that many people are familiar with the experience of leisure activities as absolute wonder (e.g. see topic #1) versus leisure activities as moments of pain, resulting in enduring traumas. Scanning over the top terms of topic #9, I can imagine some of the horrors that initially enthusiastic Disneyland visitors were going through. This study could be read as a warning!
 
 <p align="center">
 <img src="/assets/img/blog/bastien-nvs-a4UVioeQGGY-unsplash.jpg" alt="disney" width="400" style="padding-top: 15px;"/>
@@ -285,7 +285,9 @@ This gives:
 
 <iframe width="700" height="400" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed?link=false"></iframe>
 
-Keeping in mind that the main purpose of these data are to demonstrate the workings and potential use of a Python program, the graph quite clearly shows some trends. That is, the "Disneyland as a hassle" theme (topic #3) became less vocal with time, while the "Disney as a magical world" theme (topic #1) won terrain. Based on personal experience in the restaurant sector, I know that managers can take reviews quite seriously. So, we may hypothesize that, among other possibilities, Disneyland learned from its mistakes, and bettered its game in offering fun, worry-free experiences.
+Keeping in mind that the main purpose of these data are to demonstrate the workings and potential use of a Python program, the graph quite clearly shows some trends. That is, the sallience of the "Disney as a magical world" theme (topic #1) won terrain compared to the "Disneyland as a hassle" theme (topic #9). Based on personal experience in the restaurant sector, I know that managers can take reviews quite seriously. So, we may carefully hypothesize that, among other possibilities, Disneyland learned from its mistakes, and bettered its game in offering fun, worry-free experiences.
+
+To sensibly interpret the output of topic models, it is usually best when you have quite a bit of knowledge about the field in question, either as an academic or a professional.
 
 ## Sources
 
