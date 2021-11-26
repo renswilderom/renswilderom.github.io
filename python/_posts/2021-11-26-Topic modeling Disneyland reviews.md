@@ -287,7 +287,7 @@ This gives:
 
 Keeping in mind that the main purpose of these data are to demonstrate the workings and potential use of a Python program, the graph quite clearly shows some trends. That is, the sallience of the "Disney as a magical world" theme (topic #1) won terrain compared to the "Disneyland as a hassle" theme (topic #9). Based on personal experience in the restaurant sector, I know that managers can take reviews quite seriously. So, we may carefully hypothesize that, among other possibilities, Disneyland learned from its mistakes, and bettered its game in offering fun, worry-free experiences.
 
-To sensibly interpret the output of topic models, it is usually best when you have quite a bit of knowledge about the field in question, either as an academic or a professional.
+A final side note: for a sensible interpretation of the output of topic models, it is usually best when you have quite some additional knowledge about the field in question, either as an academic or a professional.
 
 ## Sources
 
