@@ -243,8 +243,4 @@ Output:
 
 ## Sources
 
-Test
-
-<iframe width="600" height="500" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed"></iframe>
-
 Photo by [Maksym Kaharlytskyi](https://unsplash.com/@qwitka).
