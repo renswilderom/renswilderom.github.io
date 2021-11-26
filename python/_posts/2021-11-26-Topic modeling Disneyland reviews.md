@@ -14,18 +14,18 @@ To run the script, you need a working Python programming environment. For this I
 
 ## The case: a decade of Disneyland Paris Tripadvisor reviews
 
-Studying reviews longitudinally can help, for instance, to analyze how understandings of particular a product or leisure activity can change over time. The Disneyland Paris review data and the code below are used to demonstrate how such an analytical process in terms of Python code can look like.
+Studying reviews longitudinally can help, for instance, to analyze how understandings of particular product or leisure activity may change.
 
-To my surprise, I actually found some amusing dynamics in themes that the reviews discussed. The two distinct review themes that are worth mentioning could be referred to as the "Disneyland as magical world" theme and the "Disneyland as a hassle" theme. But please keep in mind that these data are selected for illustrative purposes.
+To my surprise, I actually found some amusing dynamics in themes that the reviews discussed. Two review themes are worth mentioning: the "Disneyland as magical world" theme and the "Disneyland as a hassle" theme (note that a "theme" corresponds in this case to a distinct "topic" which the LDA topic model produces). While enticing, I will not go to deep into interpreting the output of the topic models. The Disneyland Paris review data and the code below are used to demonstrate how such an analytical process in terms of Python code can look like.
 
-For a theoretically more meaningful example of how public understandings can change with time, and how we can use topic models to study these, I refer to my paper "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of newspaper articles, the study shows and explains how distinct frames of the British dance field were present over a 21 year period.
+For a theoretically more meaningful example of shifting public understandings, and how we can use topic models to study these, I refer to a paper that I co-authored with Giselinde Kuipers and Alex van Venrooij titled "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of newspaper articles, the study demonstrates and explains how distinct frames of the British dance field were present over a 21 year period.
 
 
 ## The code
 
 ### 1. Open and prepare the dataset
 
-Download the [original dataset](https://www.kaggle.com/arushchillar/disneyland-reviews) from Kaggle and save it locally on your computer. This step uses some data wrangling, for example, to extract the year of visit from a date collumn.
+Download the [original dataset](https://www.kaggle.com/arushchillar/disneyland-reviews) from Kaggle and save it locally on your computer. This step uses some data wrangling, for example, to extract the year of visit from a date collumn. After limiting the data to Disneyland Paris reviews and dropping observartions without a date, there are more than 12.000 reviews left to analyze. This is a great quantity for topic models.
 
 
 ```python
