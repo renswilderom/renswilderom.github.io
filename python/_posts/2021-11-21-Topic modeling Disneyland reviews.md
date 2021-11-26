@@ -112,7 +112,7 @@ Output:
 For me these topics are really great. I expect that many people are familiar with the experience of leisure activities as absolute wonder (e.g. see topic #1) versus leisure activities as moments of pain, resulting in enduring traumas. Scanning over the top terms of topic #3 or topic #9, I can imagine some of the horrors that initially enthusiastic Disneyland visitors were going through. This study could be read as a warning!
 
 <p align="center">
-<img src="/assets/img/blog/bastien-nvs-a4UVioeQGGY-unsplash.jpg" alt="disney" width="400" padding-top: 10px/>
+<img src="/assets/img/blog/bastien-nvs-a4UVioeQGGY-unsplash.jpg" alt="disney" width="400" style="padding-top: 15px;"/>
 </p>
 
 ### 3. Retrieve information from the model
