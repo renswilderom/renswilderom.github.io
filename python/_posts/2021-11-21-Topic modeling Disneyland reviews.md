@@ -285,7 +285,7 @@ This gives:
 
 <iframe width="700" height="400" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed?link=true"></iframe>
 
-Keeping in mind that the main purpose of these data are to demonstrate the workings and potential use of a Python program, the graph quite clearly shows some trends. That is, the "Disneyland as a hassle" theme (topic #3) became with time less vocal in the landscape of Tripadvisor reviews, while the "Disney as a magical world" theme (topic #1) won terrain. Based on personal experience in the restaurant sector, I know that can managers take reviews quite seriously. So, we may hypotisize that Disneyland learned from its mistakes, and became better in offering a fun, worry-free experience :)
+Keeping in mind that the main purpose of these data are to demonstrate the workings and potential use of a Python program, the graph quite clearly shows some trends. That is, the "Disneyland as a hassle" theme (topic #3) became less vocal with time, while the "Disney as a magical world" theme (topic #1) won terrain. Based on personal experience in the restaurant sector, I know that can managers take reviews quite seriously. So, we may hypotisize that, among other possibilities, Disneyland learned from its mistakes, and became better in offering a fun, worry-free experience :)
 
 
 ## Sources
