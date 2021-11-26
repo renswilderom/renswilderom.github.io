@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Time series topic models with wine review data
+title: Disneyland as a magical world vs Disneyland as a hassle
 image:
-  path: /assets/img/blog/maksym-kaharlytskyi-3uJt73tr4hI-unsplash.jpg
+  path: /assets/img/blog/bastien-nvs-g3CR0UJ1CyM-unsplash.jpg
 description: >
   Using Scikit-learn and additional Python code to study how the prevalence of certain topics changes over time
 sitemap: false
@@ -10,22 +10,22 @@ sitemap: false
 
 Each blogpost in this series provides a fully working script which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the model's output.
 
-To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed. Anaconda does not comes with the _Plotly_ and _pyLDAvis_ packages pre-installed, so you need to install these first for this specific script to work. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and their various packages.  
+To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed. Anaconda does not comes with the _Plotly_ package pre-installed, so you need to install this one first for this specific script to work. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and their various packages.  
 
-## The case: reviews
+## The case: a decade of Disneyland Paris Tripadvisor reviews
 
-Studying reviews longitudinally can help, for instance, to analyze how understandings of a product, or a whole group of products (e.g. wines, music, or movies), can change over time. The wine review data and the code below are used to demonstrate how such an analytical process in terms of Python code can look like (the actual results do not matter in this case).
+Studying reviews longitudinally can help, for instance, to analyze how understandings of particular a product or leisure activity can change over time. The Disneyland Paris review data and the code below are used to demonstrate how such an analytical process in terms of Python code can look like.
 
-However, for a meaningful example of shifting understandings, and how we can use topic models to study these, I refer to my paper "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of newspaper articles, the study shows and explains how distinct understandings of the British dance field were present over a 21 year period.
+To my surprise, I actually found some amusing dynamics in themes that the reviews discussed. The two distinct review themes that are worth mentioning could be referred to as the "Disneyland as magical world" theme and the "Disneyland as a hassle" theme. But please keep in mind that these data are selected for illustrative purposes.
 
-<!-- In a similar way, analyzing historical review data, on, for instance, movies, food, or consumer electronics, can reveal how the meanings of reviewed items may change. The data and code below is used purely for illustrative purposes, but it could be extended to other settings. -->
+For a theoretically more meaningful example of how public understandings can change with time, and how we can use topic models to study these, I refer to my paper "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of newspaper articles, the study shows and explains how distinct frames of the British dance field were present over a 21 year period.
 
 
 ## The code
 
 ### 1. Open and prepare the dataset
 
-Download the [original dataset](https://www.kaggle.com/zynicide/wine-reviews) from Kaggle and save it locally on your computer. This step uses some data wrangling, for example, to extract a date from the title of the review.
+Download the [original dataset](https://www.kaggle.com/arushchillar/disneyland-reviews) from Kaggle and save it locally on your computer. This step uses some data wrangling, for example, to extract the year of visit from a date collumn.
 
 
 ```python
