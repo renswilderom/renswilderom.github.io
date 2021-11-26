@@ -14,11 +14,11 @@ To run the script, you need a working Python programming environment. For this I
 
 ## The case: a decade of Disneyland Paris Tripadvisor reviews
 
-Studying reviews longitudinally can help, for instance, to analyze how understandings of particular product or leisure activity may change. This post works with more than 12.000 Tripadvisor reviews of Disneyland Paris, which can be downloaded from [Kaggle](https://www.kaggle.com/arushchillar/disneyland-reviews).
+Studying reviews longitudinally can help, for instance, to analyze how understandings of particular product or leisure activity may change with time. This post works with more than 12.000 Tripadvisor reviews of Disneyland Paris, which can be downloaded from [Kaggle](https://www.kaggle.com/arushchillar/disneyland-reviews).
 
 To my surprise, I actually found some amusing dynamics in themes that the reviews discussed (note that a "theme" corresponds in this case to a distinct "topic" which the LDA topic model produces). Two review themes are worth mentioning: the "Disneyland as magical world" theme and the "Disneyland as a hassle" theme. While enticing, I will not go to deep into interpreting the output. The Disneyland Paris review data and the code below are used to demonstrate how such an analytical process in terms of Python code can look like.
 
-For a theoretically more meaningful example of shifting public understandings, and how we can use topic models to study these, I refer to a paper that I co-authored with Giselinde Kuipers and Alex van Venrooij titled "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of newspaper articles, the study demonstrates and explains how distinct frames of the British dance field were present over a 21 year period.
+For a theoretically more meaningful example of shifting public understandings, and how we can use topic models to study these, I refer to a paper that I wrote with Giselinde Kuipers and Alex van Venrooij titled "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of newspaper articles, the study demonstrates and explains how distinct frames of the British dance field were present over a 21 year period.
 
 
 ## The code
@@ -109,7 +109,7 @@ Output:
 * Topic #8: disneyland paris parks day visit time train ride like world studios just great florida fun orlando attractions walt california different castle better lines mountain trip experience good smaller really tickets
 * Topic #9: ride queue time day pass people fast minutes staff got queues wait hour went just told did hours tickets children closed ticket times didn long way disabled open waiting queuing
 
-For me these topics are really great. I expect that many people are familiar with the experience of leisure activities as absolute wonder (e.g. see topic #1) versus leisure activities as moments of pain, resulting in enduring traumas. Scanning over the top terms of topic #9, I can imagine some of the horrors that initially enthusiastic Disneyland visitors were going through. This study could be read as a warning!
+For me these topics are really great. I expect that many people are familiar with the experience of leisure activities as absolute wonder (e.g. see topic #1) versus leisure activities as moments of pain, resulting in enduring traumas. Scanning over the top terms of topic #9, I can imagine some of the horrors that initially enthusiastic Disneyland visitors were going through. This study can be read as a warning!
 
 <p align="center">
 <img src="/assets/img/blog/bastien-nvs-a4UVioeQGGY-unsplash.jpg" alt="disney" width="400" style="padding-top: 15px;"/>
@@ -137,8 +137,7 @@ doctopic = lda_tf.fit_transform(dtm_transformed)
 doctopic = doctopic / np.sum(doctopic, axis=1, keepdims=True)
 
 # Write doctopic to a csv file
-# I need to think Damian Trilling for helping me to turn the "doctopic" into a readable .CSV file with the code below
-
+# I need to thank Damian Trilling for helping me with the code to turn the "doctopic" into a readable .CSV
 os.chdir(path)  
 
 i=0
@@ -285,7 +284,7 @@ This gives:
 
 <iframe width="700" height="400" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed?link=false"></iframe>
 
-Keeping in mind that the main purpose of these data are to demonstrate the workings and potential use of a Python program, the graph quite clearly shows some trends. That is, the sallience of the "Disney as a magical world" theme (topic #1) won terrain compared to the "Disneyland as a hassle" theme (topic #9). Based on personal experience in the restaurant sector, I know that managers can take reviews quite seriously. So, we may carefully hypothesize that, among other possibilities, Disneyland learned from its mistakes, and bettered its game in offering fun, worry-free experiences.
+Keeping in mind that the main purpose of these data are to demonstrate the workings and potential use of a Python program, the graph quite clearly shows some trends. That is, the salience of the "Disney as a magical world" theme (topic #1) won terrain compared to the "Disneyland as a hassle" theme (topic #9). Based on personal experience in the restaurant sector, I know that managers can take reviews quite seriously. So, we may carefully hypothesize that, among other possibilities, Disneyland learned from its mistakes, and bettered its game in offering fun, worry-free experiences.
 
 A final side note: for a sensible interpretation of the output of topic models, it is usually best when you have quite some additional knowledge about the field in question, either as an academic or a professional.
 
