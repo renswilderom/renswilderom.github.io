@@ -60,6 +60,16 @@ This is the critical step. Several loops are used to calculate new metrics from 
 
 ```
 
+This gives:
+
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed"></iframe>
+
+<iframe width="700" height="600" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed"></iframe>
+
+<iframe frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed?autosize=true"></iframe>
+
+
+
 
 
 ## Sources
