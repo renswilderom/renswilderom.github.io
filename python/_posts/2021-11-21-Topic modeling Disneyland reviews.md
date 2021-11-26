@@ -30,13 +30,70 @@ Download the [original dataset](https://www.kaggle.com/arushchillar/disneyland-r
 
 ```python
 
+# Read the .CSV as a dataframe
+import os
+corpus_path = 'C:/Users/User/Downloads/DisneylandReviews.csv'  # Change this to the preferred or relevant location on your computer
+os.chdir(corpus_path)
+import pandas as pd
+df = pd.read_csv("DisneylandReviews.csv", encoding='ISO-8859-1')
+df.reset_index(level=0, inplace=True)
+
+# Limit the data to Disneyland Paris
+df1 = df[(df['Branch'] == 'Disneyland_Paris')]
+# Drop rows if Year_Month is missing
+df1 = df1[df1.Year_Month != 'missing']
+df1.reset_index(level=0, inplace=True)
+
+# Extract the year of the visit # \d{4} is a pattern that matches with four digit numbers (which is useful to extract years from text)
+df1['year'] = df1['Year_Month'].str.extract('(\d{4})', expand=True)
+
+# Convert this string to a datevariable
+df1['datetime']  = pd.to_datetime(df1['year'], errors = 'coerce')
+
+# Add a count (this will be useful later when making the graphs)
+df1['count'] = 1
 ```
 
 ### Run the model
 
-The code below uses an LDA topic model from Scikit-Learn. It creates a plot using pyLDAvis.
+The code below uses an LDA topic model from Scikit-Learn.
 
 ```python
+
+# Import necessary packages and such
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.decomposition import LatentDirichletAllocation
+# import warnings
+# warnings.filterwarnings('ignore') # only use this when you know the script and want to supress unnecessary warnings
+
+# Apply a count vectorizer to the data
+# The run time of this cell is rather quick
+tf_vectorizer = CountVectorizer(lowercase = True,
+                                         strip_accents = 'unicode',
+                                         stop_words = 'english',
+                                         token_pattern = r'\b[a-zA-Z]{3,}\b', # keeps words of 3 or more characters
+                                         max_df = 0.5, # ignore words occuring in > 50 % of the corpus (i.e. corpus specific stop words)
+                                         min_df = 10) # ignore words in <10 documents of the corpus
+dtm_tf = tf_vectorizer.fit_transform(df1['Review_Text'].values.astype('U')) # import articles from df 'content' as unicode string
+print(dtm_tf.shape)
+
+# run a LDA model with 10 topics
+# This code snippet takes most time to run
+lda_tf = LatentDirichletAllocation(n_components=10, random_state=0)
+lda_tf.fit(dtm_tf)
+
+# Print the topics in a conventional way
+n_top_words = 30
+
+def print_top_words(model, feature_names, n_top_words):
+    for topic_idx, topic in enumerate(model.components_):
+        print("Topic #%d:" % topic_idx)
+        print(" ".join([feature_names[i]
+                        for i in topic.argsort()[:-n_top_words - 1:-1]]))
+    print()
+
+tf_feature_names = tf_vectorizer.get_feature_names()
+print_top_words(lda_tf, tf_feature_names, n_top_words)
 
 ```
 
@@ -63,7 +120,165 @@ For me these topics are really great. I expect that many people are familiar wit
 This is the critical step. Several loops and a lambda function are used to calculate new metrics from the so-called "doc-topic" matrix, which are then turned into a time series dataset. Finally, I used the Plotly package for graphing.
 
 ```python
+# create a doc-topic matrix
+path = 'C:/Users/User/Desktop' # Change this to the preferred or relevant location on your computer
+os.chdir(path)
 
+import numpy as np
+
+filenames = df1['index'].values.astype('U')
+
+dates = df1['year'].values.astype('U') # its better to use the date string here
+
+dtm_transformed = tf_vectorizer.fit_transform(df1['Review_Text'].values.astype('U'))
+
+doctopic = lda_tf.fit_transform(dtm_transformed)
+
+doctopic = doctopic / np.sum(doctopic, axis=1, keepdims=True)
+
+# Write doctopic to a csv file
+# I need to think Damian Trilling for helping me to turn the "doctopic" into a readable .CSV file with the code below
+
+os.chdir(path)  
+
+i=0
+with open('disney.csv',mode='w') as fo:
+    for rij in doctopic:
+        fo.write('"'+filenames[i]+'"')
+        fo.write(',')
+        fo.write('"'+dates[i]+'"')
+        fo.write(',')
+        for kolom in rij:
+            fo.write(str(kolom))
+            fo.write(',')
+        fo.write('\n')
+        i+=1
+print("finsihed with creating doctopic matrix")
+
+dfm = pd.read_csv('C:/Users/User/Desktop/disney.csv', header=None, index_col=False,
+                  names = ["file", "year", "t_0", "t_1","t_2", "t_3", "t_4", "t_5", "t_6", "t_7", "t_8", "t_9"])
+
+# calculate mean, std, cutoff high, and cutoff low
+dfm1 = dfm.describe().loc[['mean','std']]
+dfm2 = dfm1.transpose()
+dfm2['cutoff_low'] = dfm2['mean'] + dfm2['std']
+
+# Drop first two rows
+dfm2 = dfm2.iloc[2:]
+dfm2.reset_index(level=0, inplace=True)
+
+# get cutoff_low from dfm2
+d = {}
+for i, row in dfm2.iterrows():
+    d['t_{}_cutoff_low'.format(i)] = dfm2.at[i,'cutoff_low']
+print(d)
+
+for column in dfm.columns[-10:]:
+    dfm['{}_low'.format(column)]=dfm['{}'.format(column)].apply(lambda x: 1 if x> d['{}_cutoff_low'.format(column)] else 0)
+
+dfm['datetime'] = pd.to_datetime(df1['year'], errors = 'coerce')
+
+# Create 10 topic model time series datasets
+g_1 = dfm.set_index('datetime').resample('A-DEC')['t_0_low'].sum()
+g_1 = g_1.reset_index()
+
+g_2 = dfm.set_index('datetime').resample('A-DEC')['t_1_low'].sum()
+g_2 = g_2.reset_index()
+
+g_3 = dfm.set_index('datetime').resample('A-DEC')['t_2_low'].sum()
+g_3 = g_3.reset_index()
+
+g_4 = dfm.set_index('datetime').resample('A-DEC')['t_3_low'].sum()
+g_4 = g_4.reset_index()
+
+g_5 = dfm.set_index('datetime').resample('A-DEC')['t_4_low'].sum()
+g_5 = g_5.reset_index()
+
+g_6 = dfm.set_index('datetime').resample('A-DEC')['t_5_low'].sum()
+g_6 = g_6.reset_index()
+
+g_7 = dfm.set_index('datetime').resample('A-DEC')['t_6_low'].sum()
+g_7 = g_7.reset_index()
+
+g_8 = dfm.set_index('datetime').resample('A-DEC')['t_7_low'].sum()
+g_8 = g_8.reset_index()
+
+g_9 = dfm.set_index('datetime').resample('A-DEC')['t_8_low'].sum()
+g_9 = g_9.reset_index()
+
+g_10 = dfm.set_index('datetime').resample('A-DEC')['t_9_low'].sum()
+g_10 = g_10.reset_index()
+
+# Merge
+dfs = [g_1, g_2, g_3, g_4, g_5, g_6, g_7, g_8, g_9, g_10]
+from functools import reduce
+df_topic_year = reduce(lambda  left,right: pd.merge(left,right,on=['datetime'],
+                                            how='left'), dfs)
+
+# Plotly graph with topic year data
+# The code of this graph allows the use of two y axis (dual axis), but we will not use that here
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
+x = df_topic_year['datetime']
+
+# Create figure with secondary y-axis
+fig = make_subplots(specs=[[{"secondary_y": True}]])
+
+
+fig.add_trace(
+    go.Scatter(x=x, y=df_topic_year['t_0_low'], name="Topic 0", opacity=0.7, line=dict(color='#3A405A', width=2)),
+    secondary_y=False)
+
+fig.add_trace(
+    go.Scatter(x=x, y=df_topic_year['t_1_low'], name="Topic 1", opacity=0.7, line=dict(color='#99B2DD', width=2)),
+    secondary_y=False)
+
+fig.add_trace(
+    go.Scatter(x=x, y=df_topic_year['t_2_low'], name="Topic 2", opacity=0.7, line=dict(color='#E9AFA3', width=2)),
+    secondary_y=False)
+
+fig.add_trace(
+    go.Scatter(x=x, y=df_topic_year['t_3_low'], name="Topic 3", opacity=0.7, line=dict(color='#685044', width=2)),
+    secondary_y=False)
+
+fig.add_trace(
+    go.Scatter(x=x, y=df_topic_year['t_4_low'], name="Topic 4", opacity=0.7, line=dict(color='#F9DEC9', width=2)),
+    secondary_y=False)
+
+fig.add_trace(
+    go.Scatter(x=x, y=df_topic_year['t_5_low'], name="Topic 5", opacity=0.7, line=dict(color='#CE4257', width=2)),
+    secondary_y=False)
+
+fig.add_trace(
+    go.Scatter(x=x, y=df_topic_year['t_6_low'], name="Topic 6", opacity=0.7, line=dict(color='#45CB85', width=2)),
+    secondary_y=False)
+
+fig.add_trace(
+    go.Scatter(x=x, y=df_topic_year['t_7_low'], name="Topic 7", opacity=0.7, line=dict(color='#6FFFE9', width=2)),
+    secondary_y=False)
+
+fig.add_trace(
+    go.Scatter(x=x, y=df_topic_year['t_8_low'], name="Topic 8", opacity=0.7, line=dict(color='#698F3F', width=2)),
+    secondary_y=False)
+
+fig.add_trace(
+    go.Scatter(x=x, y=df_topic_year['t_9_low'], name="Topic 9", opacity=0.7, line=dict(color='#EF626C', width=2)),
+    secondary_y=False)
+
+
+fig.update_layout(showlegend=True,
+    xaxis_rangeslider_visible=False,
+    width=800,
+    height=400)    
+
+
+fig.update_layout(paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
+fig.update_xaxes(title_text="Year", showgrid=True, gridwidth=0.3, gridcolor='LightGrey')
+fig.update_yaxes(title_text="# Reviews", showgrid=True, gridwidth=0.3, gridcolor='LightGrey')
+# fig.update_yaxes(title_text="Something", showgrid=False, secondary_y=True)
+# Uncomment the line above for a dual axis graph
+fig.show()
 ```
 
 This gives:
