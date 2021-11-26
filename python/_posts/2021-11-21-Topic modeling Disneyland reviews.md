@@ -100,17 +100,16 @@ print_top_words(lda_tf, tf_feature_names, n_top_words)
 
 Output:
 
-* Topic #0: flavors wine apple finish citrus acidity fruit fresh palate aromas green lemon pear crisp pineapple notes nose clean peach lime light vanilla chardonnay white grapefruit texture melon dry sweet honey
-
-* Topic #1: wine drink fruit acidity tannins ripe fruits rich character flavors fruity structure black wood ready years texture red soft juicy aging age firm dense fresh crisp currant dry spice structured
-
-* Topic #2: palate flavors white wine aromas acidity fruit dry pinot finish offers bright fresh cherry ripe mineral peach red elegant drink notes savory soft spice light stone hint noir long easy
-
-* Topic #3: black cherry flavors aromas tannins palate fruit wine finish oak berry plum notes spice chocolate dark drink blackberry red ripe offers licorice nose tobacco cassis vanilla firm dried coffee pepper
-
-* Topic #4: flavors aromas cabernet blend palate fruit finish cherry red sauvignon nose black merlot syrah berry pepper plum shows wine notes spice dried herbal blackberry franc spicy earthy cranberry tart light
-
-These topics appear to be pretty similar, which is not so surprising. Yet, topic #0 appears to relate more to a citrusy range of flavors (associated with white wines), whereas topic #2 covers more a spicy range of flavors (associated with red wines).
+* Topic #0: mountain ride thunder space pirates closed big buzz star peter good pan caribbean really jones indiana lightyear went small coaster kids just tours world queues land great wars like roller
+* Topic #1: time amazing great year magical loved place day old just kids visit disneyland really children went days fantastic parades fireworks christmas parade experience love family characters enjoyed fun worth night
+* Topic #2: staff food good florida paris just experience disneyland service time parks magic poor closed really like place people visit french better expensive queues disappointed years times rude friendly quality toilets
+* Topic #3: hotel food day just stayed time good breakfast meal got euros room parks went kids bus train did disneyland children village eat booked really expensive half station took days restaurant
+* Topic #4: characters time meet parade queue princess queues day hours good mickey children character early worth princesses great long main hotel got just magic castle didn little did hour photos wait
+* Topic #5: people just like disneyland time don children place smoking day paris really know money say make line didn think experience kids want smoke going parks thing staff things waiting way
+* Topic #6: food day time long queues expensive attractions waiting kids wait fast really good lot minutes closed place visit days went shops disneyland great lines fun just pass people queue worth
+* Topic #7: time fast food day pass water good days use great plan expensive times ride queues make kids early queue need parks drinks wait want passes don snacks drink eat best
+* Topic #8: disneyland paris parks day visit time train ride like world studios just great florida fun orlando attractions walt california different castle better lines mountain trip experience good smaller really tickets
+* Topic #9: ride queue time day pass people fast minutes staff got queues wait hour went just told did hours tickets children closed ticket times didn long way disabled open waiting queuing
 
 ### 3. Retrieve information from the model
 
