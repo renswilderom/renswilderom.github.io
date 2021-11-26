@@ -109,10 +109,10 @@ Output:
 * Topic #8: disneyland paris parks day visit time train ride like world studios just great florida fun orlando attractions walt california different castle better lines mountain trip experience good smaller really tickets
 * Topic #9: ride queue time day pass people fast minutes staff got queues wait hour went just told did hours tickets children closed ticket times didn long way disabled open waiting queuing
 
-For me these topics are really great. I expect that many people are familiar with the experience of leisure activities as absolute wonder (e.g. see topic #1) versus leisure activities as moments of pain, resulting in enduring traumas. Scanning over the top terms of topic #3 or topic #9, I can imagine some of the horrors that initially enthusiastic Disneyland visitors were going through. This study could be read as a warning.
+For me these topics are really great. I expect that many people are familiar with the experience of leisure activities as absolute wonder (e.g. see topic #1) versus leisure activities as moments of pain, resulting in enduring traumas. Scanning over the top terms of topic #3 or topic #9, I can imagine some of the horrors that initially enthusiastic Disneyland visitors were going through. This study could be read as a warning!
 
 <p align="center">
-<img src="/assets/img/blog/bastien-nvs-a4UVioeQGGY-unsplash.jpg" alt="disney" width="400"/>
+<img src="/assets/img/blog/bastien-nvs-a4UVioeQGGY-unsplash.jpg" alt="disney" width="400" padding-top: 10px/>
 </p>
 
 ### 3. Retrieve information from the model
