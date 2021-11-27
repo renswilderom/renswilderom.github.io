@@ -165,7 +165,9 @@ Lusseau, D. et al. (2003) The bottlenose dolphin community of Doubtful Sound fea
 
 [Original data](http://www-personal.umich.edu/~mejn/netdata/)
 
-[NetworkX Documentation](https://networkx.org/)
+Code snippets in the script above were taken from the [Programming Historian](https://programminghistorian.org/). Check out their [amazing tutorial](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python) if you are new to network analysis in Python.
+
+[NetworkX Documentation](https://networkx.org/).
 
 <!-- ## Inverted Sidebars
 The colors on the sidebar can now be inverted to allow brighter sidebar images. This can be enabled per-page in the fort matter:
