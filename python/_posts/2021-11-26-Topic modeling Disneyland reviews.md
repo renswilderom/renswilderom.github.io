@@ -284,9 +284,9 @@ This gives:
 
 <iframe width="700" height="400" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed?link=false"></iframe>
 
-Keeping in mind that the main purpose of these data are to demonstrate the workings and potential use of a Python program, the graph quite clearly shows some trends. That is, the salience of the "Disney as a magical world" theme (topic #1) won terrain compared to the "Disneyland as a hassle" theme (topic #9). Based on personal experience in the restaurant sector, I know that managers can take reviews quite seriously. So, we may carefully hypothesize that, among other possibilities, Disneyland learned from its mistakes, and bettered its game in offering fun, worry-free experiences.
+Keeping in mind that the main purpose of this post is to demonstrate how discursive trends can be investigated with topic models, we may tentatively try to interpret the graph above. It appears that the salience of the "Disney as a magical world" theme (topic #1) won terrain compared to the "Disneyland as a hassle" theme (topic #9). Topic #3, which we may interpret as a "practical issues" topic (given terms such as "food," "meal," "bus," and "train"), started as the most dominant review topic, but, after 2015, it became less salient compared to all the other topics.
 
-A final side note: for a sensible interpretation of the output of topic models, it is usually best when you have quite some additional knowledge about the field in question, either as an academic or a professional.
+<!-- It should be noted that for a sensible interpretation of the output of topic models, it is usually best when you have quite some additional knowledge about the field in question, either as an academic or a professional. -->
 
 ## Sources
 
