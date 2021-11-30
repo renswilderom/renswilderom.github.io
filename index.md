@@ -7,8 +7,8 @@ sitemap: true
 
 The panel on the left shows you some areas to explore: from blogposts containing handy Python scripts to an overview of my publication and an About me section to bring you up-to-date about my professional (and soon also private) life!
 
-_includes/
-    dolphins.html
+{% include dolphins.html %}
+
 
 <!-- ![home](/assets/img/home_2.jpeg) -->
 
