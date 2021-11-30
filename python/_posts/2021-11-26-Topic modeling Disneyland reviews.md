@@ -18,7 +18,7 @@ Studying reviews longitudinally can help, for instance, to analyze how understan
 
 To my surprise, I actually found some amusing dynamics in themes that the reviews discussed (note that a "theme" corresponds in this case to a distinct "topic" which the LDA topic model produces). Two review themes are worth mentioning: the "Disneyland as magical world" theme and the "Disneyland as a hassle" theme. While enticing, I will not go to deep into interpreting the output. The Disneyland Paris review data and the code below are used to demonstrate how such an analytical process in terms of Python code can look like.
 
-For a theoretically more meaningful example of shifting public understandings, and how we can use topic models to study these, I refer to a paper that I wrote with Giselinde Kuipers and Alex van Venrooij titled "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of newspaper articles, the study demonstrates and explains how distinct frames of the British dance field were present over a 21 year period.
+For a theoretically more meaningful example of shifting public understandings, and how we can use topic models to study these, I refer to a paper that I wrote with Giselinde Kuipers and Alex van Venrooij titled "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of _Guardian_ newspaper articles, the study demonstrates and explains how distinct frames of the British dance field were present over a 21 year period.
 
 
 ## The code
@@ -284,9 +284,10 @@ This gives:
 
 <iframe width="700" height="400" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed?link=false"></iframe>
 
-Keeping in mind that the main purpose of this post is to demonstrate how discursive trends can be investigated with topic models, we may tentatively try to interpret the graph above. It appears that the salience of the "Disney as a magical world" theme (topic #1) won terrain compared to the "Disneyland as a hassle" theme (topic #9). Topic #3, which we may interpret as a "practical issues" topic (given terms such as "food," "meal," "bus," and "train"), started as the most dominant review topic, but, after 2015, it became less salient compared to all the other topics.
+Keeping in mind that the main purpose of this post is to demonstrate how discursive trends can be investigated with topic models, we may tentatively try to interpret what happens in this graph. It appears that the salience of the "Disney as a magical world" theme (topic #1) won terrain compared to the "Disneyland as a hassle" theme (topic #9). Topic #3, which we may interpret as a "practical issues" theme (given terms such as "food," "meal," "bus," and "train"), started as the most dominant review topic, yet, after 2015, it became less salient compared to the rest.
 
-<!-- It should be noted that for a sensible interpretation of the output of topic models, it is usually best when you have quite some additional knowledge about the field in question, either as an academic or a professional. -->
+Such findings usually become meaningful when researchers have in-depth knowledge about the case and complement (or "triangulate") the topic models by other methods, such qualitative analyses of the associated documents, through interviews, or even participant observation. For instance, in the study of newspaper coverage of the British dance field, referred to above, we qualitatively analyzed the top-100 articles associated with each topic included in the analysis. In addition, we collected publically available policy documents, and had a good understandings of the main events that took place (e.g. which new laws were constituted). This allowed us to unveil an interplay between discursive dynamics, on the one hand, and people's actions, on the other hand.      
+
 
 ## Sources
 
