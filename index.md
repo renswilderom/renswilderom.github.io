@@ -5,9 +5,7 @@ cover: true
 sitemap: true
 ---
 
-The panel on the left shows you some areas to explore: from blogposts containing handy Python scripts to an overview of my publication and an About me section to bring you up-to-date about my professional (and soon also private) life!
-
-{% include dolphins.html %}
+The panel on the left shows you some areas to explore: from blogposts containing handy Python scripts to an overview of my publications to an about me section to bring you up-to-date about my professional life!
 
 
 <!-- ![home](/assets/img/home_2.jpeg) -->
