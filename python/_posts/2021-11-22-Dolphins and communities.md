@@ -4,7 +4,7 @@ title: Dolphins and communities
 image:
   path: /assets/img/blog/Jacques-Cousteau-Swimming.jpg
 description: >
-  Retrieving community-level metrics from Python's NetworkX
+  Retrieving community-level metrics with NetworkX and additional Python code
 sitemap: false
 ---
 
@@ -18,7 +18,7 @@ Social scientists may have some fun now and then, for instance, when renaming th
 
 Building on the Dolphin dataset (Lusseau et al. 2003, see the code below for how much fun these researchers had), Python's NetworkX package and existing community detection algorithms, this script allows you to retrieve community-level metrics such as density and transitivity and add them to a Pandas dataframe.
 
-The result will similar to this table (note that the code below actually adds some extra variables to the dataframe):
+The result will similar to this table (note that the code below adds some extra variables to the dataframe):
 
 |Community    |   Density |   Transitivity |
 |---:|----------:|---------------:|
@@ -26,6 +26,10 @@ The result will similar to this table (note that the code below actually adds so
 |  1 |  0.226316 |       0.42233  |
 |  2 |  0.345455 |       0.482143 |
 |  3 |  0.275    |       0.445161 |
+
+
+For social scientist it can be relevant to compare such community-level metrics in order to understand the determinants creative output, among other things. Uzzi and Spiro (2005), for example, found that, up to a certain treshold, more cohesive communities among Broadway musical creators are associated with more creative success.
+
 
 ## The code
 
@@ -66,7 +70,7 @@ communities = community.asyn_fluidc(g, 4, max_iter=100, seed=None)
 
 ### 3. Retrieve information from the model
 
-The code below will loop through the list of communities, calculate different community-level metrics, and add them to a Pandas dataframe.
+The code below will loop through the list of communities, calculate different community-level metrics, and adds them to a Pandas dataframe.
 
 ```python
 # Create empty lists which will later be turned into a dataframe
@@ -159,15 +163,18 @@ print(df_community.to_markdown())
 
 ## Sources
 
-Cousteau, J.Y. (1975) _Dolphins. The Undersea discoveries of Jacques-Yves Cousteau_ (photo source).
+Cousteau, J.Y. (1975). _Dolphins. The Undersea discoveries of Jacques-Yves Cousteau_ (photo source).
 
-Lusseau, D. et al. (2003) The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations, _Behavioral Ecology and Sociobiology_, 54, 396-405.
+Lusseau, D. et al. (2003). The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations, _Behavioral Ecology and Sociobiology_, 54, 396-405.
 
-[Original data](http://www-personal.umich.edu/~mejn/netdata/)
+Uzzi, B. and Spiro, J.(2005). Collaboration and Creativity: The Small
+World Problem. _American Journal of Sociology_, 111.
 
 Code snippets in the script above were taken from the [Programming Historian](https://programminghistorian.org/). Check out their [amazing tutorial](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python) if you are new to network analysis in Python.
 
 [NetworkX Documentation](https://networkx.org/).
+
+[Original data](http://www-personal.umich.edu/~mejn/netdata/)
 
 <!-- ## Inverted Sidebars
 The colors on the sidebar can now be inverted to allow brighter sidebar images. This can be enabled per-page in the fort matter:
