@@ -28,13 +28,13 @@ The result will similar to this table (note that the code below adds some extra 
 |  3 |  0.275    |       0.445161 |
 
 
-For social scientist it can be relevant to compare such community-level metrics in order to understand the determinants of creative output, among other things. Uzzi and Spiro (2005), for example, found that relatively cohesive communities among Broadway musical creators are associated with more creative success. In fact, they found that cohesion and creative success are characterized by an inverted U-shaped relationship. So initially, more cohesion means more creative success, but up to a certain point, then more cohesion dampens creativity.
+Beside marine biologist, social scientist may also be interested to compare such community-level metrics. For example, Uzzi and Spiro (2005) found that "relatively" cohesive communities among Broadway musical creators are associated with more creative success. In fact, they found that cohesion and creative success are characterized by an inverted U-shaped relationship. So, initially, more cohesion leads more creative success, but up to a certain threshold, when this is crossed, more cohesion dampens creativity. In the section below, I will explain how to get these metrics.
 
 ## The code
 
 ### 1. Open and prepare the dataset
 
-Copy-paste the code below in your Python programming environment. Here we create a new dataframe called ```df_dol```, which we will later turn into a graph object (a technical term for a network). These data are already "in shape," so there is no data wrangling necessary.
+Copy-paste the code below in your Python programming environment. Here we create a new dataframe called ```df_dol```, which we will later turn into a graph object (a technical term for a network). These data are already "in shape," so we don't have to do any data wrangling.
 
 ```python
 # Create the dataset
