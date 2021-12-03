@@ -29,7 +29,6 @@ Download the [original dataset](https://www.kaggle.com/arushchillar/disneyland-r
 
 
 ```python
-
 # Read the .CSV as a dataframe
 import os
 corpus_path = 'C:/Users/User/Downloads/DisneylandReviews.csv'  # Change this to the preferred or relevant location on your computer
