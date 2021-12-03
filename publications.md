@@ -21,9 +21,9 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 
 - Innovation as a sequence of network and category interactions: exploring dynamics in the Dutch dance genre stream. Status: “revise and resubmit” at _Poetics_.
 
-- How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005. With Giselinde Kuipers and Alex van Venrooij. Status: submitted.
+- How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005. With Giselinde Kuipers and Alex van Venrooij. Status: will be submitted in due course.
 
-- A taxonomy of genre growth. How new genre communities and market information regimes interact. With Alex van Venrooij. Status: submitted.
+- A taxonomy of genre growth. How new genre communities and market information regimes interact. With Alex van Venrooij. Status: will be submitted in due course.
 
 - Disruption in public technology projects: How markets shape public
 in preparation	technologies. With Giovanni Esposito and others. Status: will be submitted in due course.
