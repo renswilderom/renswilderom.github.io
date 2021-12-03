@@ -162,12 +162,12 @@ print(df_community.to_markdown())
 
 ## Sources
 
-Cousteau, J.Y. (1975). _Dolphins. The Undersea discoveries of Jacques-Yves Cousteau_ (photo source).
+Cousteau, J.Y. (1975). _Dolphins. The Undersea discoveries of Jacques-Yves Cousteau_.
 
 Lusseau, D. et al. (2003). The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations, _Behavioral Ecology and Sociobiology_, 54, 396-405.
 
-Uzzi, B. and Spiro, J.(2005). Collaboration and Creativity: The Small
-World Problem. _American Journal of Sociology_, 111.
+Uzzi, B. and Spiro, J. (2005). Collaboration and Creativity: The Small
+World Problem. _American Journal of Sociology_, 111 (2),447–504.
 
 Code snippets in the script above were taken from the [Programming Historian](https://programminghistorian.org/). Check out their [amazing tutorial](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python) if you are new to network analysis in Python.
 
