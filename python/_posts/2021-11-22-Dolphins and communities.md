@@ -28,7 +28,7 @@ The result will similar to this table (note that the code below adds some extra 
 |  3 |  0.275    |       0.445161 |
 
 
-For social scientist it can be relevant to compare such community-level metrics in order to understand the determinants of creative output, among other things. Uzzi and Spiro (2005), for example, found that relatively cohesive communities among Broadway musical creators are associated with more creative success.
+For social scientist it can be relevant to compare such community-level metrics in order to understand the determinants of creative output, among other things. Uzzi and Spiro (2005), for example, found that relatively cohesive communities among Broadway musical creators are associated with more creative success. In fact, they found that cohesion and creative success are characterized by an inverted U-shaped relationship. So initially, more cohesion means more creative success, but up to a certain point, then more cohesion dampens creativity.
 
 ## The code
 
