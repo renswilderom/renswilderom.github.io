@@ -58,7 +58,6 @@ df1['count'] = 1
 The code below uses an LDA topic model from Scikit-Learn.
 
 ```python
-
 # Import necessary packages and such
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
