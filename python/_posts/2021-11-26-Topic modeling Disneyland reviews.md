@@ -54,7 +54,7 @@ df1['datetime']  = pd.to_datetime(df1['year'], errors = 'coerce')
 df1['count'] = 1
 ```
 
-### Run the model
+### 2. Run the model
 
 The code below uses an LDA topic model from Scikit-Learn.
 
