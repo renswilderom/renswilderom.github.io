@@ -1,8 +1,18 @@
-## 1. Open and prepare the dataset 
+---
+layout: notebook
+title: Word counts
+image:
+  path: /assets/img/blog/bastien-nvs-g3CR0UJ1CyM-unsplash.jpg
+description: >
+  Using Scikit-learn and additional Python code to study how the prevalence of certain topics changes over time
+sitemap: false
+---
+
+## 1. Open and prepare the dataset
 
 
 ```python
-# Read the .CSV file as a dataframe 
+# Read the .CSV file as a dataframe
 import os
 corpus_path = 'C:/Users/User/Downloads/DisneylandReviews.csv'  # Change this path to the preferred/relevant location on your computer
 os.chdir(corpus_path)
@@ -11,7 +21,7 @@ import warnings
 warnings.filterwarnings('ignore') # only use this when you know the script and want to supress unnecessary warnings
 
 import pandas as pd
-df = pd.read_csv("DisneylandReviews.csv", encoding='ISO-8859-1') 
+df = pd.read_csv("DisneylandReviews.csv", encoding='ISO-8859-1')
 df.reset_index(level=0, inplace=True)
 df
 ```
@@ -457,8 +467,8 @@ You can off course stip these steps if you already have a dataframe with a text,
 
 
 ```python
-# Word counts for 'expensive' per year (you can resample by year, month, or day,i.e. 'A-DEC', 'M', or 'D') 
-df['term_of_interest'] = df['Review_Text'].str.count('expensive') 
+# Word counts for 'expensive' per year (you can resample by year, month, or day,i.e. 'A-DEC', 'M', or 'D')
+df['term_of_interest'] = df['Review_Text'].str.count('expensive')
 df_word = df.set_index('datetime').resample('A-DEC')['term_of_interest'].sum()
 df_word = df_word.reset_index()
 print(df_word.sum())
@@ -467,7 +477,7 @@ df_word
 
     term_of_interest    2889
     dtype: int64
-    
+
 
 
 
@@ -551,20 +561,20 @@ df_word
 
 
 
-2013 has most references to 'expensive,' yet we also know that the total number of reviews per year can differ quite a bit. We can address this issue by assesing the average count of a term per review. 
+2013 has most references to 'expensive,' yet we also know that the total number of reviews per year can differ quite a bit. We can address this issue by assesing the average count of a term per review.
 
 
 ```python
-# Get the total number of reviews per year 
+# Get the total number of reviews per year
 df_review = df.set_index('datetime').resample('A-DEC')['count'].sum()
 df_review = df_review.reset_index()
-print(df_review.sum()) 
+print(df_review.sum())
 df_review
 ```
 
     count    12694
     dtype: int64
-    
+
 
 
 
@@ -650,7 +660,7 @@ df_review
 
 
 ```python
-# Merge the two dataframes 
+# Merge the two dataframes
 # This can be done in a more simple way, but the method below allows you to merge more than two dataframesdfs = [df_word, df_review]
 from functools import reduce
 dfs = [df_word, df_review]
@@ -863,4 +873,4 @@ df_merge
 
 
 
-This shows that the relative use of the term of interest decreases with time 
+This shows that the relative use of the term of interest decreases with time
