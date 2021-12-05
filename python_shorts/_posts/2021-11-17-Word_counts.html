@@ -1,13 +1,3 @@
----
-layout: notebook
-title: Plotting word counts through time with Pandas, Resample, and Plotly
-image:
-  path: /assets/img/blog/763.jfif
-description: >
-  Plotting word counts through time with Pandas, Resample, and Plotly
-sitemap: false
----
-
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
@@ -3321,7 +3311,7 @@ div#maintoolbar {
         }
     });
 </script>
-
+    
   </style>
 
 
@@ -7817,7 +7807,7 @@ form{
   .bp3-running-text table th, table.bp3-html-table th{
     color:#182026;
     font-weight:600; }
-
+  
   .bp3-running-text table td,
   table.bp3-html-table td{
     color:#182026; }
@@ -17504,17 +17494,17 @@ a.anchor-link {
                 },
                 displayAlign: 'center',
                 CommonHTML: {
-                    linebreaks: {
-                    automatic: true
+                    linebreaks: { 
+                    automatic: true 
                     }
                 },
                 "HTML-CSS": {
-                    linebreaks: {
-                    automatic: true
+                    linebreaks: { 
+                    automatic: true 
                     }
                 }
             });
-
+        
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
     }
@@ -17537,10 +17527,10 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>This task works with an example dataset of old-fashioned Dutch boy names. Just because the are short and, in my humble opinion, also because they sound quite cool. If you are working with your own data, then you need a dataframe with at least two columns:</p>
+<p>For this task, I created an example dataset of old-fashioned Dutch boy names. If you are working with your dataframe, then you need at least the following two columns:</p>
 <ul>
-<li>one column with a date string (e.g. "1950") which can be turned into a Pandas datetime object (here we use years, but the datetime function also recognizes formates such as "10/11/12," which are parsed as "2012-11-10").</li>
-<li>and one column with a text string (here we use a few boy names, but full newspaper articles, for example, would work, too). </li>
+<li>a column with a date string (e.g. "1950") which can be turned into a Pandas datetime object (here we use years, but the datetime function also recognizes formates such as "10/11/12," which are parsed as "2012-11-10").</li>
+<li>a column with a text string (here we use a few boy names, but full newspaper articles, for example, would work, too). </li>
 </ul>
 
 </div>
@@ -17556,11 +17546,12 @@ a.anchor-link {
 
 <span class="c1"># Create a dataframe</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="nb">dict</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;year&#39;</span><span class="p">:[</span><span class="s1">&#39;1950&#39;</span><span class="p">,</span> <span class="s1">&#39;1951&#39;</span><span class="p">,</span> <span class="s1">&#39;1952&#39;</span><span class="p">,</span> <span class="s1">&#39;1953&#39;</span><span class="p">,</span> <span class="s1">&#39;1954&#39;</span><span class="p">],</span><span class="s1">&#39;text&#39;</span><span class="p">:[</span><span class="s1">&#39;Cees Aart Arie Jan Otto Gijs Sef Toon&#39;</span><span class="p">,</span>
-                                                              <span class="s1">&#39;Cees Aart Arie Jan Otto Gijs Sef Toon Cees Aart Arie Jan Otto Gijs Sef Toon&#39;</span><span class="p">,</span>
-                                                              <span class="s1">&#39;Aart Arie Toon&#39;</span><span class="p">,</span>
-                                                              <span class="s1">&#39;Jan Otto&#39;</span><span class="p">,</span>
-                                                              <span class="s1">&#39;Gijs&#39;</span><span class="p">]}</span>
+<span class="nb">dict</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;year&#39;</span><span class="p">:[</span><span class="s1">&#39;1950&#39;</span><span class="p">,</span> <span class="s1">&#39;1951&#39;</span><span class="p">,</span> <span class="s1">&#39;1952&#39;</span><span class="p">,</span> <span class="s1">&#39;1953&#39;</span><span class="p">,</span> <span class="s1">&#39;1954&#39;</span><span class="p">],</span>
+      <span class="s1">&#39;text&#39;</span><span class="p">:[</span><span class="s1">&#39;Cees Aart Arie Jan Otto Gijs Sef Toon&#39;</span><span class="p">,</span> 
+              <span class="s1">&#39;Cees Aart Arie Jan Otto Gijs Sef Toon Cees Aart Arie Jan Otto Gijs Sef Toon&#39;</span><span class="p">,</span>
+              <span class="s1">&#39;Aart Arie Toon&#39;</span><span class="p">,</span> 
+              <span class="s1">&#39;Jan Otto&#39;</span><span class="p">,</span> 
+              <span class="s1">&#39;Gijs&#39;</span><span class="p">]}</span> 
 <span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="nb">dict</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;0&#39;</span><span class="p">,</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="s1">&#39;3&#39;</span><span class="p">,</span> <span class="s1">&#39;4&#39;</span><span class="p">,</span> <span class="s1">&#39;5&#39;</span><span class="p">])</span>
 <span class="c1"># in Jupyter Notebooks, you just call the name of a dataframe (e.g. &quot;df&quot;) in the bottom of a cell to print it</span>
 <span class="n">df</span>
@@ -17578,7 +17569,7 @@ a.anchor-link {
 
 <div class="jp-OutputArea-child">
 
-
+    
     <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div>
 
 
@@ -17666,7 +17657,7 @@ a.anchor-link {
 
 <div class="jp-OutputArea-child">
 
-
+    
     <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
 
 
@@ -17751,10 +17742,18 @@ a.anchor-link {
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Word counts for &#39;term of interest&#39; per year </span>
-<span class="c1"># You can resample by year, month, or day,i.e. &#39;A-DEC&#39;, &#39;M&#39;, or &#39;D&#39;</span>
-<span class="c1"># For example, if you have daily time series data, you can aggregate oberservation by day, month or year.</span>
-<span class="c1"># In this example, we work with yearly time series data, so we can aggregate observations by year.</span>
+<span class="c1"># You can resample (aggregate) counts by year, month, week or day, </span>
+<span class="c1"># To do so, use either &#39;A-DEC&#39;, &#39;M&#39;, &#39;W&#39; or &#39;D&#39; after resample in the code below</span>
+<span class="c1"># In this example, we work with yearly time series data, so we can only aggregate observations by year</span>
+
+<span class="c1"># Below, we create a new column &quot;term_of_interest&quot;, and search in the column &quot;text&quot; for &quot;Aart&quot; </span>
+<span class="c1"># The asterisk symbol (*) allows you to match on different endings, e.g. &quot;Aart.&quot;</span>
+<span class="c1"># While this is not relevant for this example dataset, it is often necessary in in real-life examples</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;term_of_interest&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;Aart*&#39;</span><span class="p">)</span>
+
+<span class="c1"># This is the most import line of code in the script</span>
+<span class="c1"># In one line, we create a new dataset, with a datetime index </span>
+<span class="c1"># and aggregate the count of the term of interest per year</span>
 <span class="n">df_word</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;datetime&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">resample</span><span class="p">(</span><span class="s1">&#39;A-DEC&#39;</span><span class="p">)[</span><span class="s1">&#39;term_of_interest&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 <span class="n">df_word</span> <span class="o">=</span> <span class="n">df_word</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">df_word</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
@@ -17773,7 +17772,7 @@ a.anchor-link {
 
 <div class="jp-OutputArea-child">
 
-
+    
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
@@ -17786,7 +17785,7 @@ dtype: int64
 
 <div class="jp-OutputArea-child">
 
-
+    
     <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
 
 
@@ -17857,19 +17856,21 @@ dtype: int64
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Optional: use a Plotly bar chart to plot the data</span>
-<span class="c1"># To run this code, you need to install the Plotly package first (see the How to get started with Python page in my Blog section)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Optional: use a Plotly bar chart to graph the data</span>
+<span class="c1"># To run this code, you need to install the Plotly package first </span>
 <span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
 <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Image</span>
 <span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_word</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;datetime&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;term_of_interest&#39;</span><span class="p">)</span>
 <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">showlegend</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">xaxis_rangeslider_visible</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
     <span class="n">width</span><span class="o">=</span><span class="mi">450</span><span class="p">,</span>
-    <span class="n">height</span><span class="o">=</span><span class="mi">450</span><span class="p">)</span>
+    <span class="n">height</span><span class="o">=</span><span class="mi">450</span><span class="p">)</span>  
 <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">paper_bgcolor</span><span class="o">=</span><span class="s1">&#39;rgba(0,0,0,0)&#39;</span><span class="p">,</span> <span class="n">plot_bgcolor</span><span class="o">=</span><span class="s1">&#39;rgba(0,0,0,0)&#39;</span><span class="p">)</span>
 <span class="n">fig</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">title_text</span><span class="o">=</span><span class="s2">&quot;Year&quot;</span><span class="p">,</span> <span class="n">showgrid</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">gridwidth</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">gridcolor</span><span class="o">=</span><span class="s1">&#39;LightGrey&#39;</span><span class="p">)</span>
 <span class="n">fig</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="n">title_text</span><span class="o">=</span><span class="s2">&quot;# Reference to term of interest&quot;</span><span class="p">,</span> <span class="n">showgrid</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">gridwidth</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">gridcolor</span><span class="o">=</span><span class="s1">&#39;LightGrey&#39;</span><span class="p">)</span>
+<span class="c1"># Uncomment the line below for an interactive graph. </span>
 <span class="c1"># fig.show()</span>
+<span class="c1"># However, here we use a static &quot;png&quot; image</span>
 <span class="n">Image</span><span class="p">(</span><span class="n">fig</span><span class="o">.</span><span class="n">to_image</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s2">&quot;png&quot;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">450</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">450</span><span class="p">))</span>
 </pre></div>
 
@@ -17885,7 +17886,7 @@ dtype: int64
 
 <div class="jp-OutputArea-child">
 
-
+    
     <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
 
 
