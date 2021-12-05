@@ -1,6 +1,6 @@
 ---
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
-layout: list
+layout: grid
 
 # The title of the tag's page.
 title: Python shorts
@@ -10,7 +10,7 @@ slug: python_shorts
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  In this series of Python posts I go straight to the code to perform a practical/analytical task. The code is provided as a Jupyter Notebook, which cells you can copy-paste into your own Jupyter Notebook. If you are new to Python, then you can visit [this page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) first.
+  In this Python posts series I go straight to the code to perform a particular practical/analytical task. The code is provided as a Jupyter Notebook, which cells you may copy-paste into your own Jupyter Notebook. If you are new to Python, then you can visit [this page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) first.
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true
