@@ -1,3 +1,13 @@
+---
+layout: notebook
+title: Python shorts: Getting word counts through time with Pandas and Resample
+image:
+  path: /assets/img/blog/763.jfif
+description: >
+  Python shorts: Getting word counts through time with Pandas and Resample
+sitemap: false
+---
+
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
@@ -3311,7 +3321,7 @@ div#maintoolbar {
         }
     });
 </script>
-    
+
   </style>
 
 
@@ -7807,7 +7817,7 @@ form{
   .bp3-running-text table th, table.bp3-html-table th{
     color:#182026;
     font-weight:600; }
-  
+
   .bp3-running-text table td,
   table.bp3-html-table td{
     color:#182026; }
@@ -17494,17 +17504,17 @@ a.anchor-link {
                 },
                 displayAlign: 'center',
                 CommonHTML: {
-                    linebreaks: { 
-                    automatic: true 
+                    linebreaks: {
+                    automatic: true
                     }
                 },
                 "HTML-CSS": {
-                    linebreaks: { 
-                    automatic: true 
+                    linebreaks: {
+                    automatic: true
                     }
                 }
             });
-        
+
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
     }
@@ -17546,11 +17556,11 @@ a.anchor-link {
 
 <span class="c1"># Create a dataframe</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="nb">dict</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;year&#39;</span><span class="p">:[</span><span class="s1">&#39;1950&#39;</span><span class="p">,</span> <span class="s1">&#39;1951&#39;</span><span class="p">,</span> <span class="s1">&#39;1952&#39;</span><span class="p">,</span> <span class="s1">&#39;1953&#39;</span><span class="p">,</span> <span class="s1">&#39;1954&#39;</span><span class="p">],</span><span class="s1">&#39;text&#39;</span><span class="p">:[</span><span class="s1">&#39;Cees Aart Arie Jan Otto Gijs Sef Toon&#39;</span><span class="p">,</span> 
-                                                              <span class="s1">&#39;Cees Aart Arie Jan Otto Gijs Sef Toon Cees Aart Arie Jan Otto Gijs Sef Toon&#39;</span><span class="p">,</span> 
-                                                              <span class="s1">&#39;Aart Arie Toon&#39;</span><span class="p">,</span> 
-                                                              <span class="s1">&#39;Jan Otto&#39;</span><span class="p">,</span> 
-                                                              <span class="s1">&#39;Gijs&#39;</span><span class="p">]}</span> 
+<span class="nb">dict</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;year&#39;</span><span class="p">:[</span><span class="s1">&#39;1950&#39;</span><span class="p">,</span> <span class="s1">&#39;1951&#39;</span><span class="p">,</span> <span class="s1">&#39;1952&#39;</span><span class="p">,</span> <span class="s1">&#39;1953&#39;</span><span class="p">,</span> <span class="s1">&#39;1954&#39;</span><span class="p">],</span><span class="s1">&#39;text&#39;</span><span class="p">:[</span><span class="s1">&#39;Cees Aart Arie Jan Otto Gijs Sef Toon&#39;</span><span class="p">,</span>
+                                                              <span class="s1">&#39;Cees Aart Arie Jan Otto Gijs Sef Toon Cees Aart Arie Jan Otto Gijs Sef Toon&#39;</span><span class="p">,</span>
+                                                              <span class="s1">&#39;Aart Arie Toon&#39;</span><span class="p">,</span>
+                                                              <span class="s1">&#39;Jan Otto&#39;</span><span class="p">,</span>
+                                                              <span class="s1">&#39;Gijs&#39;</span><span class="p">]}</span>
 <span class="n">df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="nb">dict</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;0&#39;</span><span class="p">,</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="s1">&#39;3&#39;</span><span class="p">,</span> <span class="s1">&#39;4&#39;</span><span class="p">,</span> <span class="s1">&#39;5&#39;</span><span class="p">])</span>
 <span class="c1"># in Jupyter Notebooks, you just call the name of a dataframe (e.g. &quot;df&quot;) in the bottom of a cell to print it</span>
 <span class="n">df</span>
@@ -17568,7 +17578,7 @@ a.anchor-link {
 
 <div class="jp-OutputArea-child">
 
-    
+
     <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div>
 
 
