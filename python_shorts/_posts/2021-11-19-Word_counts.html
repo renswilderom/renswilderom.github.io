@@ -8,7 +8,6 @@ description: >
 sitemap: false
 ---
 
-
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
@@ -69,8 +68,26 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .il { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Integer.Long */
   </style>
 <style type="text/css">
-    div#notebook {
- font-family: sans-serif;
+    @font-face {
+ font-family: "Fira Code";
+ font-weight: normal;
+ font-style: normal;
+ src: local('"Fira Code"'), url('fonts/firacode.otf') format('opentype');
+}
+@font-face {
+ font-family: "Lora";
+ font-weight: normal;
+ font-style: normal;
+ src: local('"Lora"'), url('fonts/Lora-Regular.ttf') format('truetype');
+}
+@font-face {
+ font-family: "Lora";
+ font-weight: normal;
+ font-style: normal;
+ src: local('"Lora"'), url('fonts/Lora-Regular.ttf') format('truetype');
+}
+div#notebook {
+ font-family: "Lora", serif;
  font-size: 13pt;
  line-height: 170%;
  color: #303030;
@@ -79,7 +96,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 }
 body,
 div.body {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13pt;
  color: #303030;
  background-color: #ffffff;
@@ -94,7 +111,7 @@ body.notebook_app {
  overflow-y: hidden;
 }
 a {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  color: #303030;
  -webkit-font-smoothing: antialiased !important;
 }
@@ -257,7 +274,7 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
  font-size: 18px;
 }
 div#notebook_toolbar div.dynamic-instructions {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 17px;
  color: #828892;
 }
@@ -448,14 +465,14 @@ div.list_item:hover {
  margin-top: -2px;
 }
 ul#tabs a {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13.5pt;
  font-weight: normal;
  font-style: normal;
  text-shadow: none !important;
 }
 .nav-tabs {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13.5pt;
  font-weight: normal;
  font-style: normal;
@@ -516,7 +533,7 @@ ul#tabs a {
  -webkit-font-smoothing: subpixel-antialiased !important;
 }
 div#notebook {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13pt;
  padding-top: 4px;
 }
@@ -559,7 +576,7 @@ div#header-container {
 }
 #header,
 .edit_app #header {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13pt;
  box-shadow: none;
  background-color: #ffffff;
@@ -601,7 +618,7 @@ p.navbar-text.indicator_area {
  color: #ff7823;
 }
 .navbar-default {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13pt;
  background-color: #ffffff;
  border-color: #d4d4d4;
@@ -609,7 +626,7 @@ p.navbar-text.indicator_area {
  padding-bottom: 0px;
 }
 .navbar-default .navbar-nav > li > a {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13pt;
  color: #303030;
  display: block;
@@ -724,12 +741,12 @@ div.notification_widget.info,
 .item_buttons .running-indicator {
  padding-top: 4px;
  color: #009e07;
- font-family: sans-serif;
+ font-family: "Lora", serif;
  text-rendering: auto;
  -webkit-font-smoothing: antialiased;
 }
 #notification_trusted {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  border: none;
  background: transparent;
  background-color: transparent;
@@ -877,13 +894,13 @@ i.fa.fa-icon {
 }
 .fa {
  display: inline-block;
- font: normal normal normal 10pt/1 "FontAwesome", sans-serif;
+ font: normal normal normal 10pt/1 "FontAwesome", "Lora", serif;
  text-rendering: auto;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
 }
 .dropdown-menu {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13pt;
  box-shadow: none;
  padding: 0px;
@@ -894,7 +911,7 @@ i.fa.fa-icon {
  line-height: 1;
 }
 .dropdown-menu:hover {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13pt;
  box-shadow: none;
  padding: 0px;
@@ -905,7 +922,7 @@ i.fa.fa-icon {
  line-height: 1;
 }
 .dropdown-menu > li > a {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 12.0pt;
  display: block;
  padding: 10px 20px 9px 10px;
@@ -939,7 +956,7 @@ i.fa.fa-icon {
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 12.0pt;
  font-weight: normal;
  color: #828892;
@@ -969,7 +986,7 @@ div.kse-dropdown > .dropdown-menu,
 }
 .btn,
 .btn-default {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  color: #303030;
  background: #e5e5e5;
  background-color: #e5e5e5;
@@ -1176,7 +1193,7 @@ div.dynamic-buttons > button,
  z-index: 2;
 }
 .dropdown-header {
- font-family: sans-serif !important;
+ font-family: "Lora", serif !important;
  font-size: 13pt !important;
  color: #ff7823 !important;
  border-bottom: none !important;
@@ -1186,7 +1203,7 @@ div.dynamic-buttons > button,
 span#last-modified.btn.btn-xs.btn-default.sort-action,
 span#sort-name.btn.btn-xs.btn-default.sort-action,
 span#file-size.btn.btn-xs.btn-default.sort-action {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 16px;
  background-color: transparent;
  background: transparent;
@@ -1320,7 +1337,7 @@ div.modal-footer > button:hover {
  transition: 200ms ease;
 }
 .modal-content {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 12.0pt;
  position: relative;
  background: #e4e4e4;
@@ -1331,7 +1348,7 @@ div.modal-footer > button:hover {
  outline: none;
 }
 .modal-header {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13pt;
  color: #303030;
  background: #e4e4e4;
@@ -1341,7 +1358,7 @@ div.modal-footer > button:hover {
  min-height: 16.4286px;
 }
 .modal-content h4 {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 16pt;
  color: #303030;
  padding: 5px;
@@ -1375,7 +1392,7 @@ div.panel,
 div.panel-default,
 .panel,
 .panel-default {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13pt;
  background-color: #f4f4f4;
  color: #303030;
@@ -1403,7 +1420,7 @@ div.container-fluid {
 }
 div.form-control,
 .form-control {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: initial;
  color: #303030;
  background-color: #ffffff;
@@ -1667,7 +1684,7 @@ div.cell.selected.jupyter-soft-selected .input {
 }
 div.prompt,
 .prompt {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 9pt !important;
  font-weight: normal;
  color: #828892;
@@ -1755,8 +1772,8 @@ div.output_wrapper {
 }
 div.output_subarea.output_text.output_stream.output_stdout,
 div.output_subarea.output_text {
- font-family: monospace, monospace;
- font-size: 8.5pt !important;
+ font-family: "Fira Code", monospace, monospace;
+ font-size: 10pt !important;
  line-height: 150% !important;
  background-color: #ffffff;
  color: #303030;
@@ -1765,8 +1782,8 @@ div.output_subarea.output_text {
  margin-left: 11.5px;
 }
 div.output_area pre {
- font-family: monospace, monospace;
- font-size: 8.5pt !important;
+ font-family: "Fira Code", monospace, monospace;
+ font-size: 10pt !important;
  line-height: 151% !important;
  color: #303030;
  border-top-right-radius: 0px;
@@ -1776,8 +1793,8 @@ div.output_area {
  display: -webkit-box;
 }
 div.output_html {
- font-family: monospace, monospace;
- font-size: 8.5pt;
+ font-family: "Fira Code", monospace, monospace;
+ font-size: 10pt;
  color: #353535;
  background-color: #ffffff;
  background: #ffffff;
@@ -1801,7 +1818,7 @@ div.btn.btn-default.output_collapsed:hover {
  border-color: #d2d2d2;
 }
 div.prompt.output_prompt {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-weight: bold !important;
  background-color: #ffffff;
  color: transparent;
@@ -1814,7 +1831,7 @@ div.prompt.output_prompt {
  border-right: 2px solid transparent;
 }
 div.out_prompt_overlay.prompt {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-weight: bold !important;
  background-color: #ffffff;
  border-bottom-left-radius: 2px;
@@ -1858,7 +1875,7 @@ div.cell.selected .out_prompt_overlay.prompt {
 div.text_cell,
 div.text_cell_render pre,
 div.text_cell_render {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13pt;
  line-height: 130% !important;
  color: #353535;
@@ -1889,28 +1906,28 @@ div.cell.text_cell .CodeMirror pre {
  line-height: 170% !important;
 }
 div.cell.text_cell.rendered.selected {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  line-height: 170% !important;
  background: #ffffff;
  background-color: #ffffff;
  border-radius: 0px;
 }
 div.cell.text_cell.unrendered.selected {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  line-height: 170% !important;
  background: #ffffff;
  background-color: #ffffff;
  border-radius: 0px;
 }
 div.cell.text_cell.selected {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  line-height: 170% !important;
  background: #ffffff;
  background-color: #ffffff;
  border-radius: 0px;
 }
 .edit_mode div.cell.text_cell.selected {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  line-height: 170% !important;
  background: #ffffff;
  background-color: #ffffff;
@@ -1919,7 +1936,7 @@ div.cell.text_cell.selected {
 div.text_cell.unrendered,
 div.text_cell.unrendered.selected,
 div.edit_mode div.text_cell.unrendered {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  line-height: 170% !important;
  background: #ffffff;
  background-color: #ffffff;
@@ -1931,7 +1948,7 @@ div.cell.text_cell .prompt {
  width: 11.5ex !important;
 }
 div.cell.text_cell.rendered .prompt {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 9.5pt !important;
  font-weight: normal;
  color: #828892 !important;
@@ -1943,7 +1960,7 @@ div.cell.text_cell.rendered .prompt {
  border-left: 4px solid #ffffff;
 }
 div.cell.text_cell.unrendered .prompt {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 9.5pt !important;
  font-weight: normal;
  color: #828892 !important;
@@ -1970,7 +1987,7 @@ div.text_cell.rendered.selected .prompt {
  border-right: 2px solid transparent;
 }
 div.rendered_html code {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 11pt;
  padding-top: 3px;
  padding-left: 2px;
@@ -1986,7 +2003,7 @@ samp {
 }
 .well code,
 code {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 11pt !important;
  line-height: 170% !important;
  color: #353535;
@@ -2026,7 +2043,7 @@ div.rendered_html {
  margin-bottom: .5em;
 }
 div.rendered_html pre {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 11pt !important;
  line-height: 170% !important;
  color: #353535 !important;
@@ -2042,7 +2059,7 @@ div.rendered_html pre {
 }
 div.text_cell_render pre,
 div.text_cell_render code {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 11pt !important;
  line-height: 170% !important;
  color: #353535;
@@ -2069,7 +2086,7 @@ div.text_cell_render h4,
 div.rendered_html h4,
 div.text_cell_render h5,
 div.rendered_html h5 {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  margin: 0.4em .2em .3em .2em !important;
 }
 .rendered_html h1:first-child,
@@ -2153,11 +2170,11 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
  border: none;
 }
 .rendered_html td {
- font-family: sans-serif !important;
+ font-family: "Lora", serif !important;
  font-size: 9.3pt;
 }
 .rendered_html table {
- font-family: sans-serif !important;
+ font-family: "Lora", serif !important;
  margin-left: 8px;
  margin-right: auto;
  border: none;
@@ -2167,7 +2184,7 @@ div#_vivaldi-spatnav-focus-indicator._vivaldi-spatnav-focus-indicator {
  table-layout: fixed;
 }
 .rendered_html thead {
- font-family: sans-serif !important;
+ font-family: "Lora", serif !important;
  font-size: 10.3pt !important;
  background: #ebebeb;
  color: #353535;
@@ -2195,7 +2212,7 @@ div.widget-area {
  color: #303030;
 }
 div.widget-area a {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 12.0pt;
  font-weight: normal;
  font-style: normal;
@@ -2204,7 +2221,7 @@ div.widget-area a {
 }
 div.widget-area a:hover,
 div.widget-area a:focus {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 12.0pt;
  font-weight: normal;
  font-style: normal;
@@ -2276,7 +2293,7 @@ div.widget-label {
  margin-left: 12px;
 }
 .rendered_html :link {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 100%;
  color: #ff7823;
  text-decoration: underline;
@@ -2288,7 +2305,7 @@ div.widget-label {
 }
 .rendered_html :visited:hover,
 .rendered_html :link:hover {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 100%;
  color: #f96000;
 }
@@ -2331,7 +2348,7 @@ div#nbextensions-configurator-container.container,
  margin-left: auto;
 }
 div.nbext-selector > nav > .nav > li > a {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 10.5pt;
  padding: 2px 5px;
 }
@@ -2357,7 +2374,7 @@ div.nbext-selector > nav > .nav > li.active:hover {
  -webkit-font-smoothing: subpixel-antialiased !important;
 }
 div.nbext-readme > .nbext-readme-contents > .rendered_html {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 11.5pt;
  line-height: 145%;
  padding: 1em 1em;
@@ -2485,13 +2502,13 @@ span.bg-danger.text-danger {
  box-shadow: inset 0 1px 1px rgba(0,0,0,0.025);
 }
 .kse-input-group-pretty > kbd {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  color: #303030;
  font-weight: normal;
  background: transparent;
 }
 .kse-input-group-pretty > kbd {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  color: #303030;
  font-weight: normal;
  background: transparent;
@@ -2621,7 +2638,7 @@ div.collapsible_headings_toggle .fa-caret-right:before {
  font-size: 11pt !important;
 }
 input.raw_input {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 11pt !important;
  color: #303030;
  background-color: #efefef;
@@ -2656,7 +2673,7 @@ video {
  z-index: 1;
 }
 .typeahead-field input {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  color: #303030;
  border: none;
  font-size: 28pt;
@@ -2674,7 +2691,7 @@ body > div.modal.cmd-palette.typeahead-field {
  background-color: #f4f4f4;
 }
 .typeahead-container button {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 28pt;
  background-color: #e4e4e4;
  border: none;
@@ -2709,7 +2726,7 @@ body > div.modal.cmd-palette.typeahead-field {
 }
 .typeahead-dropdown,
 .typeahead-list {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-size: 13pt;
  color: #303030;
  background-color: #ffffff;
@@ -2857,7 +2874,7 @@ div#short-key-bindings-intro.well,
  background: #ffffff;
 }
 .terminal-app .terminal {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 11pt;
  line-height: 170%;
  color: #303030;
@@ -2973,7 +2990,7 @@ div#pager .ui-resizable-handle {
 }
 div.CodeMirror,
 div.CodeMirror pre {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 11pt;
  line-height: 170%;
  color: #303030;
@@ -3035,7 +3052,7 @@ div.js-error {
  color: #de143d;
 }
 .ipython_tooltip {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 11pt;
  line-height: 170%;
  border: 2px solid #dadada;
@@ -3049,7 +3066,7 @@ div.js-error {
  z-index: 1000;
 }
 .ipython_tooltip .tooltiptext pre {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 11pt;
  line-height: 170%;
  background: #eeeeee;
@@ -3071,7 +3088,7 @@ div.tooltiptext.bigtooltip {
  max-width: 800px;
 }
 .cm-s-ipython.CodeMirror {
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 11pt;
  background: #ededed;
  color: #303030;
@@ -3210,7 +3227,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
  color: #055be0;
 }
 div.cell.text_cell .cm-s-default .cm-header {
- font-family: sans-serif;
+ font-family: "Lora", serif;
  font-weight: normal;
  color: #126dce !important;
  margin-top: 0.3em !important;
@@ -3296,7 +3313,7 @@ body :focus .MathJax {
  margin: 0px;
  margin-left: 2px;
  overflow: auto;
- font-family: monospace, monospace;
+ font-family: "Fira Code", monospace, monospace;
  font-size: 11pt;
  color: #303030;
  width: auto;
@@ -17551,7 +17568,7 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import some packages and create an example dataset</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import packages and create an example dataset</span>
 <span class="kn">import</span> <span class="nn">warnings</span>
 <span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span> <span class="c1"># only use this when you know the script and want to supress unnecessary warnings</span>
 
@@ -17651,7 +17668,7 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Convert the date string in the column &quot;year&quot; (e.g. 1950) to a Pandas datetime object </span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Convert the date string in the column &quot;year&quot; to a Pandas datetime object </span>
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;datetime&#39;</span><span class="p">]</span>  <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">],</span> <span class="n">errors</span> <span class="o">=</span> <span class="s1">&#39;coerce&#39;</span><span class="p">)</span>
 <span class="n">df</span>
 </pre></div>
@@ -17743,7 +17760,18 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
-<h3 id="2.-Getting-the-words-counts">2. Getting the words counts<a class="anchor-link" href="#2.-Getting-the-words-counts">&#182;</a></h3><hr>
+<h3 id="2.-Getting-the-words-counts-for-a-term-of-interest">2. Getting the words counts for a term of interest<a class="anchor-link" href="#2.-Getting-the-words-counts-for-a-term-of-interest">&#182;</a></h3><hr>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Somethings to consider:</p>
+<ul>
+<li>You can resample (aggregate) counts by year, month, week or day, </li>
+<li>To do so, use either "A-DEC," "M," "W" or "D" after "resample" in the code below</li>
+<li>In this example, we work with yearly time series data, so we can only aggregate observations by year</li>
+</ul>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -17752,19 +17780,14 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Word counts for &#39;term of interest&#39; per year </span>
-<span class="c1"># You can resample (aggregate) counts by year, month, week or day, </span>
-<span class="c1"># To do so, use either &#39;A-DEC&#39;, &#39;M&#39;, &#39;W&#39; or &#39;D&#39; after resample in the code below</span>
-<span class="c1"># In this example, we work with yearly time series data, so we can only aggregate observations by year</span>
-
-<span class="c1"># Below, we create a new column &quot;term_of_interest&quot;, and search in the column &quot;text&quot; for &quot;Aart&quot; </span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Below, we create a new column &quot;term_of_interest&quot;, and search in the column &quot;text&quot; for &quot;Aart&quot; </span>
 <span class="c1"># The asterisk symbol (*) allows you to match on different endings, e.g. &quot;Aart.&quot;</span>
 <span class="c1"># While this is not relevant for this example dataset, it is often necessary in in real-life examples</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;term_of_interest&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;Aart*&#39;</span><span class="p">)</span>
 
 <span class="c1"># This is the most import line of code in the script</span>
-<span class="c1"># In one line, we create a new dataset, with a datetime index </span>
-<span class="c1"># and aggregate the count of the term of interest per year</span>
+<span class="c1"># In one line, we create a new dataset, with a datetime index, </span>
+<span class="c1"># and then aggregate the count of the term of interest per year</span>
 <span class="n">df_word</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;datetime&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">resample</span><span class="p">(</span><span class="s1">&#39;A-DEC&#39;</span><span class="p">)[</span><span class="s1">&#39;term_of_interest&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 <span class="n">df_word</span> <span class="o">=</span> <span class="n">df_word</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">df_word</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
