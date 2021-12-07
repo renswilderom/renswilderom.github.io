@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dolphins, communities, and creativity
+title: Dolphins and communities
 image:
   path: /assets/img/blog/Jacques-Cousteau-Swimming.jpg
 description: >
@@ -13,7 +13,7 @@ Each blogpost in this series provides a fully working script which: i) opens and
 
 To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed (if you are not working with Anaconda, then you also need to install at least the _Pandas_ and _NetworkX_ packages separately). [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and their various packages.   
 
-## The case: dolphin networks (and some notes on creativity)
+## The case: community detection in dolphin networks
 
 Social scientists may have some fun now and then, for instance, when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who can invent entirely new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
 
@@ -29,7 +29,7 @@ The result will similar to this table (note that the code below adds some extra 
 |  3 |  0.275    |       0.445161 |
 
 
-Besides marine biologists, social scientists may also be interested in comparing community network structures. For example, Uzzi and Spiro (2005) found that "relatively" cohesive communities among Broadway musical creators are associated with more creative success. In fact, they demonstrated that cohesion and creative success are characterized by an inverted U-shaped relationship. So, initially, more cohesion leads more creative success, but up to a certain threshold, when this is crossed more cohesion will dampen creativity. In the section below, I will explain how we can extract network structures, such as density and transitivity, from community detection models.
+Apart from marine biologists, social scientists may also be interested in comparing the communities within a network. For example, Uzzi and Spiro (2005) found that "relatively" cohesive communities among Broadway musical creators are associated with more creative success. In fact, they demonstrated that cohesion and creative success are characterized by an inverted U-shaped relationship. So, initially, more cohesion leads more creative success, but up to a certain threshold, when this is crossed, more cohesion will dampen creativity. In the section below, I will explain how we can extract metrics, such as density and transitivity, from community detection models.
 
 ## The code
 
