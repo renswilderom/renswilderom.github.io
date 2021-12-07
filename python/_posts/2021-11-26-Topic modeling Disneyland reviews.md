@@ -6,7 +6,7 @@ image:
 description: >
   Using Scikit-learn and additional Python code to study how the prevalence of certain topics changes over time
 sitemap: false
-comments: true
+comments: false
 ---
 
 Each blogpost in this series provides a fully working script which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the model's output.
