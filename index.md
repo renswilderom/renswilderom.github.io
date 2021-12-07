@@ -6,7 +6,7 @@ sitemap: true
 
 selected_posts:
   - _posts/2021-11-26-Topic modeling Disneyland reviews.md
-  - _posts/2021-11-22-Dolphins and communities.md
+  - /blog/2021-11-22-Dolphins and communities/
 posts_page: /blog/
 featured: True
 ---
