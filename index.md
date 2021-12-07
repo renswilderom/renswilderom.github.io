@@ -12,9 +12,7 @@ featured: false
 ---
 The panel on the left shows you some areas to explore: from an overview of my (upcoming) publications to an about me section which brings you up-to-date about my professional (and soon also private) life.
 
-The core of this site is formed by the blog section. The conventional [Python](https://renswilderom.github.io/blog/python/) posts provide background information and full-blown scripts to: i) open and prepare a dataset; ii) run a model; and iii) retrieve new, useful information from the model’s output.
-
-The [Python shorts](https://renswilderom.github.io/blog/python-shorts/) consist of Jupyter Notebooks that go straight to the code to perform a particular practical/analytical task.
+The core of this site is formed by the blog section. The conventional [Python](https://renswilderom.github.io/blog/python/) posts provide background information and full-blown scripts. The [Python shorts](https://renswilderom.github.io/blog/python-shorts/) consist of Jupyter Notebooks that go straight to the code to perform a particular practical/analytical task.
 
 
 
