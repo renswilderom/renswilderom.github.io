@@ -6,7 +6,7 @@ image:
 description: >
   Retrieving community-level metrics with NetworkX and additional Python code
 sitemap: false
-comments: true
+comments: false
 ---
 
 Each blogpost in this series provides a fully working script which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the model's output.
