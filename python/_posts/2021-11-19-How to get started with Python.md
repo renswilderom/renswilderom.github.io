@@ -6,7 +6,7 @@ image:
 description: >
   A friendly introduction to some powerful tools
 sitemap: false
-comments: true
+comments: false
 ---
 
 Photo by [Bonnie Kittle](https://unsplash.com/@bonniekdesign).
