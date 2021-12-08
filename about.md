@@ -11,4 +11,4 @@ I completed my master in Cultural Sociology (Cum Laude, University of Amsterdam)
 
 The two studies are characterized by rather different substantive domains (dance vs sustainable food), yet they also share a connection due to their focus on how the interplay between change-seeking movements and established actors shapes processes of innovation. My research uses both qualitative and quantitative methods and draws, predominantly, on the literature from cultural sociology and organization studies.
 
-A recent version of my CV can be found [here](https://docs.google.com/document/d/1U6lHaLWWTi4LcnhhsNAz7gFv1Y5yDGyc/edit?usp=sharing&ouid=101386340941741845692&rtpof=true&sd=true).
+If you like to know more, then you can find a recent version of my CV through [this link](https://docs.google.com/document/d/1U6lHaLWWTi4LcnhhsNAz7gFv1Y5yDGyc/edit?usp=sharing&ouid=101386340941741845692&rtpof=true&sd=true).
