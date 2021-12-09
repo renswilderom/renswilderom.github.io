@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Dolphins and communities
+title: Retrieving community-level metrics with NetworkX and an added Python script
 image:
   path: /assets/img/blog/Jacques-Cousteau-Swimming.jpg
 description: >
-  Retrieving community-level metrics with NetworkX and additional Python code
+  Community detection in dolphin networks
 sitemap: false
 comments: false
 ---
@@ -29,7 +29,7 @@ The result will similar to this table (note that the code below adds some extra 
 |  3 |  0.275    |       0.445161 |
 
 
-Apart from marine biologists, social scientists may also be interested in comparing the communities within a network. For example, Uzzi and Spiro (2005) found that "relatively" cohesive communities among Broadway musical creators are associated with more creative success. In fact, they demonstrated that cohesion and creative success are characterized by an inverted U-shaped relationship. So, initially, more cohesion leads more creative success, but up to a certain threshold, when this is crossed, more cohesion will dampen creativity. In the section below, I will explain how we can extract metrics, such as density and transitivity, from community detection models.
+Apart from marine biologists, social scientists may also be interested in a comparison of communities within a given network. For example, Uzzi and Spiro (2005) found that the cohesion within communities among Broadway musical creators matters for their creative success. In fact, they demonstrated that cohesion and creative success are characterized by an _inverted U-shaped relationship_. So, initially, more cohesion leads more creative success, but up to a certain threshold, when this is crossed, more cohesion will dampen creativity. In the section below, I will explain how we can extract metrics, such as density and transitivity, from community detection models.
 
 ## The code
 
@@ -143,13 +143,13 @@ Et voila! You should now have a dataframe called ```df_community```. This can be
 
 # Save as .CSV
 import os
-path = 'Path/to/the/location/where/the/file/will/be/saved/' #change this to the relevant location on your computer
+path = 'Path/to/the/location/where/the/file/will/be/saved/' #change this to the relevant or preferred location on your computer
 os.chdir(path)
 df_community.to_csv('df_community.csv', sep='\t', encoding='utf-8')
 
 # Save as .XLSX
 import os
-path = 'Path/to/the/location/where/the/file/will/be/saved/' #change this to the relevant location on your computer
+path = 'Path/to/the/location/where/the/file/will/be/saved/' #change this to the relevant or preferred location on your computer
 os.chdir(path)
 df_community.to_excel("df_community.xlsx")
 
