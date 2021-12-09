@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Disneyland as a magical world vs Disneyland as a hassle
+title: Using LDA topic models in Scikit-learn and new Python code to produce  time series datasets and graphs
 image:
   path: /assets/img/blog/bastien-nvs-g3CR0UJ1CyM-unsplash.jpg
 description: >
-  Using Scikit-learn and additional Python code to study how the prevalence of certain topics changes over time
+  Analyzing more than 12.000 Disneyland Paris Tripadvisor reviews to detect understandings of Disneyland as a "magical world" vs Disneyland as a "hassle."
 sitemap: false
 comments: false
 ---
@@ -17,9 +17,9 @@ To run the script, you need a working Python programming environment. For this I
 
 Studying reviews longitudinally can help, for instance, to analyze how understandings of particular product or leisure activity may change with time. This post works with more than 12.000 Tripadvisor reviews of Disneyland Paris, which can be downloaded from [Kaggle](https://www.kaggle.com/arushchillar/disneyland-reviews).
 
-To my surprise, I actually found some amusing dynamics in themes that the reviews discussed (note that a "theme" corresponds in this case to a distinct "topic" which the LDA topic model produces). Two review themes are worth mentioning: the "Disneyland as magical world" theme and the "Disneyland as a hassle" theme. While enticing, I will not go to deep into interpreting the output. The Disneyland Paris review data and the code below are used to demonstrate how such an analytical process in terms of Python code can look like.
+To my surprise, I actually found some amusing dynamics in themes that the reviews discussed (note that a "theme" corresponds in this case to a distinct "topic" which the LDA topic model produces), yet I will not go to too deep into interpreting the output of the topic model. The Disneyland Paris review data and the code below are used to demonstrate how such an analytical process in terms of Python code can look like.
 
-For a theoretically more meaningful example of shifting public understandings, and how we can use topic models to study these, I refer to a paper that I wrote with Giselinde Kuipers and Alex van Venrooij titled "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of _Guardian_ newspaper articles, the study demonstrates and explains how distinct frames of the British dance field were present over a 21 year period.
+For a theoretically meaningful example of shifting public understandings, and how we can use topic models to study these, I refer to a paper that I wrote with Giselinde Kuipers and Alex van Venrooij titled "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of _Guardian_ newspaper articles, the study demonstrates and explains how distinct frames of the British dance field were present over a 21 year period.
 
 
 ## The code
