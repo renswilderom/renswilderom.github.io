@@ -4,7 +4,7 @@ title: Retrieving community-level metrics with NetworkX and an added Python scri
 image:
   path: /assets/img/blog/Jacques-Cousteau-Swimming.jpg
 description: >
-  Exploring the dolpin network dataset (Lusseau et al., 2003)
+  Community detection in dolphin networks (and why social scientists may be interested).
 sitemap: false
 comments: false
 ---
