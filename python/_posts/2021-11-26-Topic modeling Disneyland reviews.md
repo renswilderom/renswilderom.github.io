@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using topic models in Scikit-learn and new Python code to produce  time series datasets and graphs
+title: Topic modeling with Scikit-learn and added Python code to produce time series data
 image:
   path: /assets/img/blog/bastien-nvs-g3CR0UJ1CyM-unsplash.jpg
 description: >
