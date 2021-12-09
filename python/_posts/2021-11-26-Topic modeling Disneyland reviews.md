@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using LDA topic models in Scikit-learn and new Python code to produce  time series datasets and graphs
+title: Using topic models in Scikit-learn and new Python code to produce  time series datasets and graphs
 image:
   path: /assets/img/blog/bastien-nvs-g3CR0UJ1CyM-unsplash.jpg
 description: >
