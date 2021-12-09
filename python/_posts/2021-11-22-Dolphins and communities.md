@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Retrieving community-level metrics with NetworkX and an added Python script
+title: Comparing community-level measures with NetworkX and a build-on Python script
 image:
   path: /assets/img/blog/Jacques-Cousteau-Swimming.jpg
 description: >
-  Community detection in dolphin networks (and why social scientists may be interested).
+  Community detection within dolphin networks (and why social scientists may be interested).
 sitemap: false
 comments: false
 ---
