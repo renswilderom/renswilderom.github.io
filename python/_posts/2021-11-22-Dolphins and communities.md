@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Comparing community-level measures with NetworkX and a build-on Python script
+title: Compute community-level metrics in social networks with NetworkX
 image:
   path: /assets/img/blog/Jacques-Cousteau-Swimming.jpg
 description: >
-  Community detection within dolphin networks (and why social scientists may be interested).
+  Community detection in dolphin networks (and why social scientists may be interested).
 sitemap: false
 comments: false
 ---
@@ -17,7 +17,7 @@ To run the script, you need a working Python programming environment. For this I
 
 Social scientists may have some fun now and then, for instance, when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who can invent entirely new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
 
-Building on the Dolphin dataset (Lusseau et al. 2003, see the code below for how much fun these researchers had), Python's NetworkX package and existing community detection algorithms, this script allows you to retrieve community-level metrics, such as density and transitivity, and add them to a Pandas dataframe.
+Building on the Dolphin dataset (Lusseau et al. 2003, see the code below for how much fun these researchers had), the NetworkX package in Python and existing community detection algorithms, this script allows you to retrieve community-level metrics, such as density and transitivity, and add them to a Pandas dataframe.
 
 The result will similar to this table (note that the code below adds some extra variables to the dataframe):
 
