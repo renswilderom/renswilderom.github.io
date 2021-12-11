@@ -19,7 +19,7 @@ To run the script, you need a working Python programming environment. For this I
 
 Social scientists may have some fun now and then, for instance, when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who can invent entirely new names for their research subjects, such as Bumber, Ripplefluke, and TR77. This post draws on the Dolphin dataset by Lusseau et al. (2003) and the graph below suggests how much fun these researchers may have had.
 
-Building on the Dolphin dataset, the NetworkX package in Python and existing community detection algorithms, my script below allows you to retrieve community-level metrics, such as density and transitivity, and add them to a Pandas dataframe. The result will look similar to this table:
+Building on the Dolphin dataset, the NetworkX package in Python and existing community detection algorithms, my script below allows you to retrieve community-level metrics, such as density and transitivity, and add them to a Pandas dataframe. The result will look similar to this table (bear in mind that the code below adds a few extra variables to the dataframe):
 
 <div align="center">
 
@@ -36,7 +36,7 @@ Building on the Dolphin dataset, the NetworkX package in Python and existing com
 <img src="/assets/img/blog/dolphins.svg" alt="dolphins" width="500" style="padding-top: 15px;"/>
 </p>
 
-<sub>_Note:_ I produced this graph with a slightly modified script taken from [this chapter](https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html ) in Melanie Walsh's formidable online text book _Introduction to Cultural Analytics & Python_.</sub>
+<sub>_Note:_ This graph is made using a slightly modified script taken from [this chapter](https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html ) in Melanie Walsh's formidable online text book _Introduction to Cultural Analytics & Python_. This script will not be further discussed in this blogpost.</sub>
 
 ### Why may social scientists be interested?
 
