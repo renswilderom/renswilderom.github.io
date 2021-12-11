@@ -15,11 +15,9 @@ To run the script, you need a working Python programming environment. For this I
 
 ## The case: community detection in dolphin networks
 
-Social scientists may have some fun now and then, for instance, when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who can invent entirely new names for their research subjects, such as Bumber, Ripplefluke, and TR77. This post draws on the Dolphin dataset by Lusseau et al. (2003) and the graph below shows how much fun these researchers must have had.
+Social scientists may have some fun now and then, for instance, when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who can invent entirely new names for their research subjects, such as Bumber, Ripplefluke, and TR77. This post draws on the Dolphin dataset by Lusseau et al. (2003) and the graph below suggests how much fun these researchers may have had.
 
-Building on the Dolphin dataset, the NetworkX package in Python and existing community detection algorithms, my script below allows you to retrieve community-level metrics, such as density and transitivity, and add them to a Pandas dataframe.
-
-The result of the script will look similar to this table (note that the code below adds some extra variables to the dataframe):
+Building on the Dolphin dataset, the NetworkX package in Python and existing community detection algorithms, my script below allows you to retrieve community-level metrics, such as density and transitivity, and add them to a Pandas dataframe. The result will look similar to this table (note that the code below adds some extra variables to the dataframe):
 
 <center>
 |Community    |   Density |   Transitivity |
