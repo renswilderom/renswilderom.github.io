@@ -11,4 +11,6 @@ comments: false
 
 Photo by [Bonnie Kittle](https://unsplash.com/@bonniekdesign).
 
-This page will soon be updated
+This page will soon be further updated. Below you find some useful links to start with.
+
+https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html
