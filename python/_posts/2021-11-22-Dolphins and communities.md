@@ -29,13 +29,11 @@ Building on the Dolphin dataset, the NetworkX package in Python and existing com
 
 Apart from marine biologists, social scientists may also be interested in a comparison of communities within a given network. For example, Uzzi and Spiro (2005) found that the cohesion within communities among Broadway musical creators matters for their creative success. In fact, they demonstrated that cohesion and creative success are characterized by an _inverted U-shaped relationship_. So, initially, more cohesion leads more creative success, but up to a certain threshold, when this is crossed, more cohesion will dampen creativity.
 
-In the section below, I will explain how we can extract metrics, such as density and transitivity, from community detection models.
-
 <p align="center">
 <img src="/assets/img/blog/dolphins.svg" alt="dolphins" width="500" style="padding-top: 15px;"/>
 </p>
 
-<sub>_Note:_ for the code behind this graph, I refer to [this chapter](https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html ) from Melanie Walsh's formidable online text book _Introduction to Cultural Analytics & Python_.</sub>
+<sub>_Note:_ for the script to produce this graph, I refer to [this chapter](https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html ) from Melanie Walsh's formidable online text book _Introduction to Cultural Analytics & Python_.</sub>
 
 ## The code
 
