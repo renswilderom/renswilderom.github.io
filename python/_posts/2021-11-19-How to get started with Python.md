@@ -13,7 +13,7 @@ Photo by [Bonnie Kittle](https://unsplash.com/@bonniekdesign).
 
 This page will soon be further updated. Below you find some useful links to start with.
 
-## Pythonistas' with useful websites
+## Pythonistas with useful websites
 
 * [Melanie Walsh](https://melaniewalsh.org/), Assistant Teaching Professor in the iSchool at the University of Washington, created the [online text book](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html) _Introduction to Cultural Analytics & Python._ Besides basic Python coding instructions, it also provides information on text analysis and network analysis, among others.  
 
