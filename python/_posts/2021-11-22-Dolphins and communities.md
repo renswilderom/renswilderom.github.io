@@ -13,6 +13,7 @@ Each blogpost in this series provides a fully working script which: i) opens and
 
 To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed (if you are not working with Anaconda, then you also need to install at least the _Pandas_ and _NetworkX_ packages separately). [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and their various packages.   
 
+
 ## The case
 
 ### Community detection in dolphin networks
@@ -21,8 +22,6 @@ Social scientists may have some fun now and then, for instance, when renaming th
 
 Building on the Dolphin dataset, the NetworkX package in Python and existing community detection algorithms, my script below allows you to retrieve community-level metrics, such as density and transitivity, and add them to a Pandas dataframe. The result will look similar to this table (bear in mind that the code below adds a few extra variables to the dataframe):
 
-<div align="center">
-
 |Community    |   Density |   Transitivity |
 |---:|----------:|---------------:|
 |  0 |  0.27619  |       0.484615 |
@@ -30,13 +29,12 @@ Building on the Dolphin dataset, the NetworkX package in Python and existing com
 |  2 |  0.345455 |       0.482143 |
 |  3 |  0.275    |       0.445161 |
 
-</div>
-
 <p align="center">
 <img src="/assets/img/blog/dolphins.svg" alt="dolphins" width="500" style="padding-top: 15px;"/>
 </p>
 
-<sub>_Note:_ This graph is made using a slightly modified script taken from [this chapter](https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html ) in Melanie Walsh's formidable online text book _Introduction to Cultural Analytics & Python_. This script will not be further discussed in this blogpost.</sub>
+<sub>_Note:_ This graph is made using a slightly modified script taken from [this chapter](https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html ) in Melanie Walsh's formidable online text book _Introduction to Cultural Analytics & Python_. The method to produce such graphs will not be further discussed in this blogpost.</sub>
+
 
 ### Why may social scientists be interested?
 
