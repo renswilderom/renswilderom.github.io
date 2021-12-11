@@ -33,7 +33,7 @@ Building on the Dolphin dataset, the NetworkX package in Python and existing com
 <img src="/assets/img/blog/dolphins.svg" alt="dolphins" width="500" style="padding-top: 15px;"/>
 </p>
 
-<sub>_Note:_ This graph is made using a slightly modified script taken from [this chapter](https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html ) in Melanie Walsh's formidable online text book _Introduction to Cultural Analytics & Python_. The method to produce such graphs will not be further discussed in this blogpost.</sub>
+<sub>_Note:_ This graph is made using a slightly modified script taken from [this chapter](https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html ) in the formidable online text book _Introduction to Cultural Analytics & Python_. The method to produce such graphs will not be further discussed in this blogpost.</sub>
 
 
 ### Why may social scientists be interested?
