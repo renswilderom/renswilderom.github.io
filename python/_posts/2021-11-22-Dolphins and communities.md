@@ -16,7 +16,7 @@ To run the script, you need a working Python programming environment. For this I
 ## The case: community detection in dolphin networks
 
 <p align="center">
-<img src="/assets/img/blog/dolphins.svg" alt="dolphins" width="400" style="padding-top: 15px;"/>
+<img src="/assets/img/blog/dolphins.svg" alt="dolphins" width="500" style="padding-top: 15px;"/>
 </p>
 
 Social scientists may have some fun now and then, for instance, when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who can invent entirely new names for their research subjects, such as Bumber, Ripplefluke, and TR77.
