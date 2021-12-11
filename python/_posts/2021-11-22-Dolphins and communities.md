@@ -19,6 +19,7 @@ Social scientists may have some fun now and then, for instance, when renaming th
 
 Building on the Dolphin dataset, the NetworkX package in Python and existing community detection algorithms, my script below allows you to retrieve community-level metrics, such as density and transitivity, and add them to a Pandas dataframe. The result will look similar to this table (note that the code below adds some extra variables to the dataframe):
 
+
 |Community    |   Density |   Transitivity |
 |---:|----------:|---------------:|
 |  0 |  0.27619  |       0.484615 |
@@ -26,7 +27,7 @@ Building on the Dolphin dataset, the NetworkX package in Python and existing com
 |  2 |  0.345455 |       0.482143 |
 |  3 |  0.275    |       0.445161 |
 
-Apart from marine biologists, social scientists may also be interested in a comparison of communities within a given network. For example, Uzzi and Spiro (2005) found that the cohesion within communities among Broadway musical creators matters for their creative success. In fact, they demonstrated that cohesion and creative success are characterized by an _inverted U-shaped relationship_. So, initially, more cohesion leads more creative success, but up to a certain threshold, when this is crossed, more cohesion will dampen creativity. 
+Apart from marine biologists, social scientists may also be interested in a comparison of communities within a given network. For example, Uzzi and Spiro (2005) found that the cohesion within communities among Broadway musical creators matters for their creative success. In fact, they demonstrated that cohesion and creative success are characterized by an _inverted U-shaped relationship_. So, initially, more cohesion leads more creative success, but up to a certain threshold, when this is crossed, more cohesion will dampen creativity.
 
 In the section below, I will explain how we can extract metrics, such as density and transitivity, from community detection models.
 
