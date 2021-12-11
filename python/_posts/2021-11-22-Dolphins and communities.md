@@ -13,7 +13,9 @@ Each blogpost in this series provides a fully working script which: i) opens and
 
 To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed (if you are not working with Anaconda, then you also need to install at least the _Pandas_ and _NetworkX_ packages separately). [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and their various packages.   
 
-## The case: community detection in dolphin networks
+## The case
+
+### Community detection in dolphin networks
 
 Social scientists may have some fun now and then, for instance, when renaming their interviewees to protect their anonymity. But, the real fun appears to be reserved for marine biologists, who can invent entirely new names for their research subjects, such as Bumber, Ripplefluke, and TR77. This post draws on the Dolphin dataset by Lusseau et al. (2003) and the graph below suggests how much fun these researchers may have had.
 
@@ -27,13 +29,15 @@ Building on the Dolphin dataset, the NetworkX package in Python and existing com
 |  2 |  0.345455 |       0.482143 |
 |  3 |  0.275    |       0.445161 |
 
-Apart from marine biologists, social scientists may also be interested in a comparison of communities within a given network. For example, Uzzi and Spiro (2005) found that the cohesion within communities among Broadway musical creators matters for their creative success. In fact, they demonstrated that cohesion and creative success are characterized by an _inverted U-shaped relationship_. So, initially, more cohesion leads more creative success, but up to a certain threshold, when this is crossed, more cohesion will dampen creativity.
-
 <p align="center">
 <img src="/assets/img/blog/dolphins.svg" alt="dolphins" width="500" style="padding-top: 15px;"/>
 </p>
 
 <sub>_Note:_ for the script to produce this graph, I refer to [this chapter](https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html ) from Melanie Walsh's formidable online text book _Introduction to Cultural Analytics & Python_.</sub>
+
+### Why may social scientists be interested
+
+Apart from marine biologists, social scientists may also be interested in a comparison of communities within a given network. For example, Uzzi and Spiro (2005) found that the cohesion within communities among Broadway musical creators matters for their creative success. In fact, they demonstrated that cohesion and creative success are characterized by an _inverted U-shaped relationship_. So, initially, more cohesion leads more creative success, but up to a certain threshold, when this is crossed, more cohesion will dampen creativity.
 
 ## The code
 
