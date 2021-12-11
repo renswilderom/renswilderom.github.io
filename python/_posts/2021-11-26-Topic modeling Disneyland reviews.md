@@ -281,7 +281,7 @@ fig.show()
 
 This gives:
 
-<iframe width="750" height="500" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed?link=false"></iframe>
+<iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed?link=false"></iframe>
 
 Keeping in mind that the main purpose of this post is to demonstrate how discursive trends can be investigated with topic models, we may tentatively try to interpret what happens in this graph. It appears that the salience of the "Disney as a magical world" theme (topic #1) won terrain compared to the "Disneyland as a hassle" theme (topic #9). Topic #3, which we may interpret as a "practical issues" theme (given terms such as "food," "meal," "bus," and "train"), started as the most dominant review topic, yet, after 2015, it became less salient compared to the rest.
 
