@@ -5,12 +5,20 @@ cover: true
 sitemap: true
 ---
 
+### Professionally
+
 I am currently finalizing my PhD dissertation “Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005” at the Sociology Department of the University of Amsterdam. The study is supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven).
 
 I completed my master in Cultural Sociology (Cum Laude, University of Amsterdam) with a thesis titled “The culinary order: sustainable consumer identities and new organizational forms on the alternative market for foods.”
 
 The two studies are characterized by rather different substantive domains (dance vs sustainable food), yet they also share a connection due to their focus on how the interplay between change-seeking movements and established actors shapes processes of innovation. My research uses both qualitative and quantitative methods and draws, predominantly, on the literature from cultural sociology and organization studies.
 
-<!-- More information on my course of life, professionally speaking, can be found [here](https://docs.google.com/document/d/1U6lHaLWWTi4LcnhhsNAz7gFv1Y5yDGyc/edit?usp=sharing&ouid=101386340941741845692&rtpof=true&sd=true). -->
-
 More information on my course of life, professionally speaking, can be found <a href="https://docs.google.com/document/d/1U6lHaLWWTi4LcnhhsNAz7gFv1Y5yDGyc/edit?usp=sharing&ouid=101386340941741845692&rtpof=true&sd=true" target="_blank">here.</a>
+
+### Personally
+
+What am I watching? Netflix's [Feel Good](https://www.rottentomatoes.com/tv/feel_good/s01) (gay, addiction, British, humor).
+
+What am I reading? [Harry Potter and the Chamber of Secrets](https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Chamber_of_Secrets#Chapter_1:_The_Worst_Birthday) (the wizard who needs no explaining).
+
+What am I listening to? [Nice white parents](https://www.nytimes.com/2020/07/23/podcasts/nice-white-parents-serial.html) (podcast, morality, ethnography).
