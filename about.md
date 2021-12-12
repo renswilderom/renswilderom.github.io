@@ -5,7 +5,7 @@ cover: true
 sitemap: true
 ---
 
-### Professionally
+### Academically
 
 I am currently finalizing my PhD dissertation “Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005” at the Sociology Department of the University of Amsterdam. The study is supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven).
 
