@@ -5,7 +5,7 @@ cover: true
 sitemap: true
 ---
 
-### Academically
+<!-- ### Academically -->
 
 I am currently finalizing my PhD dissertation “Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005” at the Sociology Department of the University of Amsterdam. The study is supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven).
 
@@ -15,7 +15,7 @@ The two studies are characterized by rather different substantive domains (dance
 
 More information on my course of life, professionally speaking, can be found <a href="https://docs.google.com/document/d/1U6lHaLWWTi4LcnhhsNAz7gFv1Y5yDGyc/edit?usp=sharing&ouid=101386340941741845692&rtpof=true&sd=true" target="_blank">here.</a>
 
-### Personally
+<!-- ### Personally
 
 _What am I watching?_
 > [Netflix's Feel Good](https://www.rottentomatoes.com/tv/feel_good/s01) (gay, addiction, British, humor).
@@ -24,4 +24,4 @@ _What am I reading?_
 > [Harry Potter and the Chamber of Secrets](https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Chamber_of_Secrets#Chapter_1:_The_Worst_Birthday) (the wizard who needs no explaining).
 
 _What am I listening to?_
-> [Nice white parents](https://www.nytimes.com/2020/07/23/podcasts/nice-white-parents-serial.html) (podcast, morality, ethnography, 10/10).
+> [Nice white parents](https://www.nytimes.com/2020/07/23/podcasts/nice-white-parents-serial.html) (podcast, morality, ethnography, 10/10). -->
