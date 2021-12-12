@@ -18,7 +18,7 @@ More information on my course of life, professionally speaking, can be found <a 
 ### Personally
 
 _What am I watching?_
-> Netflix's [Feel Good](https://www.rottentomatoes.com/tv/feel_good/s01) (gay, addiction, British, humor).
+> [Netflix's Feel Good](https://www.rottentomatoes.com/tv/feel_good/s01) (gay, addiction, British, humor).
 
 _What am I reading?_
 > [Harry Potter and the Chamber of Secrets](https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Chamber_of_Secrets#Chapter_1:_The_Worst_Birthday) (the wizard who needs no explaining).
