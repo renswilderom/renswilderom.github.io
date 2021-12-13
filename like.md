@@ -5,7 +5,7 @@ cover: true
 sitemap: true
 ---
 
-People _love_ to share what they like (think, for example, about all the social media posts or dinner table conversations where someone is lyrically telling about a recently discovered restaurant, Netflix show, or book). Cultural sociologists, in their turn, become enthusiastic when talking about _why_ people love to share what they consume. In this section, however, I will refrain from such sociological reflexivity and simply share with you my favorites of the moment.  
+People _love_ to share what they like (think, for example, about all the social media posts or dinner table conversations where someone is lyrically telling about a recently discovered restaurant, Netflix show, or book). Cultural sociologists, in their turn, become enthusiastic when discussing _why_ people love to share what they consume. Here, however, I will refrain from such sociological reflexivity and simply share with you my favorites of the moment.  
 
 _What am I watching?_
 > [Netflix's Feel Good](https://www.rottentomatoes.com/tv/feel_good/s01) (gay, addiction, British, humor).
