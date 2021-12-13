@@ -63,6 +63,8 @@ menu:
   #   url:               /phd/
   - title:             About me
     url:               /about/
+  - title:             What I like
+    url:               /like/
   # - title:             Projects
   #   url:               /projects/
   # - title:             Résumé*
