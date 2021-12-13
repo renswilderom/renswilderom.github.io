@@ -44,7 +44,7 @@ Apart from marine biologists, social scientists may also like to compare the com
 
 ### 1. Open and prepare the dataset
 
-Copy-paste the code below in your Python programming environment, such as a code cell in Jupyter Notebook. Here we create a new dataframe called ```df_dol```, which we will later turn into a graph object (a technical term for a network). These data are already "in shape," so we don't have to do any data wrangling.
+Copy-paste the code below in your Python programming environment (e.g. a Jupyter Notebook). Here we create a new dataframe called ```df_dol```, which we will later turn into a graph object (a technical term for a network). These data are already "in shape," so we don't have to do any data wrangling.
 
 ```python
 # Create the dataset
