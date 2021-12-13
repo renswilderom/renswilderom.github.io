@@ -38,7 +38,7 @@ Building on the Dolphin dataset, the NetworkX package in Python and existing com
 
 ### Why may social scientists be interested?
 
-Apart from marine biologists, social scientists may also be interested in a comparison of communities within a given network. For example, Uzzi and Spiro (2005) found that the cohesion within communities among Broadway musical creators matters for their creative success. In fact, they demonstrated that cohesion and creative success are characterized by an _inverted U-shaped relationship_. So, initially, more cohesion leads more creative success, but up to a certain threshold, when this is crossed, more cohesion will dampen creativity.
+Apart from marine biologists, social scientists may also like to compare the communities within a given network. For example, Uzzi and Spiro (2005) found that the cohesion within communities among Broadway musical creators matters for their creative success. In fact, they demonstrated that cohesion and creative success are characterized by an _inverted U-shaped relationship_. So, initially, more cohesion leads more creative success, but up to a certain threshold, when this is crossed, more cohesion will dampen creativity. Let us now turn to the program that can be used to unpack the output of community detection algorithms.  
 
 ## The code
 
