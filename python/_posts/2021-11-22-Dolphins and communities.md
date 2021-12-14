@@ -11,7 +11,7 @@ comments: false
 
 Each blogpost in this series provides a fully working script which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the model's output.
 
-To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed (if you are not working with Anaconda, then you also need to install at least the _Pandas_ and _NetworkX_ packages separately). [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and their various packages.   
+To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed (if you are not working with Anaconda, then you also need to install at least the _Pandas_ and _NetworkX_ packages separately). [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get started with Python, Anaconda and their various packages.   
 
 
 ## The case
@@ -33,7 +33,7 @@ Building on the Dolphin dataset, the NetworkX package in Python and existing com
 <img src="/assets/img/blog/dolphins.svg" alt="dolphins" width="500" style="padding-top: 15px;"/>
 </p>
 
-<sub>_Note:_ This graph is made using a slightly modified script taken from [this chapter](https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html ) in the formidable online text book _Introduction to Cultural Analytics & Python_. The method to produce such graphs will not be further discussed in this blogpost.</sub>
+<sub>_Note:_ This graph is made using a slightly modified script taken from [this chapter](https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html ){:target="_blank"} in the formidable online text book _Introduction to Cultural Analytics & Python_. The method to produce such graphs will not be further discussed in this blogpost.</sub>
 
 
 ### Why may social scientists be interested?
@@ -179,11 +179,11 @@ Lusseau, D. et al. (2003). The bottlenose dolphin community of Doubtful Sound fe
 Uzzi, B. and Spiro, J. (2005). Collaboration and Creativity: The Small
 World Problem. _American Journal of Sociology_, 111 (2),447–504.
 
-Code snippets in the script above were taken from the [Programming Historian](https://programminghistorian.org/). Check out their [instructive tutorial](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python) if you are new to network analysis in Python.
+Code snippets in the script above were taken from the [Programming Historian](https://programminghistorian.org/){:target="_blank"}. Check out their [instructive tutorial](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python){:target="_blank"} if you are new to network analysis in Python.
 
-[NetworkX Documentation](https://networkx.org/).
+[NetworkX Documentation](https://networkx.org/){:target="_blank"}.
 
-[Original data](http://www-personal.umich.edu/~mejn/netdata/)
+[Original data](http://www-personal.umich.edu/~mejn/netdata/){:target="_blank"}.
 
 <!-- ## Inverted Sidebars
 The colors on the sidebar can now be inverted to allow brighter sidebar images. This can be enabled per-page in the fort matter:
