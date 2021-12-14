@@ -11,11 +11,11 @@ comments: false
 
 Each blogpost in this series provides a fully working script which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the model's output.
 
-To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/). The remainder of this post assumes that you have Anaconda installed. Anaconda does not comes with the _Plotly_ package pre-installed (for interactive plots), so you need to install this one first for this specific script to work. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/) will help you to get started with Python, Anaconda and their various packages.  
+To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed. Anaconda does not comes with the _Plotly_ package pre-installed (for interactive plots), so you need to install this one first for this specific script to work. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get started with Python, Anaconda and their various packages.  
 
 ## The case: a decade of Disneyland Paris Tripadvisor reviews
 
-Studying reviews longitudinally can help, for instance, to analyze how understandings of particular product or leisure activity may change with time. This post works with more than 12.000 Tripadvisor reviews of Disneyland Paris, which can be downloaded from [Kaggle](https://www.kaggle.com/arushchillar/disneyland-reviews).
+Studying reviews longitudinally can help, for instance, to analyze how understandings of particular product or leisure activity may change with time. This post works with more than 12.000 Tripadvisor reviews of Disneyland Paris, which can be downloaded from [Kaggle](https://www.kaggle.com/arushchillar/disneyland-reviews){:target="_blank"}.
 
 To my surprise, I actually found some amusing dynamics in themes that the reviews discussed (note that a "theme" corresponds in this case to a distinct "topic" which the LDA topic model produces), yet I will not go to too deep into interpreting the output of the topic model. The Disneyland Paris review data and the code below are used to demonstrate how such an analytical process in terms of Python code can look like.
 
@@ -26,7 +26,7 @@ For a theoretically meaningful example of shifting public understandings, and ho
 
 ### 1. Open and prepare the dataset
 
-Download the [original dataset](https://www.kaggle.com/arushchillar/disneyland-reviews) from Kaggle and save it locally on your computer. This step uses some data wrangling, for example, to extract the year of visit from a date collumn. After limiting the data to Disneyland Paris reviews and dropping observartions without a date, there are more than 12.000 reviews left to analyze. This is a great quantity for topic models.
+Download the [original dataset](https://www.kaggle.com/arushchillar/disneyland-reviews){:target="_blank"} from Kaggle and save it locally on your computer. This step uses some data wrangling, for example, to extract the year of visit from a date collumn. After limiting the data to Disneyland Paris reviews and dropping observartions without a date, there are more than 12.000 reviews left to analyze. This is a great quantity for topic models.
 
 
 ```python
@@ -292,4 +292,4 @@ Such findings usually become meaningful when researchers have in-depth knowledge
 
 ## Sources
 
-Photos by [Bastien Nvs](https://unsplash.com/@bastien_nvs).
+Photos by [Bastien Nvs](https://unsplash.com/@bastien_nvs){:target="_blank"}.
