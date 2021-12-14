@@ -9,15 +9,15 @@ sitemap: false
 comments: false
 ---
 
-Photo by [Bonnie Kittle](https://unsplash.com/@bonniekdesign).
+Photo by [Bonnie Kittle](https://unsplash.com/@bonniekdesign){:target="_blank"}.
 
 This page will soon be further updated. Below you find some useful links to start with.
 
 ## Pythonistas with useful websites
 
-* [Melanie Walsh](https://melaniewalsh.org/), Assistant Teaching Professor in the iSchool at the University of Washington, created the [online text book](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html){:target="_blank"} _Introduction to Cultural Analytics & Python._ Besides basic Python coding instructions, it also provides useful, well-organized information on text analysis and network analysis, among other things.  
+* [Melanie Walsh](https://melaniewalsh.org/){:target="_blank"}, Assistant Teaching Professor in the iSchool at the University of Washington, created the [online text book](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html){:target="_blank"} _Introduction to Cultural Analytics & Python._ Besides basic Python coding instructions, it also provides useful, well-organized information on text analysis and network analysis, among other things.  
 
-* [Chris Albon](https://chrisalbon.com/), Director of Machine Learning at the Wikimedia Foundation, has a website with instructive, easy to follow code examples, ranging from tasks such as [Select Rows With A Certain Value](https://chrisalbon.com/code/python/data_wrangling/pandas_select_rows_containing_values/) to running [Convolutional Neural Networks](https://chrisalbon.com/code/deep_learning/keras/convolutional_neural_network/) in Keras. Albon's website is the most extensive, high-quality Python resource I came across so far. I used it predominantly for data wrangling in Pandas, but it offers much more.  
+* [Chris Albon](https://chrisalbon.com/){:target="_blank"}, Director of Machine Learning at the Wikimedia Foundation, has a website with instructive, easy to follow code examples, ranging from tasks such as [Select Rows With A Certain Value](https://chrisalbon.com/code/python/data_wrangling/pandas_select_rows_containing_values/){:target="_blank"} to running [Convolutional Neural Networks](https://chrisalbon.com/code/deep_learning/keras/convolutional_neural_network/){:target="_blank"} in Keras. Albon's website is the most extensive, high-quality Python resource I came across so far. I used it predominantly for data wrangling in Pandas, but it offers much more.  
 
 <!-- Programming Historian (team of Pythonistas who keep each other sharp through peer-review processes). Lots of explaining (also little details that beginners may not know). Aimed at the Humanities (and in my view also highly suitable for social scientists)
 
