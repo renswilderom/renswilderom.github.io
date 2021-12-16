@@ -17,6 +17,7 @@ _What am I listening to?_
 > [Nice white parents](https://www.nytimes.com/2020/07/23/podcasts/nice-white-parents-serial.html){:target="_blank"} (podcast, morality, ethnography, 10/10).
 
 
-References:
 
-Bourdieu, P. (1984) Distinction: A Social Critique of the Judgement of Taste.
+<sub>References:
+
+Bourdieu, P. (1984) Distinction: A Social Critique of the Judgement of Taste.</sub>
