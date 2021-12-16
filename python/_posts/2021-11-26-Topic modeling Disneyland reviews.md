@@ -11,7 +11,13 @@ comments: false
 
 Each blogpost in this series provides a fully working script which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the model's output.
 
-To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed. Anaconda does not comes with the _Plotly_ package pre-installed (for interactive plots), so you need to install this one first for this specific script to work. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get started with Python, Anaconda and their various packages.  
+To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed.  For this specific script to work, you need to install the following extra package(s):
+> Plotly
+
+``` Plotly ```
+
+[This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get started with Python, Anaconda and their various packages.
+
 
 ## The case: a decade of Disneyland Paris Tripadvisor reviews
 
