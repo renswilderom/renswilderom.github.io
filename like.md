@@ -18,6 +18,6 @@ _What am I listening to?_
 
 
 
-<sub>References:
+<sub>References:</sub>
 
-Bourdieu, P. (1984) Distinction: A Social Critique of the Judgement of Taste.</sub>
+<sub>Bourdieu, P. (1984) Distinction: A Social Critique of the Judgement of Taste.</sub>
