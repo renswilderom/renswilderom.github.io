@@ -37,7 +37,7 @@ Jupyter Notebooks are a data scientists' favorite. You write and run your progra
 
 ## Pythonistas with useful websites
 
-If you can't get enough of Python, then here are some noteworthy websites to explore.
+If you can't get enough of Python, then here are some people with noteworthy websites to explore.
 
 * [Melanie Walsh](https://melaniewalsh.org/){:target="_blank"}, Assistant Teaching Professor in the iSchool at the University of Washington, created the [online text book](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html){:target="_blank"} _Introduction to Cultural Analytics & Python._ Besides basic Python coding instructions, it also provides useful, well-organized information on text analysis and network analysis, among other things.  
 
