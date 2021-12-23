@@ -9,9 +9,22 @@ sitemap: false
 comments: false
 ---
 
-Photo by [Bonnie Kittle](https://unsplash.com/@bonniekdesign){:target="_blank"}.
+This page will help you to start programming in Python. I will explain which software/platforms are both effective and convenient (regardless of how experienced you are). My main message is that programming in Anaconda is the way to go.
 
-This page will soon be further updated. Below you find some useful links to start with.
+## Why Python coding in Anaconda will make your life easy (also if you are new to Python)
+
+Anaconda is said to be the world's most popular data science platform. It allows you to write and execute Python programs and most of these work with several "packages" (small pieces of software). Anaconda comes with many essential packages pre-installed, it allows you to easily install additional packages, and it manages the dependencies between these packages. It does so automatically, so you don't need to worry about it.
+
+Anaconda is open-source, and installing allows you also to use Jupyter Notebooks (which I will explain in a minute), Spyder (a conventional code editor), and R studio (which can be handy if you sometimes also need to program in R), among others.
+
+Jupyter Notebooks are a data scientists' favorite. You write and run your programs/code snippets from a notebook in your browser. It consists of code cells, which can directly show the output of a code. For instance, we have a dataframe in which we like to limit the observations to those occurring in 1952 or earlier. In one of the code cells, we type ```df = df[df['year'] <= 1952]``` and then directly see the transformed dataframe by calling ```df```. Now you can check whether the output is as intended (and change the code if necessary). This makes "intuitive:" the results of your code become directly visible. This is also handy for intermediate checks (is your code still on the right track? Just print your dataframe and examine).
+
+<p align="center">
+<img src="/assets/img/blog/Screenshot_1.png" alt="jupyter" width="400" style="padding-top: 15px;"/>
+</p>
+
+You can download Anaconda through [this link](https://www.anaconda.com/){:target="_blank"}.
+
 
 ## Pythonistas with useful websites
 
@@ -30,3 +43,4 @@ Flair (by Zalando)
 Tensorflow
 Pytorch
 Also see: https://research.zalando.com/post/tempflow/ -->
+Photo by [Bonnie Kittle](https://unsplash.com/@bonniekdesign){:target="_blank"}.
