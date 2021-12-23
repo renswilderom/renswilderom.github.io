@@ -26,14 +26,18 @@ You can download Anaconda through [this link](https://www.anaconda.com/){:target
 
 ## Jupyter notebooks
 
-Jupyter Notebooks are a data scientists' favorite. You write and run your programs/code snippets from a "notebook" in your browser. It consists of code cells, which, if you want, directly show the output of your code. For instance, we have a dataframe in which we like to limit the observations to those occurring before 1953. In one of the code cells, we type ```df = df[df['year'] <= 1952]``` and then inspect the transformed dataframe by calling ```df``` (see cell 2 in the screenshot below). Since the results of your code become directly visible, Jupyter Notebooks make programming a bit more intuitive.
+Jupyter Notebooks are a data scientists' favorite. You write and run your programs/code snippets from a "notebook" in your browser. It consists of code cells, which, if you want, directly show the output of a command. For instance, we have a dataframe ```df``` (see the screen shot below) in which we like to limit the observations to those occurring before 1953. In one of the code cells, we type ```df = df[df['year'] <= 1952]``` and then inspect the transformed dataframe by calling again ```df```. Since the results become directly visible, you can easily assess whether the code works as intended. It makes programming a bit more intuitive.
 
 <p align="center">
 <img src="/assets/img/blog/Screenshot_1.png" alt="jupyter" width="400" style="padding-top: 15px;"/>
 </p>
 
+<sub>A screenshot from two code cells and their output in Jupyter Notebooks.</sub>
+
 
 ## Pythonistas with useful websites
+
+If you can't get enough of Python, then here are some noteworthy websites to explore.
 
 * [Melanie Walsh](https://melaniewalsh.org/){:target="_blank"}, Assistant Teaching Professor in the iSchool at the University of Washington, created the [online text book](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html){:target="_blank"} _Introduction to Cultural Analytics & Python._ Besides basic Python coding instructions, it also provides useful, well-organized information on text analysis and network analysis, among other things.  
 
