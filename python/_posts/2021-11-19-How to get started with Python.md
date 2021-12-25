@@ -34,7 +34,7 @@ Once you downloaded the installer, follow the recommended installation options.
 
 ### 2. Open a Jupyter notebook
 
-If things went well, and you work on a Windows computer, then you should be able to open a blank Jupyter Notebook through ```Start```, ```Anaconda3 (32/64-bit)```, and ```Jupyter Notebooks (anaconda3)```. This will automatically open a brower or new browser tab with an empty Notebook.
+If things went well, and you work on a Windows computer, then you should be able to open a blank Jupyter Notebook through the menu ```Start```, ```Anaconda3 (32/64-bit)```, and then click on ```Jupyter Notebooks (anaconda3)```. This will automatically open a brower or new browser tab with an empty Notebook.
 
 If things did not go well, then you may check out the [Anaconda Troubleshooting](https://docs.anaconda.com/anaconda/user-guide/troubleshooting/){:target="_blank"} page, or consult Google for a solution for the problem.
 
