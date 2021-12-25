@@ -9,17 +9,17 @@ sitemap: false
 comments: false
 ---
 
-This page will help you to start programming in Python. I will explain which software/platforms are both effective and convenient (regardless of how experienced you are). My main advice is that you should do your Python programming in Anaconda.
+This page will help you to start with Python. My main advice is that you should do your Python programming in Anaconda as it is the most powerful _and_ easy option.
 
 
-## Why Python coding in Anaconda makes things more easy (also if you are new to Python)
+## Why Anaconda (also if you are new to Python)
 
 The popular data science platform Anaconda allows you to write and execute Python programs. It comes with many essential packages (pieces of software that you can use in your script) pre-installed, it allows you to easily install additional packages, and it manages the dependencies between these packages. It does so automatically, so you don't need to worry about it.
 
-Anaconda is open-source and its installation comes, for instance, with Jupyter Notebooks (which I will explain in a minute), Spyder (a conventional code editor), and R studio (which can be handy if you sometimes also program in R).
+Anaconda is open-source and its installation comes, for instance, with Jupyter Notebooks (which I will explain in a minute), Spyder (a conventional code editor), and R studio (which can be handy if you sometimes also program in R). Follow the following steps to get started with Anaconda and Jupyter Notebooks.
 
 
-## How to install Anaconda
+### 1. Install Anaconda
 
 You can download Anaconda through [this link](https://www.anaconda.com/products/individual/){:target="_blank"}.
 
@@ -27,16 +27,16 @@ You can download Anaconda through [this link](https://www.anaconda.com/products/
 <img src="/assets/img/blog/installer.png" alt="installer" width="400" style="padding-top: 15px;"/>
 </p>
 
-The standard installer (as shown above) is a 64-bit Windows installer. You can also select other operating systems. If you have Windows, and you are not sure whether you have a 64 or 32-bit system, then go on your machine to _This PC_, give it a right mouse click, choose _Proporties_, and there you find the information under _System type_.
+The standard installer (as shown above) is a 64-bit Windows installer. You can also select other operating systems. If you have Windows, and you are not sure whether you have a 64 or 32-bit system, then go on your machine to ```This PC```, give it a right mouse click, choose ```Proporties```, and there you find the information under ```System type```.
 
 Once you downloaded the installer, follow the recommended installation options.
 
-If things went well, and you work on a Windows computer, then you should be able to open a blank Jupyter Notebook through _Start_, _Anaconda3 (32/64-bit)_, and _Jupyter Notebooks (anaconda3)_. This will automatically open a new browser tab with an empty Notebook.
+
+### 2. Open a Jupyter notebook
+
+If things went well, and you work on a Windows computer, then you should be able to open a blank Jupyter Notebook through ```Start```, ```Anaconda3 (32/64-bit)```, and ```Jupyter Notebooks (anaconda3)```. This will automatically open a new browser tab with an empty Notebook.
 
 If things did not go well, then you may check out the [Anaconda Troubleshooting](https://docs.anaconda.com/anaconda/user-guide/troubleshooting/){:target="_blank"} page, or consult Google for a solution for the problem.
-
-
-## Jupyter notebooks
 
 Jupyter Notebooks are a data scientists' favorite. You write and run your programs/code snippets from a "Notebook" in your browser. It consists of code cells, which, if you like, directly show the output of a command. For instance, we have a dataframe ```df``` (see the screen shot below) in which we like to limit the observations to those occurring before 1953. In one of the code cells, we type ```df = df[df['year'] <= 1952]``` and then inspect the transformed dataframe by calling again ```df```. Since the results become directly visible, you can easily assess whether the code works as intended. It makes programming a bit more intuitive.
 
@@ -44,13 +44,20 @@ Jupyter Notebooks are a data scientists' favorite. You write and run your progra
 <img src="/assets/img/blog/Screenshot_1.png" alt="jupyter" width="400" style="padding-top: 15px;"/>
 </p>
 
-## Running your first program
+### 3. Run your first Python program inside a Jupyter Notebook
 
-[This](https://renswilderom.github.io/blog/python_shorts/2021-11-19-Word_counts/){:target="_blank"} Python short post provides a Jupyter Notebook with a relatively simple script. You can copy-paste the code from the cells to your own Notebook. Then, click inside the cell, and press _Controll + Enter_ to run the cell. For more Jupyter Notebook keyboard shortcuts, see [this link](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330){:target="_blank"}.
+[This](https://renswilderom.github.io/blog/python_shorts/2021-11-19-Word_counts/){:target="_blank"} Python short post provides a Jupyter Notebook with a relatively simple script. You can copy-paste the code from the cells to your own Notebook. Then, click inside the cell, and press ```Controll + Enter``` to run the cell. To create a new blank cell, click inside an excisting cell and press ```Esc + B``` (this will create a new cell below your initial cell). For more Jupyter Notebook keyboard shortcuts, see [this link](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330){:target="_blank"}.
 
-## How to install packages
+
+### 4. Install packages
 
 This section will be updated soon.
+
+
+### 5. Follow a command line and Python for beginners tutorial
+
+This section will be updated soon.
+
 
 ## Pythonistas with useful websites
 
