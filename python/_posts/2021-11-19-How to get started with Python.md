@@ -27,18 +27,18 @@ You can download Anaconda through [this link](https://www.anaconda.com/products/
 <img src="/assets/img/blog/installer.png" alt="installer" width="400" style="padding-top: 15px;"/>
 </p>
 
-The standard installer (as shown above) is a 64-bit Windows installer. You can also select other operating systems. If you have Windows, and you are not sure whether you have a 64 or 32-bit system, then go on your machine to ```This PC```, give it a right mouse click, choose ```Proporties```, and there you find the information under ```System type```.
+The standard installer (as shown above) is a 64-bit Windows installer. You can also select other operating systems. If you have Windows, and you are not sure whether you have a 64 or 32-bit system, then go on your machine to **This PC**, give it a right mouse click, choose **Proporties**, and there you find the information under **System type**.
 
 Once you downloaded the installer, follow the recommended installation options.
 
 
-### 2. Open a Jupyter notebook
+### 2. Open a blank Jupyter Notebook
 
-If things went well, and you work on a Windows computer, then you should be able to open a blank Jupyter Notebook through the menu ```Start```, ```Anaconda3 (32/64-bit)```, and then click on ```Jupyter Notebooks (anaconda3)```. This will automatically open a brower or new browser tab with an empty Notebook.
+If things went well, and you work on a Windows computer, then you should be able to open a blank Jupyter Notebook through the menu **Start**, **Anaconda3 (32/64-bit)**, and then click on **Jupyter Notebooks (anaconda3)**. This will automatically open a brower or new browser tab with an empty Notebook.
 
 If things did not go well, then you may check out the [Anaconda Troubleshooting](https://docs.anaconda.com/anaconda/user-guide/troubleshooting/){:target="_blank"} page, or consult Google for a solution for the problem.
 
-Jupyter Notebooks are a data scientists' favorite. You write and run your programs/code snippets from a "Notebook" in your browser. It consists of code cells, which, if you like, directly show the output of a command. For instance, we have a dataframe ```df``` (see the screen shot below) in which we like to limit the observations to those occurring before 1953. In one of the code cells, we type ```df = df[df['year'] <= 1952]``` and then inspect the transformed dataframe by calling again ```df```. Since the results become directly visible, you can easily assess whether the code works as intended. It makes programming a bit more intuitive.
+Jupyter Notebooks are a data scientists' favorite. You write and run your programs/code snippets from a "Notebook" in your browser. It consists of code cells, which, if you like, directly show the output of a command. For instance, we have a dataframe "df" (see the screen shot below) in which we like to limit the observations to those occurring before 1953. In one of the code cells, we type ```df = df[df['year'] <= 1952]``` and then inspect the transformed dataframe by calling again ```df```. Since the results become directly visible, you can easily assess whether the code works as intended. It makes programming a bit more intuitive.
 
 <p align="center">
 <img src="/assets/img/blog/Screenshot_1.png" alt="jupyter" width="400" style="padding-top: 15px;"/>
@@ -46,7 +46,7 @@ Jupyter Notebooks are a data scientists' favorite. You write and run your progra
 
 ### 3. Run your first Python program inside a Jupyter Notebook
 
-[This](https://renswilderom.github.io/blog/python_shorts/2021-11-19-Word_counts/){:target="_blank"} Python short post provides a Jupyter Notebook with a relatively simple script. You can copy-paste the code from the cells to your own Notebook. Then, click inside the cell, and press ```Controll + Enter``` to run the cell. To create a new blank cell, click inside an excisting cell and press ```Esc + B``` (this will create a new cell below your initial cell). For more Jupyter Notebook keyboard shortcuts, see [this link](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330){:target="_blank"}.
+[This](https://renswilderom.github.io/blog/python_shorts/2021-11-19-Word_counts/){:target="_blank"} Python short post provides a Jupyter Notebook with a relatively simple script. You can copy-paste the code from the cells to your own Notebook. Then, click inside the cell, and press **Controll + Enter** to run the cell. To create a new blank cell, click inside an excisting cell and press **Esc + B** (this will create a new cell below your initial cell). For more Jupyter Notebook keyboard shortcuts, see [this link](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330){:target="_blank"}.
 
 
 ### 4. Install packages
