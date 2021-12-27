@@ -51,15 +51,15 @@ Jupyter Notebooks are a data scientists' favorite. You write and run your progra
 
 ### 4. Install packages
 
+The example below, will show you how to install the Plotly package (which is used for graphing). The procedure will be roughly the same for other packages.
 
+1) In Search Google type: **conda install plotly** (or the name of any other package which you like to install). This first search result brings you to a Anaconda.org page where you find the commmand line for installing the package: ```conda install -c plotly plotly```.
 
-1) In Search Google type: **"conda install plotly"** (or the name of any other package which you like to install). This first search result gives you the commmand line for installing the Plotly package: ```conda install -c plotly plotly```.
-
-Note: while most package are available on Anaconda, occasionally they are not. In such cases and you need to install the package through PIP, that is: ```pip install [name package]```. However, if you have choice, go for Anaconda, as it will help you to manage the dependencies between packages.
+Note: while most package are available on Anaconda, occasionally they are not. In such cases and you need to install the package through PIP ([see](https://packaging.python.org/en/latest/tutorials/installing-packages/){:target="_blank"}). However, if you have choice, go for Anaconda, as it will help you to manage the dependencies between packages.
 
 2) Start Anaconda Prompt by going to: **Start** > **Anaconda3 (32/64-bit)** > **Anaconda Prompt (anaconda3)**
 
-Note: If you installed Anaconda with Adminstrator permission, then you also need to open Anaconda Prompt with Administrator permission. Go to: **Start** > **Anaconda3 (32/64-bit)** > **Anaconda Prompt (anaconda3)** > give it a right mouse click and choose: **More** > **Run as Administrator**.
+Note: If you installed Anaconda with Adminstrator permission, then you also need to open Anaconda Prompt with Administrator permission when installing packages. Go to: **Start** > **Anaconda3 (32/64-bit)** > **Anaconda Prompt (anaconda3)** > give it a right mouse click and choose: **More** > **Run as Administrator**.
 
 3) Inside the Anaconda Prompt window you copy-paste ```conda install -c plotly plotly```  and hit **Enter**. Wait until you get the option: "Proceed ([y]/n)?". Type: ```y``` and press again **Enter**. Wait until all the processes are finished, then you will see "(base) PS C:\Windows\system32>". This means that the package is installed. Now you can close the Anaconda Prompt window (or leave it open if you like to install additional packages).
 
