@@ -64,7 +64,7 @@ _Note:_ If you installed Anaconda with Adminstrator permission, then you also ne
 * Inside the Anaconda Prompt window you copy-paste ```conda install -c plotly plotly```  and hit **Enter**. Wait until you get the option: "Proceed ([y]/n)?" (see screenshot below). Type: ```y``` and press again **Enter**. Wait until all the processes are finished, then you will see "(base) PS C:\Windows\system32>". This means that the package is installed. Now you can close the Anaconda Prompt window.
 
 <p align="center">
-<img src="/assets/img/blog/prompt.png" alt="prompt" width="400" style="padding-top: 15px;"/>
+<img src="/assets/img/blog/prompt.png" alt="prompt" width="800" style="padding-top: 15px;"/>
 </p>
 
 
