@@ -51,7 +51,7 @@ Jupyter Notebooks are a data scientists' favorite. You write and run your progra
 
 ### 4. Install packages
 
-The example below, will show you how to install the Plotly package (which is used for graphing). The procedure will be roughly the same for other packages.
+The example below, will show you how to install Plotly (a popular Python package used for graphing). The procedure will be roughly the same for other packages.
 
 * (i) In Search Google type: "conda install plotly" (or the name of any other package which you like to install). This first search result brings you to the Anaconda.org page where you find the commmand line for installing Plotly: ```conda install -c plotly plotly```.
 
@@ -61,7 +61,7 @@ _Note:_ while most package are available on Anaconda, occasionally they are not.
 
 _Note:_ If you installed Anaconda with Adminstrator permission, then you also need to open Anaconda Prompt with Administrator permission to install packages. To do so, go to: **Start** > **Anaconda3 (32/64-bit)** > **Anaconda Prompt (anaconda3)** > give it a right mouse click and choose: **More** > **Run as Administrator**.
 
-* (iii) Inside the Anaconda Prompt window you copy-paste: ```conda install -c plotly plotly```  and hit **Enter**. Wait until you get the option: "Proceed ([y]/n)?" (see screenshot below). Type: ```y``` and press again **Enter**. Wait until all the processes are finished, then you will see "(base) PS C:\Windows\system32>". This means that the package is installed. Now you can close the Anaconda Prompt window.
+* (iii) Inside the Anaconda Prompt window you copy-paste: ```conda install -c plotly plotly```  and press **Enter**. Wait until you get the option: "Proceed ([y]/n)?" (see screenshot below). Type: ```y``` and press again **Enter**. Wait until all the processes are finished, the, if things went well, you should see "(base) PS C:\Windows\system32>". This means that the package is installed. Now you can close the Anaconda Prompt window.
 
 <p align="center">
 <img src="/assets/img/blog/prompt.png" alt="prompt" width="800" style="padding-top: 15px;"/>
