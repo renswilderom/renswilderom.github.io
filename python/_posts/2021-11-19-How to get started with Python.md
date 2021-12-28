@@ -51,11 +51,11 @@ Jupyter Notebooks are a data scientists' favorite. You write and run your progra
 
 ### 4. Install packages
 
-The example below, will show you how to install Plotly (a popular Python package used for graphing). The procedure will be roughly the same for other packages.
+The example below shows you how to install Plotly (a popular Python package used for graphing). The procedure will be roughly the same for other packages.
 
-* (i) In Search Google type: "conda install plotly" (or the name of any other package which you like to install). This first search result brings you to the Anaconda.org page where you find the commmand line for installing Plotly: ```conda install -c plotly plotly```.
+* (i) In Search Google type: "conda install plotly" (or the name of any other package which you wish to install). This first search result brings you to an Anaconda.org page where you find the commmand line for installing Plotly: ```conda install -c plotly plotly```.
 
-_Note:_ while most package are available on Anaconda, occasionally they are not. In such cases and you need to install the package through PIP ([see](https://packaging.python.org/en/latest/tutorials/installing-packages/){:target="_blank"}). However, if you have a choice, go for Anaconda, as it will help you to manage the dependencies between packages.
+_Note:_ while most Python packages are available on Anaconda, occasionally they are not. In such cases you need to install the package through PIP ([see](https://packaging.python.org/en/latest/tutorials/installing-packages/){:target="_blank"}). However, if you have a choice, go for Anaconda, as it will help you to manage the dependencies between packages.
 
 * (ii) Start Anaconda Prompt by going to: **Start** > **Anaconda3 (32/64-bit)** > **Anaconda Prompt (anaconda3)**
 
