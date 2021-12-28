@@ -9,12 +9,12 @@ sitemap: false
 comments: false
 ---
 
-This page will help you to start with Python. My main advice is that you should do your Python programming in Anaconda as it is the most powerful _and_ easy option.
+This page will help you to start with Python. My main advice is that you should opt for Python programming in Anaconda as it is the most powerful _and_ easy option.
 
 
 ## Why Anaconda (also if you are new to Python)
 
-The popular data science platform Anaconda allows you to write and execute Python programs. It comes with many essential packages (pieces of software that you can use in your script) pre-installed, it allows you to easily install additional packages, and it manages the dependencies between these packages. It does so automatically, so you don't need to worry about it.
+The popular data science platform Anaconda allows you to write and execute Python programs. It comes with many essential packages (pieces of software that you can use in your script) pre-installed, it allows you to install additional packages, and it manages the dependencies between these packages. It does so automatically, so you don't need to worry about it.
 
 Anaconda is open-source and its installation comes, for instance, with Jupyter Notebooks (which I will explain in a minute), Spyder (a conventional code editor), and R studio (which can be handy if you sometimes also program in R). Follow the following steps to get started with Anaconda and Jupyter Notebooks.
 
@@ -61,7 +61,7 @@ _Note:_ while most package are available on Anaconda, occasionally they are not.
 
 _Note:_ If you installed Anaconda with Adminstrator permission, then you also need to open Anaconda Prompt with Administrator permission to install packages. To do so, go to: **Start** > **Anaconda3 (32/64-bit)** > **Anaconda Prompt (anaconda3)** > give it a right mouse click and choose: **More** > **Run as Administrator**.
 
-* (iii) Inside the Anaconda Prompt window you copy-paste: ```conda install -c plotly plotly```  and press **Enter**. Wait until you get the option: "Proceed ([y]/n)?" (see screenshot below). Type: ```y``` and press again **Enter**. Wait until all the processes are finished, the, if things went well, you should see "(base) PS C:\Windows\system32>". This means that the package is installed. Now you can close the Anaconda Prompt window.
+* (iii) Inside the Anaconda Prompt window you copy-paste: ```conda install -c plotly plotly```  and press **Enter**. Wait until you get the option: "Proceed ([y]/n)?" (see screenshot below). Type: ```y``` and press again **Enter**. Wait until all the processes are finished, then, if things went well, you should see "(base) PS C:\Windows\system32>". This means that the package is installed. Now you can close the Anaconda Prompt window.
 
 <p align="center">
 <img src="/assets/img/blog/prompt.png" alt="prompt" width="800" style="padding-top: 15px;"/>
@@ -69,6 +69,11 @@ _Note:_ If you installed Anaconda with Adminstrator permission, then you also ne
 
 
 ### 5. Follow a command line and Python for beginners tutorial
+
+This section will be updated soon.
+
+
+### 6. Use scripts from this site and start your own projects
 
 This section will be updated soon.
 
