@@ -9,10 +9,12 @@ People _love_ to share what they like (think, for example, about all the social 
 
 _What am I watching?_
 > [Netflix's The Last Kingdom](https://www.rottentomatoes.com/tv/the_last_kingdom){:target="_blank"} (Power play between kings, warriors and vikings in the Anglo-Saxon period).
+
 > [Netflix's Feel Good](https://www.rottentomatoes.com/tv/feel_good/s01){:target="_blank"} (addiction, British, humor).
 
 _What am I reading?_
 > [The Little Prince](https://www.goodreads.com/book/show/157993.The_Little_Prince){:target="_blank"} (A classic which you may re-read now and then from the kind, imaginative Antoine de Saint-Exupéry).
+
 > [Harry Potter and the Chamber of Secrets](https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Chamber_of_Secrets#Chapter_1:_The_Worst_Birthday){:target="_blank"} (the wizard who needs no explaining).
 
 _What am I listening to?_
