@@ -9,15 +9,17 @@ sitemap: false
 comments: false
 ---
 
+There is a saying the social sciences: "All is data!" In today's era, where "[t]he rise of the Internet, social media, and digitized historical archives has produced a colossal amount of … data" (Bail, 2014), this is more true than ever. In the blogpost below, I will discuss and illustrate how web scraping provides powerful tool to get access to such data.  
+
 To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed and that you will be working with Jupyter Notebooks. For the script below to work, you need to install the following extra package(s):
 > [Time](https://anaconda.org/conda-forge/time){:target="_blank"}
 
 [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get started with Anaconda, the installation of packages, and Jupyter Notebooks.
 
 
-## The case: An extensive movie database
+## The case: A film database
 
-Movie databases provide a wealth of information which can be used to study both the content and production process of films. The script below retrieves the following variables for a set of film titles (note that the HTML code contains many more varialbes which can be collected):
+Movie databases provide a wealth of information which can be used to study both the content and production process of films. The script below retrieves the following variables for film titles that a given query yields:
 
 * Publication date
 * Genre(s)
@@ -29,12 +31,13 @@ Movie databases provide a wealth of information which can be used to study both 
 * Plot-related keywords
 * Award outcomes
 
+Note that the HTML code contains many other varialbes which can be collected, too.
+
 ## The code
 
 ### 1. Import packages
 
 ```python
-# Import packages
 import requests, time               
 import re                     
 from bs4 import BeautifulSoup
@@ -43,12 +46,12 @@ import pandas as pd
 import math
 import os
 headers = {'Accept-Language': 'en-US,en;q=0.5'} # Use this line of code to always change the language settings to English
-# This is convenient when you reside in a country
+# This is convenient when you reside in a country where English is not the main language
 ```
 
-### 2. Use a query and get the number of pages with search results
+### 2. Compile a query and get the number of pages with search results
 
-In the step below, we get the number of pages with results for a given query. Fortunately, we can provide a search query as a URL. The url/query below searches for comedy feature films from the US released between 1/1/2021 and 7/1/2021. You can also experiment with some manual searches to understand how you can form your own url/query (after conducting a manual search, the url/query appears in the address bar of the browser). See also [Advanced Title Search](https://www.imdb.com/search/title/){:target="_blank"} for more information.  
+In the step below, we get the number of pages with results for a given query. Fortunately, we can provide a search query as a URL. The URL/query used in this example searches for comedy feature films from the US released between 1/1/2021 and 7/1/2021. You can also experiment with some manual searches to understand how you can form your own URL/query (after conducting a manual search, the url/query appears in the address bar of the browser). See also [Advanced Title Search](https://www.imdb.com/search/title/){:target="_blank"} for more information.  
 
 
 ```python
@@ -70,7 +73,6 @@ else:
     max_pages = math.ceil((max_titles/50))
 print(f'There are {max_titles} titles for the search query "{query_short}".')
 print(f'So, the request loop below needs to iterate {max_pages} time(s).')
-
 ```
 
 ### 3. Get the HTML code for the all pages with search results
