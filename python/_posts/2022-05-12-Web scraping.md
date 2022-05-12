@@ -9,7 +9,7 @@ sitemap: false
 comments: false
 ---
 
-There is a saying the social sciences: "All is data!" In today's era, where "[t]he rise of the Internet, social media, and digitized historical archives has produced a colossal amount of … data" (Bail, 2014), this is more true than ever. In the blogpost below, I will discuss and illustrate how web scraping provides powerful tool to get access to such data.  
+There is a saying the social sciences: "All is data!" In today's world, where "[t]he rise of the Internet, social media, and digitized historical archives has produced a colossal amount of … data" (Bail, 2014), this is more true than ever. In the blogpost below, I will discuss and illustrate how web scraping provides powerful tool to get access to such data.  
 
 To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed and that you will be working with Jupyter Notebooks. For the script below to work, you need to install the following extra package(s):
 > [Time](https://anaconda.org/conda-forge/time){:target="_blank"}
@@ -165,5 +165,7 @@ df.to_excel(f'imdb_{query_short}.xlsx', index=False)
 ```
 
 ## Sources
+
+Bail, C.A. (2014). The cultural environment: measuring culture with big data. _Theory and Society_, 43, 465–482.   
 
 Photos by [Chris Ried](https://unsplash.com/@cdr6934){:target="_blank"}.
