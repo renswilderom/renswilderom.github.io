@@ -10,24 +10,23 @@ comments: false
 ---
 
 To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed and that you will be working with Jupyter Notebooks. For the script below to work, you need to install the following extra package(s):
-> ...
-
+> [Time](https://anaconda.org/conda-forge/time){:target="_blank"}
 
 [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get started with Anaconda, the installation of packages, and Jupyter Notebooks.
 
 
 ## The case: An extensive movie database
 
-Movie databases provide a wealth of information about films, which can be used to examine both the content of films themselves as well as their production process. The script below retrieves the following variables:
+Movie databases provide a wealth of information which can be used to study both the content and production process of films. The script below retrieves the following variables for a set of film titles (note that the HTML code contains many more varialbes which can be collected):
 
 * Publication date
-* Genres
+* Genre(s)
 * Title
 * Image URL
 * Title URL
 * Keyword URL
 * Award URL
-* Plot-related all_keywords
+* Plot-related keywords
 * Award outcomes
 
 ## The code
