@@ -9,9 +9,9 @@ sitemap: false
 comments: false
 ---
 
-There is a saying the social sciences: "All is data!" In today's world, where "[t]he rise of the Internet, social media, and digitized historical archives has produced a colossal amount of … data" (Bail, 2014), this is probably more true than ever. In this blogpost, I will discuss and illustrate how web scraping provides powerful tool to get access to such data.  
+There is a saying in the social sciences: "All is data!" In today's world, where "[t]he rise of the Internet, social media, and digitized historical archives has produced a colossal amount of … data" (Bail, 2014), this is probably more true than ever, and here I will illustrate how web scraping in Python provides tool to retrieve such data.  
 
-To start with web scraping, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed and that you will be working with Jupyter Notebooks. For the script below to work, you need to install the following extra package(s):
+To do your own web scraping, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed and that you will be working with Jupyter Notebooks. For the script below to work, you need to install the following extra package(s):
 > [Time](https://anaconda.org/conda-forge/time){:target="_blank"}
 
 [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get started with Anaconda, the installation of packages, and Jupyter Notebooks.
