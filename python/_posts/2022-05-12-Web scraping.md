@@ -9,9 +9,9 @@ sitemap: false
 comments: false
 ---
 
-There is a saying in the social sciences: "All is data!" In today's world, where "[t]he rise of the Internet, social media, and digitized historical archives has produced a colossal amount of … data" (Bail, 2014), this is probably more true than ever. Here I will illustrate how web scraping provides the tools to retrieve such data.  
+There is a saying in the social sciences: "All is data!" In today's world, where "[t]he rise of the Internet, social media, and digitized historical archives has produced a colossal amount of … data" (Bail, 2014), this is probably more true than ever. Here I will illustrate how web scraping provides a powerful tool to retrieve such data.  
 
-To do your own web scraping, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed and that you will be working with Jupyter Notebooks. For the script below to work, you need to install the following extra package(s):
+To do your own web scraping, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed and that you will be working with Jupyter Notebooks. You need to install the following extra package(s) for the script below to work:
 > [Time](https://anaconda.org/conda-forge/time){:target="_blank"}
 
 [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get started with Anaconda, the installation of packages, and Jupyter Notebooks.
@@ -19,7 +19,7 @@ To do your own web scraping, you need a working Python programming environment. 
 
 ## The case: A film database
 
-Movie databases provide a wealth of information which can be used to study both the content and production of films. In this example, the following variables are added to a Pandas dataframe:
+Movie databases provide a wealth of information which can be used to study the production, content, and even reception of films. In this example, the following variables are added to a Pandas dataframe:
 
 * Publication date
 * Genre(s)
@@ -31,7 +31,7 @@ Movie databases provide a wealth of information which can be used to study both 
 * Plot-related keywords
 * Award outcomes
 
-Note that this particular movie database contains other varialbes which can be collected, too.
+Note that this particular movie database contains a plethora of varialbes which can be collected, too.
 
 ## The code
 
@@ -51,7 +51,7 @@ headers = {'Accept-Language': 'en-US,en;q=0.5'} # Use this line of code to alway
 
 ### 2. Compile a query and get the number of pages with search results
 
-In the step below, we get the number of pages with results for a given query. Fortunately, we can provide a search query as a URL. The URL/query used in this example searches for comedy feature films from the US released between 1/1/2021 and 7/1/2021. You can also experiment with some manual searches to understand how you can form your own URL/query (after conducting a manual search, the url/query appears in the address bar of the browser). See also [Advanced Title Search](https://www.imdb.com/search/title/){:target="_blank"} for more information.  
+In the step below, we get the number of pages with results for a given query. Fortunately, we can provide the search query as a URL. The URL/query used in this example searches for comedy feature films from the US released between 1/1/2021 and 7/1/2021. You can also experiment with some manual searches to understand how you can form your own URL/query (after conducting a manual search, the url/query simply appears in the address bar of the browser). See also [Advanced Title Search](https://www.imdb.com/search/title/){:target="_blank"} for more information on the available search categories.  
 
 
 ```python
@@ -77,6 +77,8 @@ print(f'So, the request loop below needs to iterate {max_pages} time(s).')
 
 ### 3. Get the HTML code for the all pages with search results
 
+In this block of code we "harvast" multiple pages of HTML code, in which the raw data is embedded. The pages with HTML also contain many URLs. These refer, for instance, to servers where images are stored (which can be downloaded, too), or linked pages from which numeral and textual data can be retrieved. The individual pages with HTML are merged as one large string `all_html_string,` and this is parsed as a Beautiful Soup object in which the raw data can be more easily located.
+
 ```python
 all_html = []
 for page in range(1, max_pages+1):
@@ -96,7 +98,7 @@ titles = soup.find_all('div', {'class':'lister-item mode-advanced'})
 
 ### 4. Loop through html code to get data and add it to a Pandas dataframe
 
-This is the most interesting code. A few nested loops extract data from the lengthy (and, in my opinion, hard to read) HTML code. Several Beautiful Soup statements are used, such as `select`, `get`, and `find_all`. See also the [Beautiful Soup Documentation](https://beautiful-soup-4.readthedocs.io/en/latest/){:target="_blank"} for more information.
+This is the most interesting code. A few nested loops extract data from the parsed HTML code. Several Beautiful Soup statements are used, such as `select`, `get`, and `find_all`. See also the [Beautiful Soup Documentation](https://beautiful-soup-4.readthedocs.io/en/latest/){:target="_blank"} for more information.
 
 ```python
 title_dicts = []
@@ -167,5 +169,7 @@ df.to_excel(f'imdb_{query_short}.xlsx', index=False)
 ## Sources
 
 Bail, C.A. (2014). The cultural environment: measuring culture with big data. _Theory and Society_, 43, 465–482.   
+
+[Beautiful Soup Documentation](https://beautiful-soup-4.readthedocs.io/en/latest/){:target="_blank"}.
 
 Photos by [Chris Ried](https://unsplash.com/@cdr6934){:target="_blank"}.
