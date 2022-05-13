@@ -31,7 +31,7 @@ Movie databases provide a wealth of information which can be used to study the p
 * Plot-related keywords
 * Award outcomes
 
-Note that this particular movie database contains a plethora of varialbes which can be collected, too.
+Note that this particular movie database contains a plethora of other variables which can be collected, too.
 
 ## The code
 
