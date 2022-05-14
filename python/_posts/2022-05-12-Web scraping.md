@@ -96,7 +96,7 @@ soup = bs.BeautifulSoup(all_html_string, 'html.parser')
 titles = soup.find_all('div', {'class':'lister-item mode-advanced'})
 ```
 
-### 4. Loop through html code to get data and add it to a Pandas dataframe
+### 4. Loop through the HTML code to get data and add it to a Pandas dataframe
 
 This is the most interesting code. A few nested loops extract data from the parsed HTML code. Several Beautiful Soup statements are used, such as `select`, `get`, and `find_all`. See also the [Beautiful Soup Documentation](https://beautiful-soup-4.readthedocs.io/en/latest/){:target="_blank"} for more information.
 
@@ -172,4 +172,4 @@ Bail, C.A. (2014). The cultural environment: measuring culture with big data. _T
 
 [Beautiful Soup Documentation](https://beautiful-soup-4.readthedocs.io/en/latest/){:target="_blank"}.
 
-Photos by [Chris Ried](https://unsplash.com/@cdr6934){:target="_blank"}.
+Photo by [Chris Ried](https://unsplash.com/@cdr6934){:target="_blank"}.
