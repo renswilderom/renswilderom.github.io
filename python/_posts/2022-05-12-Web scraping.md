@@ -9,7 +9,7 @@ sitemap: false
 comments: false
 ---
 
-There is a saying in the social sciences: "All is data!" In today's world, where "[t]he rise of the Internet, social media, and digitized historical archives has produced a colossal amount of … data" (Bail, 2014), this is probably more true than ever. Here I will illustrate how web scraping provides a powerful tool to retrieve such data.  
+A sociology teacher of mine once said: "All is data!" In today's world, where "[t]he rise of the Internet, social media, and digitized historical archives has produced a colossal amount of … data" (Bail, 2014), this is probably more true than ever. Here I will illustrate how web scraping provides a powerful tool to retrieve such data.  
 
 To do your own web scraping, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed and that you will be working with Jupyter Notebooks. You need to install the following extra package(s) for the script below to work:
 > [Time](https://anaconda.org/conda-forge/time){:target="_blank"}
