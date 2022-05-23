@@ -9,7 +9,7 @@ sitemap: false
 comments: false
 ---
 
-Each blogpost in this series provides a fully working script which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the model's output.
+This blogpost provides a fully working script which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the model's output.
 
 For your own network analysis project, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}, which makes Python programming easier (it comes with many packages pre-installed, helps you to install packages, manage package dependencies, and it includes Jupyter Notebooks, among other useful programs) The remainder of this post assumes that you are working with Anaconda and Jupyter Notebooks.[This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get there.
 
@@ -189,7 +189,7 @@ World Problem. _American Journal of Sociology_, 111 (2),447–504.
 
 [Original data](http://www-personal.umich.edu/~mejn/netdata/){:target="_blank"}.
 
-For a general introduction to network analysis in Python, I refer to this [instructive tutorial](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python){:target="_blank"} from the Programming Historian. 
+For a general introduction to network analysis in Python, I refer to this [instructive tutorial](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python){:target="_blank"} from the Programming Historian.
 
 <!-- ## Inverted Sidebars
 The colors on the sidebar can now be inverted to allow brighter sidebar images. This can be enabled per-page in the fort matter:
