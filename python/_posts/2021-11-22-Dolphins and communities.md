@@ -11,7 +11,9 @@ comments: false
 
 Each blogpost in this series provides a fully working script which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the model's output.
 
-To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed and that you will be working with Jupyter Notebooks. For the script below to work, you need to install the following extra package(s):
+For your own network analysis project, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}, which makes Python programming easier (it comes with many packages pre-installed, helps you to install packages, manage package dependencies, and it includes Jupyter Notebooks, among other useful programs) The remainder of this post assumes that you are working with Anaconda and Jupyter Notebooks.[This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get there.
+
+In addition, you need to install the following extra package(s) for the script below to work:
 > No additional packages are needed
 
 
@@ -183,11 +185,11 @@ Lusseau, D. et al. (2003). The bottlenose dolphin community of Doubtful Sound fe
 Uzzi, B. and Spiro, J. (2005). Collaboration and Creativity: The Small
 World Problem. _American Journal of Sociology_, 111 (2),447–504.
 
-Code snippets in the script above were taken from the [Programming Historian](https://programminghistorian.org/){:target="_blank"}. Check out their [instructive tutorial](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python){:target="_blank"} if you are new to network analysis in Python.
-
 [NetworkX Documentation](https://networkx.org/){:target="_blank"}.
 
 [Original data](http://www-personal.umich.edu/~mejn/netdata/){:target="_blank"}.
+
+For a general introduction to network analysis in Python, I refer to this [instructive tutorial](https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python){:target="_blank"} from the Programming Historian. 
 
 <!-- ## Inverted Sidebars
 The colors on the sidebar can now be inverted to allow brighter sidebar images. This can be enabled per-page in the fort matter:
