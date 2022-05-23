@@ -4,17 +4,17 @@ title: Web scraping with Beautiful Soup
 image:
   path: /assets/img/blog/chris-ried-ieic5Tq8YMk-unsplash.jpg
 description: >
-  How to download a vast multivariate dataset from a popular online database for films
+  How to download a vast multivariate dataset from an online database for films
 sitemap: false
 comments: false
 ---
 
 A sociology teacher of mine once said that "all is data!" In today's world, where "[t]he rise of the Internet, social media, and digitized historical archives has produced a colossal amount of … data" (Bail, 2014), this is probably more true than ever. In this blogpost, I will illustrate how web scraping can provide a powerful tool to retrieve such data.  
 
-To do your own web scraping, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed and that you will be working with Jupyter Notebooks. In addition, you need to install the following extra package(s) for the script below to work:
-> [Time](https://anaconda.org/conda-forge/time){:target="_blank"}
+For your own web scraping project, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}, which makes Python programming easier (it comes with many packages pre-installed, helps you to install packages, manage package dependencies, and it includes Jupyter Notebooks, among other useful programs) The remainder of this post assumes that you are working with Anaconda and Jupyter Notebooks.[This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get there. 
 
-[This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get started with Anaconda, the installation of packages, and Jupyter Notebooks.
+In addition, you need to install the following extra package(s) for the script below to work:
+> [Time](https://anaconda.org/conda-forge/time){:target="_blank"}
 
 
 ## The case: A film database
@@ -51,7 +51,9 @@ headers = {'Accept-Language': 'en-US,en;q=0.5'} # Use this line of code to alway
 
 ### 2. Compile a query and get the number of pages with search results
 
-In the step below, we get the number of pages with results for a given query. Fortunately, we can provide the search query as a URL. The URL/query used in this example searches for comedy feature films from the US released between 1/1/2021 and 7/1/2021. You can also experiment with some manual searches to understand how you can form your own URL/query (after conducting a manual search, the url/query simply appears in the address bar of the browser). See also [Advanced Title Search](https://www.imdb.com/search/title/){:target="_blank"} for more information on the available search categories.  
+In the step below, we retrieve the number of pages with results for a given query. Fortunately, we can provide the search query as a URL. The following URL/query searches for comedy feature films from the US released between 1/1/2021 and 7/1/2021: `https://www.imdb.com/search/title/?title_type=feature&release_date=2021-01-01,2021-01-07&genres=comedy&countries=us`  
+
+You can also experiment with some manual searches to understand how you can form your own URL/query (after conducting a manual search, the url/query simply appears in the address bar of the browser). See also [Advanced Title Search](https://www.imdb.com/search/title/){:target="_blank"} for more information on the available search categories.  
 
 
 ```python

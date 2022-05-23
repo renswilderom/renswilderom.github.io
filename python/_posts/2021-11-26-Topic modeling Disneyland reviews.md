@@ -11,7 +11,9 @@ comments: false
 
 Each blogpost in this series provides a fully working script which: i) opens and prepares a dataset; ii) runs a model; and iii) retrieves new, useful information from the model's output.
 
-To run the script, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}. The remainder of this post assumes that you have Anaconda installed and that you will be working with Jupyter Notebooks. For the script below to work, you need to install the following extra package(s):
+For your own topic modeling project, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}, which makes Python programming easier (it comes with many packages pre-installed, helps you to install packages, manage package dependencies, and it includes Jupyter Notebooks, among other useful programs) The remainder of this post assumes that you are working with Anaconda and Jupyter Notebooks.[This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get there. 
+
+In addition, you need to install the following extra package(s) for the script below to work:
 > Plotly
 
 
