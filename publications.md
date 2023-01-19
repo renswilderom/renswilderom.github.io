@@ -35,9 +35,5 @@ in preparation	technologies. With Giovanni Esposito and others. Status: will be 
 ## See also
 [Google Scholar](https://scholar.google.com/citations?user=czGM1vUAAAAJ&hl=nl){:target="_blank"}
 
-* [Profile](https://scholar.google.com/citations?user={{ site.data.scholar.id }})
-* Citations: {{ site.data.scholar.citations }}
-
-
 
 
