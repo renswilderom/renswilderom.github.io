@@ -34,7 +34,7 @@ description:           >
   PhD candidate in Cultural Sociology
 
 # A shorter description for the sidebar.
-tagline: Institutional change, Computational social science, Cultural Sociology, Organization theory
+tagline: Institutional change, Computational social science, Cultural Sociology
 # Cultural Sociology. Innovation. Sustainability. Dance.
 # A Cultural Sociologist studying institutional change. Substantive domains: sustainable food and dance music.
 
@@ -84,7 +84,7 @@ menu:
 #     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2022 Rens Wilderom
+copyright:             © 2023 Rens Wilderom
 
 # Format of the permalinks
 permalink:             /blog/:categories/:year-:month-:day-:title/
