@@ -20,7 +20,7 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 
 ## Papers submitted or in preparation
 
-- When existing genre communities adopt new genres: combining network and field perspectives to explain the rise of trance music. Status: Resubmitted at _Poetics_ after first round of reviews
+- When existing genre communities adopt new genres: combining network and field perspectives to explain the rise of trance music. Status: Resubmitted at _Poetics_ after first round of reviews.
 
 - The dance of markets and movements. With Alex van Venrooij. Status: submitted to _Poetics_.
 
