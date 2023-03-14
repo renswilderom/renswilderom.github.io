@@ -36,7 +36,7 @@ Building on the Dolphin dataset, the NetworkX package in Python and existing com
 |  3 |  0.275    |       0.445161 |
 
 <p align="center">
-<img src="/assets/img/blog/dolphins.svg" alt="Rens Wilderom" width="500" style="padding-top: 15px;"/>
+<img src="/assets/img/blog/dolphins.svg" alt="dolphins" width="500" style="padding-top: 15px;"/>
 </p>
 
 <sub>_Note:_ This graph is made using a slightly modified script taken from [this chapter](https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html ){:target="_blank"} in the formidable online text book _Introduction to Cultural Analytics & Python_. The method to produce such graphs will not be further discussed in this blogpost.</sub>
