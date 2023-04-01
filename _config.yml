@@ -119,9 +119,9 @@ accent_color:          rgb(79,177,186)
 # Defaults to `accent_color`.
 
 # Color of sidebar, when picture is none (currently Middle grey)
-theme_color:           rgb(193, 207, 218) # Columbia blue
+# theme_color:           rgb(193, 207, 218) # Columbia blue
+theme_color:           rgb(13, 59, 102) # Yale blue
 # theme_color:           rgb(133, 126, 123) # Middle grey
-# theme_color:           rgb(8,46,57)
 
 
 
