@@ -20,7 +20,7 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 
 ## Papers submitted or in preparation
 
-- When existing genre communities adopt new genres: combining network and field perspectives to explain the rise of trance music. Status: In preperation
+- When existing genre communities adopt new genres: combining network and field perspectives to explain the rise of trance music. Status: submitted to _Journal of Cultural Economy_.
 
 - The dance of markets and movements: The emergence and development of dance genres in the US, UK, and the Netherlands, 1985–2005. With Alex van Venrooij. Status: submitted to _Poetics_.
 
