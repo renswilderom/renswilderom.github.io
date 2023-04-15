@@ -27,7 +27,7 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 - How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005. With Giselinde Kuipers and Alex van Venrooij. Status: will be submitted in due course to _Sociology_.
 
 
-- The moral affordances of online sex talk: Sexual meaning-making and the creation of moral spaces on a Dutch discussion forum. With Myra Bosman and Giselinde Kuipers. Status: submitted to _The Sociological Review_.
+- The moral affordances of online sex talk: Sexual meaning-making and the creation of moral spaces on a Dutch discussion forum. With Myra Bosman and Giselinde Kuipers. Status: Revise and resubmit at _The Sociological Review_.
 
 - Disruption in public technology projects: How markets shape public
 in preparation	technologies. With Giovanni Esposito and others. Status: will be submitted in due course.
