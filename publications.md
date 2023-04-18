@@ -29,8 +29,7 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 
 - The moral affordances of online sex talk: Sexual meaning-making and the creation of moral spaces on a Dutch discussion forum. With Myra Bosman and Giselinde Kuipers. Status: Revise and resubmit at _The Sociological Review_.
 
-- Disruption in public technology projects: How markets shape public
-in preparation	technologies. With Giovanni Esposito and others. Status: will be submitted in due course.
+- Multi-Actors Governance in Megaprojects: narratives as governance instruments. With Giovanni Esposito and others. Status: in preperation. 
 
 ## See also
 [Google Scholar](https://scholar.google.com/citations?user=czGM1vUAAAAJ&hl=nl){:target="_blank"}
