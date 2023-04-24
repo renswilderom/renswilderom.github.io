@@ -10,11 +10,20 @@ selected_posts:
 posts_page: /blog/
 featured: True
 ---
-The panel on the left shows you some areas to explore: from an overview of my (upcoming) publications to an about me section which brings you up-to-date about my professional life, to a "like" section on things I am watching, reading, and listening to.
+
+I am a Core Lecturer in Computational Social Sciences at the University of Amsterdam and an Assistant Professor at the School of Business Administration at the American University Kyiv.
+
+My PhD dissertation “Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005” at the Sociology Department of the University of Amsterdam is about to be submitted. The study is supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven).
+
+I completed my master in Cultural Sociology (Cum Laude, University of Amsterdam) with a thesis titled “The culinary order: sustainable consumer identities and new organizational forms on the alternative market for foods.”
+
+The two studies are characterized by rather different substantive domains (dance vs sustainable food), yet they also share a connection due to their focus on how the interplay between change-seeking movements and established actors shapes processes of innovation. My research uses computational and qualitative/historical methods. It draws, predominantly, on the literature from cultural sociology, organization and social movement studies.
+
+<!-- The panel on the left shows you some areas to explore: from an overview of my (upcoming) publications to an about me section which brings you up-to-date about my professional life, to a "like" section on things I am watching, reading, and listening to.
 
 The most important part of this site is the blog section. The conventional [Python](https://renswilderom.github.io/blog/python/) posts provide full-blown scripts with some background information, whereas the [Python shorts](https://renswilderom.github.io/blog/python-shorts/) consist of Jupyter Notebooks that go straight to the code to perform a particular practical/analytical task.
 
-Enjoy, and reach out to me for any questions or suggestions!
+Enjoy, and reach out to me for any questions or suggestions! -->
 
 
 
