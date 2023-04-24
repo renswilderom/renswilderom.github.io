@@ -7,7 +7,7 @@ sitemap: true
 
 <!-- ### Academically -->
 
-I am a Lecturer in Computational Social Sciences at the University of Amsterdam and an Assistant Professor at the School of Business Administration at the American University Kyiv.
+I am a Core Lecturer in Computational Social Sciences at the University of Amsterdam and an Assistant Professor at the School of Business Administration at the American University Kyiv.
 
 My PhD dissertation “Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005” at the Sociology Department of the University of Amsterdam is about to be submitted. The study is supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven).
 
