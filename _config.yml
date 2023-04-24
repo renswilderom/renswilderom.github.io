@@ -62,8 +62,8 @@ menu:
     url:               /publications/
   # - title:             PhD
   #   url:               /phd/
-  - title:             About me
-    url:               /about/
+  # - title:             About me
+  #  url:               /about/
   - title:             What I like
     url:               /like/
   # - title:             Projects
