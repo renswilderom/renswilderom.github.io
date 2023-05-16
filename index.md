@@ -13,11 +13,13 @@ featured: True
 
 I am a Core Lecturer in Computational Social Sciences at the University of Amsterdam and an Assistant Professor at the School of Business Administration at the American University Kyiv.
 
-My PhD dissertation “Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005” at the Sociology Department of the University of Amsterdam is about to be submitted. The study is supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven).
+My PhD dissertation “Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005” at the Sociology Department of the University of Amsterdam is recently submitted. The study is supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven).
 
 I completed my master in Cultural Sociology (Cum Laude, University of Amsterdam) with a thesis titled “The culinary order: sustainable consumer identities and new organizational forms on the alternative market for foods.”
 
 The two studies are characterized by rather different substantive domains (dance vs sustainable food), yet they also share a connection due to their focus on how the interplay between change-seeking movements and established actors shapes processes of innovation. My research uses computational and qualitative/historical methods. It draws, predominantly, on the literature from cultural sociology, organization and social movement studies.
+
+I recently received a Valorization grant from the Social and Behavioural Data Science Centre (UvA) to set up a new project titled ["How style impacts organization: modeling stylistic variations in the film art world"](https://docs.google.com/document/d/1-keicHpcssowyzRC1oLQQb_1S6maaTzi92CS2AVoF60/edit?usp=sharing){:target="_blank"}. 
 
 <!-- The panel on the left shows you some areas to explore: from an overview of my (upcoming) publications to an about me section which brings you up-to-date about my professional life, to a "like" section on things I am watching, reading, and listening to.
 
