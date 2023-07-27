@@ -12,14 +12,14 @@ comments: false
 This page will help you to start with Python. My main advice is that you should opt for Python programming in Anaconda as it is the most powerful _and_ easy option.
 
 
-## Why Anaconda (also if you are new to Python)
+### 1. Why Anaconda (also if you are new to Python)
 
 The popular data science platform Anaconda allows you to write and execute Python programs. It comes with many essential packages (pieces of software that you can use in your script) pre-installed, it allows you to install additional packages, and it manages the dependencies between these packages. It does so automatically, so you don't need to worry about it.
 
 Anaconda is open-source and its installation comes, for instance, with Jupyter Notebooks (which I will explain in a minute), Spyder (a conventional code editor), and R studio (which can be handy if you sometimes also program in R). Follow the following steps to get started with Anaconda and Jupyter Notebooks.
 
 
-### 1. Install Anaconda
+### 2. Install Anaconda
 
 You can download Anaconda through [this link](https://www.anaconda.com/products/individual/){:target="_blank"}.
 
@@ -32,7 +32,7 @@ The standard installer (as shown above) is a 64-bit Windows installer. You can a
 Once you downloaded the installer, follow the recommended installation options.
 
 
-### 2. Open a blank Jupyter Notebook
+### 3. Open a blank Jupyter Notebook
 
 If things went well, and you work on a Windows computer, then you should be able to open a blank Jupyter Notebook through the menu **Start** > **Anaconda3 (32/64-bit)** > **Jupyter Notebooks (anaconda3)**. This will automatically open a browser or a new browser tab with an empty Notebook.
 
@@ -44,12 +44,12 @@ Jupyter Notebooks are a data scientists' favorite. You write and run your progra
 <img src="/assets/img/blog/Screenshot_1.png" alt="jupyter" width="400" style="padding-top: 15px;"/>
 </p>
 
-### 3. Run your first Python program inside a Jupyter Notebook
+### 4. Run your first Python program inside a Jupyter Notebook
 
 [This](https://renswilderom.github.io/blog/python_shorts/2021-11-19-Word_counts/){:target="_blank"} Python short post provides a Jupyter Notebook with a relatively simple script. You can copy-paste the code from the cells to your own Notebook. Then, click inside the cell, and press **Controll + Enter** to run the cell. To create a new blank cell, click inside an excisting cell and press **Esc + B** (this will create a new cell below your initial cell). For more Jupyter Notebook keyboard shortcuts, see [this link](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330){:target="_blank"}.
 
 
-### 4. Install packages
+### 5. Install packages
 
 The example below shows you how to install Plotly (a popular Python package used for graphing). The procedure will be roughly the same for other packages.
 
@@ -68,17 +68,17 @@ _Note:_ If you installed Anaconda with Adminstrator permission, then you also ne
 </p>
 
 
-### 5. Follow a command line and Python for beginners tutorial
+### 6. Follow a command line and Python for beginners tutorial
 
-This section will be updated soon.
+To get started, I recommend you to follow ([Appendix A: Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html){:target="_blank"}), part of the course Learn Python the Hard Way. This course is easy, fun, and it goes to the very basics of how to work with a “command line” interface (an alternative for the “point-and-click” system that most people are used to). 
+
+From the website: “This appendix is a quick super fast course in using the command line. It is intended to be done rapidly in about a day or two.” 
+
+Appendix A is for free, and if you like to do the complete course it costs $29.99. 
 
 
-### 6. Use scripts from this site and start your own projects
 
-This section will be updated soon.
-
-
-## Pythonistas with useful websites
+### 7. Pythonistas with useful websites
 
 If you can't get enough of Python, then here are some people with noteworthy websites to explore.
 
