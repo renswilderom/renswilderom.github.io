@@ -41,7 +41,7 @@ If things did not go well, then you may check out the [Anaconda Troubleshooting]
 Jupyter Notebooks are a data scientists' favorite. You write and run your programs/code snippets from a "Notebook" in your browser. It consists of code cells, which, if you like, directly show the output of a command. For instance, we have a dataframe "df" (see the screen shot below) in which we like to limit the observations to those occurring before 1953. In one of the code cells, we type ```df = df[df['year'] <= 1952]``` and then inspect the transformed dataframe by calling again ```df```. Since the results become directly visible, you can easily assess whether the code works as intended. It makes programming a bit more intuitive.
 
 <p align="center">
-<img src="/assets/img/blog/Screenshot_1.png" alt="jupyter" width="400" style="padding-top: 15px;"/>
+<img src="/assets/img/blog/Screenshot_1.png" alt="jupyter" width="250" style="padding-top: 15px;"/>
 </p>
 
 ### 4. Run your first Python program inside a Jupyter Notebook
