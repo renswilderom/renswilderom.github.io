@@ -61,11 +61,11 @@ _Note:_ while most Python packages are available on Anaconda, occasionally they 
 
 _Note:_ If you installed Anaconda with Adminstrator permission, then you also need to open Anaconda Prompt with Administrator permission to install packages. To do so, go to: **Start** > **Anaconda3 (32/64-bit)** > **Anaconda Prompt (anaconda3)** > give it a right mouse click and choose: **More** > **Run as Administrator**.
 
-* (iii) Inside the Anaconda Prompt window you copy-paste: ```conda install -c plotly plotly```  and press **Enter**. Wait until you get the option: "Proceed ([y]/n)?" (see screenshot below). Type: ```y``` and press again **Enter**. Wait until all the processes are finished, then, if things went well, you should see "(base) PS C:\Windows\system32>". This means that the package is installed. Now you can close the Anaconda Prompt window.
+* (iii) Inside the Anaconda Prompt window you copy-paste: ```conda install -c plotly plotly```  and press **Enter**. Wait until you get the option: "Proceed ([y]/n)?". Type: ```y``` and press again **Enter**. Wait until all the processes are finished, then, if things went well, you should see "(base) PS C:\Windows\system32>". This means that the package is installed. Now you can close the Anaconda Prompt window.
 
-<p align="center">
+<!-- <p align="center">
 <img src="/assets/img/blog/prompt.png" alt="prompt" width="400" style="padding-top: 15px;"/>
-</p>
+</p> -->
 
 
 ### 6. Follow a command line and Python for beginners tutorial
