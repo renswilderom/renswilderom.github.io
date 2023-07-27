@@ -70,12 +70,7 @@ _Note:_ If you installed Anaconda with Adminstrator permission, then you also ne
 
 ### 6. Follow a command line and Python for beginners tutorial
 
-To get started, I recommend you to follow ([Appendix A: Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html){:target="_blank"}), part of the course Learn Python the Hard Way. This course is easy, fun, and it goes to the very basics of how to work with a “command line” interface (an alternative for the “point-and-click” system that most people are used to). 
-
-From the website: “This appendix is a quick super fast course in using the command line. It is intended to be done rapidly in about a day or two.” 
-
-Appendix A is for free, and if you like to do the complete course it costs $29.99. 
-
+To get started, I recommend you to follow [Appendix A: Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html){:target="_blank"}, part of the course Learn Python the Hard Way. This course is easy, fun, and it goes to the very basics of how to work with a “command line” interface (an alternative for the “point-and-click” system that most people are used to). From the website: “This appendix is a quick super fast course in using the command line. It is intended to be done rapidly in about a day or two.” 
 
 
 ### 7. Pythonistas with useful websites
