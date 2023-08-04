@@ -92,4 +92,4 @@ Flair (by Zalando)
 Tensorflow
 Pytorch
 Also see: https://research.zalando.com/post/tempflow/ -->
-Photo by [Bonnie Kittle](https://unsplash.com/@bonniekdesign){:target="_blank"}.
+Photo by [Jukan Tateisi](https://unsplash.com/@tateisimikito){:target="_blank"}.
