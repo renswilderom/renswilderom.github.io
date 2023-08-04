@@ -9,10 +9,10 @@ sitemap: false
 comments: false
 ---
 
-This page will help you to start with Python. My main advice is that you should opt for Python programming in Anaconda as it is the most powerful _and_ easy option.
+This page will help you to start with Python. My main advice is that you should opt for Python programming in Anaconda as it is the most easy _and_ powerful option.
 
 
-### 1. Why Anaconda (also if you are new to Python)
+### 1. Why Anaconda (also if you are completely new to Python)
 
 The popular data science platform Anaconda allows you to write and execute Python programs. It comes with many essential packages (pieces of software that you can use in your script) pre-installed, it allows you to install additional packages, and it manages the dependencies between these packages. It does so automatically, so you don't need to worry about it.
 
