@@ -25,6 +25,10 @@ The two studies are characterized by rather different substantive domains (dance
 
 I recently received a Valorization grant from the Social and Behavioural Data Science Centre (UvA) to set up a new project titled ["How style impacts organization: modeling stylistic variations in the film art world"](https://docs.google.com/document/d/1-keicHpcssowyzRC1oLQQb_1S6maaTzi92CS2AVoF60/edit?usp=sharing){:target="_blank"}. 
 
+## Credits
+
+Artwork by [Ulyana](https://www.instagram.com/goianulia/){:target="_blank"}
+
 <!-- The panel on the left shows you some areas to explore: from an overview of my (upcoming) publications to an about me section which brings you up-to-date about my professional life, to a "like" section on things I am watching, reading, and listening to.
 
 The most important part of this site is the blog section. The conventional [Python](https://renswilderom.github.io/blog/python/) posts provide full-blown scripts with some background information, whereas the [Python shorts](https://renswilderom.github.io/blog/python-shorts/) consist of Jupyter Notebooks that go straight to the code to perform a particular practical/analytical task.
