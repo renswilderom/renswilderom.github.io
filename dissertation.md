@@ -5,7 +5,7 @@ cover: true
 sitemap: true
 ---
 
-I recently completed my PhD dissertation "Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985–2005." The defense is planned on September the 27th, 2023. The project is supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven) and a digital copy of my dissertation can be [found here](https://drive.google.com/file/d/1-DKHgvI4YEHkV6PB8xV9UpGsJlSC6a1g/view?usp=sharing){:target="_blank"}.
+I recently completed my PhD dissertation "Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985–2005," supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven). The defense is planned on September the 27th, 2023, and a digital copy of my dissertation can be [found here](https://drive.google.com/file/d/1-DKHgvI4YEHkV6PB8xV9UpGsJlSC6a1g/view?usp=sharing){:target="_blank"}.
 
 <p align="center">
 <img src="/assets/img/blog/White background - darker hero.jpg" alt="cover" width="400"/>
