@@ -12,7 +12,7 @@ featured: True
 ---
 
 <p align="center">
-<img src="/assets/img/blog/White background - darker hero.PDF" alt="hero" width="500" style="padding-top: 15px;"/>
+<img src="/assets/img/blog/White-background-darker-hero.SVG" alt="hero" width="500" style="padding-top: 15px;"/>
 </p>
 
 I am a Core Lecturer in Computational Social Sciences at the University of Amsterdam and an Assistant Professor at the School of Business Administration at the American University Kyiv.
