@@ -6,7 +6,7 @@ sitemap: true
 ---
 
 <p align="center">
-<img src="/assets/img/blog/Dark background - darker hero.jpg" alt="cover" width="400" style="padding-top: 15px;"/>
+<img src="/assets/img/blog/White background - darker hero.jpg" alt="cover" width="400" style="padding-top: 15px;"/>
 </p>
 
 
