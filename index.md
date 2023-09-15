@@ -11,9 +11,13 @@ posts_page: /blog/
 featured: True
 ---
 
+<p align="center">
+<img src="/assets/img/blog/White background - darker hero.PDF" alt="hero" width="500" style="padding-top: 15px;"/>
+</p>
+
 I am a Core Lecturer in Computational Social Sciences at the University of Amsterdam and an Assistant Professor at the School of Business Administration at the American University Kyiv.
 
-My PhD dissertation [“Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005”](https://docs.google.com/document/d/1YzWsBxm0nezwstkmvmfbv-LhTvdSQOHA/edit?usp=sharing&ouid=101386340941741845692&rtpof=true&sd=true){:target="_blank"} at the Sociology Department of the University of Amsterdam has recently been submitted. The study is supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven).
+The defense of my PhD dissertation [“Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005”](https://drive.google.com/file/d/1-DKHgvI4YEHkV6PB8xV9UpGsJlSC6a1g/view?usp=sharing){:target="_blank"} (Sociology Department, University of Amsterdam) is planned for 27 September, 2023. The study is supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven).
 
 I completed my master in Cultural Sociology (Cum Laude, University of Amsterdam) with a thesis titled “The culinary order: sustainable consumer identities and new organizational forms on the alternative market for foods.”
 
