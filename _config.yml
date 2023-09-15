@@ -58,6 +58,8 @@ author:
 menu:
   - title:             Blog/Python
     url:               /blog/
+  - title:             PhD project
+    url:               /phd/
   - title:             Publications
     url:               /publications/
   # - title:             PhD
