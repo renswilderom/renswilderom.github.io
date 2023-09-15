@@ -16,7 +16,7 @@ I am a Core Lecturer in Computational Social Sciences at the University of Amste
 The defense of my PhD dissertation [“Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005”](https://drive.google.com/file/d/1-DKHgvI4YEHkV6PB8xV9UpGsJlSC6a1g/view?usp=sharing){:target="_blank"} (Sociology Department, University of Amsterdam) is planned for 27 September, 2023. The study is supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven).
 
 <p align="center">
-<img src="/assets/img/blog/White-background-darker-hero.svg" alt="hero" width="500" style="padding-top: 15px;"/>
+<img src="/assets/img/blog/PhD-dissertation-Rens-Wilderom-_Cover-only_.svg" alt="cover" width="500" style="padding-top: 15px;"/>
 </p>
 
 
