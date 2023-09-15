@@ -6,7 +6,7 @@ sitemap: true
 ---
 
 <p align="center">
-<img src="/assets/img/blog/PhD-dissertation-Rens-Wilderom-_Cover-only_.svg" alt="cover" width="600" style="padding-top: 15px;"/>
+<img src="/assets/img/blog/Dark background - darker hero.jpg" alt="cover" width="600" style="padding-top: 15px;"/>
 </p>
 
 My PhD dissertation addresses the question of how and why new genres become (un)successfully institutionalized. We know that genres—once institutionalized and “takenfor-granted”—help people to categorize works of art as well as those associated with works of art. In this dissertation, I investigate how novel genres come to be and start to fulfill such an “ordering” function in social life. The dissertation focuses on the history of the dance music genre in the US, UK, and the Netherlands, three countries that show marked variation in the way in which the dance developed. It works with data on dance label foundings, the commercial success of dance records, coverage by traditional newspapers and the specialized music press, among others, which are analyzed using both computational social science and qualitative/historical methods.
