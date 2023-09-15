@@ -5,7 +5,7 @@ cover: true
 sitemap: true
 ---
 
-I recently completed my PhD dissertation "Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985–2005" The project was supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven). 
+I recently completed my PhD dissertation "Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985–2005." The project was supervised by Alex van Venrooij (University of Amsterdam) and Giselinde Kuipers (KU Leuven). 
 
 [Here](https://drive.google.com/file/d/1-DKHgvI4YEHkV6PB8xV9UpGsJlSC6a1g/view?usp=sharing){:target="_blank"} you can find a digital copy of my thesis. 
 
