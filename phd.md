@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PhD project
+title: Dissertation
 cover: true
 sitemap: true
 ---
