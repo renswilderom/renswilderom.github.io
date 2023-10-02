@@ -17,6 +17,11 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 - The Dynamics of Dance: An Early History of Electronic Dance Music. With Alex van Venrooij. Published at _[The Bloomsbury Handbook of Popular Music and Youth Culture](https://www.bloomsbury.com/uk/bloomsbury-handbook-of-popular-music-and-youth-culture-9781501333705/){:target="_blank"}_. 
 
 
+## Popular/general audiences
+
+- Standing on the shoulders of punk: the early years of dance (interview and text by Joost van Tilburg). [Press release by the University of Amsterdam](https://www.uva.nl/en/content/news/press-releases/2023/09/standing-on-the-shoulders-of-punk-the-early-years-of-dance.html?origin=kUP%2Byx6UTZqvuJiCJKnnEQ){:target="_blank"}_. 
+
+
 
 ## Papers submitted or in preparation
 
