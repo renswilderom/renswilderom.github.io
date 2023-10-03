@@ -19,7 +19,7 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 
 ## Popular/general audiences
 
-- Standing on the shoulders of punk: the early years of dance (interview and text by Joost van Tilburg). [Press release by the University of Amsterdam](https://www.uva.nl/en/content/news/press-releases/2023/09/standing-on-the-shoulders-of-punk-the-early-years-of-dance.html?origin=kUP%2Byx6UTZqvuJiCJKnnEQ){:target="_blank"}_. 
+- Standing on the shoulders of punk: the early years of dance (interview and text by Joost van Tilburg). [Press release by the University of Amsterdam](https://www.uva.nl/en/content/news/press-releases/2023/09/standing-on-the-shoulders-of-punk-the-early-years-of-dance.html?origin=kUP%2Byx6UTZqvuJiCJKnnEQ){:target="_blank"}. 
 
 
 
@@ -27,9 +27,9 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 
 - When existing genre communities adopt new genres: combining network and field perspectives to explain the rise of trance music. Status: revise and resubmit at _Cultural Sociology_.
 
-- The dance of markets and movements: The emergence and development of dance genres in the US, UK, and the Netherlands, 1985–2005. With Alex van Venrooij. Status: submitted to _Poetics_.
+- The dance of markets and movements: The emergence and development of dance genres in the US, UK, and the Netherlands, 1985–2005. With Alex van Venrooij. Status: under review at _Poetics_.
 
-- How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005. With Giselinde Kuipers and Alex van Venrooij. Status: will be submitted in due course to _Sociology_.
+- How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005. With Giselinde Kuipers and Alex van Venrooij. Status: will be submitted in due course.
 
 
 - The moral affordances of online sex talk: Sexual meaning-making and the creation of moral spaces on a Dutch discussion forum. With Myra Bosman and Giselinde Kuipers. Status: Revise and resubmit at _The Sociological Review_.
@@ -37,6 +37,7 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 - Multi-Actors Governance in Megaprojects: narratives as governance instruments. With Giovanni Esposito and others. Status: in preperation. 
 
 ## See also
+
 [Google Scholar](https://scholar.google.com/citations?user=czGM1vUAAAAJ&hl=nl){:target="_blank"}
 
 
