@@ -25,16 +25,19 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 
 ## Papers submitted or in preparation
 
+_Related to PhD_
+
 - When existing genre communities adopt new genres: combining network and field perspectives to explain the rise of trance music. Status: revise and resubmit at _Cultural Sociology_.
 
 - The dance of markets and movements: The emergence and development of dance genres in the US, UK, and the Netherlands, 1985–2005. With Alex van Venrooij. Status: under review at _Poetics_.
 
 - How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005. With Giselinde Kuipers and Alex van Venrooij. Status: will be submitted in due course.
 
+_Nonrelated to PhD_
 
 - The moral affordances of online sex talk: Sexual meaning-making and the creation of moral spaces on a Dutch discussion forum. With Myra Bosman and Giselinde Kuipers. Status: Revise and resubmit at _The Sociological Review_.
 
-- Sense and Sensibility: narrative strategies shaping megaproject development. With Lama Alarda and Giovanni Esposito and others. Status: submitted to _Project Leadership & Society_.
+- Sense and Sensibility: narrative strategies shaping megaproject development. With Lama Alarda and Giovanni Esposito. Status: Revise and resubmit at _Project Leadership & Society_.
  
 
 ## See also
