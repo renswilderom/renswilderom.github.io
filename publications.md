@@ -14,8 +14,6 @@ With Alex van Venrooij. Published at _[Poetics](https://www.sciencedirect.com/sc
 - Separating the Wheat from the Chaff: A Topic- and Keyword-Based
 Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others. Published at _[Poetics](https://www.sciencedirect.com/science/article/abs/pii/S0304422X20302813){:target="_blank"}_.
 
-- The Dynamics of Dance: An Early History of Electronic Dance Music. With Alex van Venrooij. Published at _[The Bloomsbury Handbook of Popular Music and Youth Culture](https://www.bloomsbury.com/uk/bloomsbury-handbook-of-popular-music-and-youth-culture-9781501333705/){:target="_blank"}_. 
-
 
 ## Popular/general audiences
 
@@ -29,7 +27,7 @@ _Related to PhD_
 
 - When existing genre communities adopt new genres: combining network and field perspectives to explain the rise of trance music. Status: revise and resubmit at _Cultural Sociology_.
 
-- The dance of markets and movements: The emergence and development of dance genres in the US, UK, and the Netherlands, 1985–2005. With Alex van Venrooij. Status: under review at _Poetics_.
+- The dance of markets and movements: The emergence and development of dance genres in the US, UK, and the Netherlands, 1985–2005. With Alex van Venrooij. Status: revise and resubmit at _Poetics_ (minor revision/conditional accept).
 
 - How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005. With Giselinde Kuipers and Alex van Venrooij. Status: will be submitted in due course.
 
