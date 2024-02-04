@@ -35,7 +35,7 @@ _Nonrelated to PhD_
 
 - The moral affordances of online sex talk: Sexual meaning-making and the creation of moral spaces on a Dutch discussion forum. With Myra Bosman and Giselinde Kuipers. Status: Revise and resubmit at _The Sociological Review_.
 
-- Sense and Sensibility: narrative strategies shaping megaproject development. With Lama Alarda and Giovanni Esposito. Status: Revise and resubmit at _Project Leadership & Society_.
+- Sense and Sensibility: narrative strategies shaping megaproject development. With Lama Alarda and Giovanni Esposito. Status: Forthcoming in _Project Leadership & Society_.
  
 
 ## See also
