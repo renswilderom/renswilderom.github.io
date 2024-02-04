@@ -33,10 +33,3 @@ Enjoy, and reach out to me for any questions or suggestions! -->
 
 
 
-<!-- ![home](/assets/img/home_2.jpeg) -->
-
-<!-- <p align="center">
-<img src="/assets/img/home_3.jpeg" alt="Carpathian" width="600" height="600" />
-</p>
-
-Photo by the author, Carpathian mountains, Ukraine, 2021. -->
