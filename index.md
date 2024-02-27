@@ -11,7 +11,7 @@ posts_page: /blog/
 featured: True
 ---
 
-I am a Core Lecturer in Computational Social Sciences at the University of Amsterdam and a Visiting Professor at the School of Business Administration at the American University Kyiv.
+I am a Core Lecturer in Computational Social Sciences at the University of Amsterdam and a Visiting Fellow at the School of Business Administration at the American University Kyiv.
 
 My PhD dissertation [“Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005”](https://drive.google.com/file/d/1-DKHgvI4YEHkV6PB8xV9UpGsJlSC6a1g/view?usp=sharing){:target="_blank"} has recently (27 September, 2023) been completed. See [this page](https://www.renswilderom.nl/dissertation/) for more information
 
