@@ -9,10 +9,13 @@ sitemap: true
 
 - Intersecting fields: the influence of proximate field dynamics
 on the development of electronic/dance music in the US and UK.
-With Alex van Venrooij. Published at _[Poetics](https://www.sciencedirect.com/science/article/abs/pii/S0304422X18300342){:target="_blank"}_.
+With Alex van Venrooij. Published in _[Poetics](https://www.sciencedirect.com/science/article/abs/pii/S0304422X18300342){:target="_blank"}_.
 
 - Separating the Wheat from the Chaff: A Topic- and Keyword-Based
-Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others. Published at _[Poetics](https://www.sciencedirect.com/science/article/abs/pii/S0304422X20302813){:target="_blank"}_.
+Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others. Published in _[Poetics](https://www.sciencedirect.com/science/article/abs/pii/S0304422X20302813){:target="_blank"}_.
+
+- Sense and Sensibility: narrative strategies shaping megaproject development. With Lama Alarda and Giovanni Esposito. Published in _[Project Leadership & Society](https://www.sciencedirect.com/science/article/pii/S2666721524000036?via%3Dihub){:target="_blank"}_.
+ 
 
 
 ## Media
@@ -37,8 +40,7 @@ _Unrelated to PhD_
 
 - The moral affordances of online sex talk: Sexual meaning-making and the creation of moral spaces on a Dutch discussion forum. With Myra Bosman and Giselinde Kuipers. Status: Revise and resubmit at _The Sociological Review_.
 
-- Sense and Sensibility: narrative strategies shaping megaproject development. With Lama Alarda and Giovanni Esposito. Status: Forthcoming in _Project Leadership & Society_.
- 
+
 
 ## See also
 
