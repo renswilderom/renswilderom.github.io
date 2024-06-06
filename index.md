@@ -11,8 +11,6 @@ posts_page: /blog/
 featured: True
 ---
 
-Hello 👋 I study all kinds of culture using computational methods. Trained as a Cultural Sociologist, so fond of theory.
-
 I work as a Core Lecturer in Computational Social Sciences at the University of Amsterdam and a Visiting Lecturer at the American University Kyiv, where I teach Introduction to Sociology and Innovations in Society. 
 
 My PhD dissertation [“Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005”](https://drive.google.com/file/d/1-DKHgvI4YEHkV6PB8xV9UpGsJlSC6a1g/view?usp=sharing){:target="_blank"} has recently (27 September, 2023) been completed.
