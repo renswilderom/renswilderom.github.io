@@ -20,9 +20,14 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 
 ## Media
 
-- Standing on the shoulders of punk: the early years of dance. Press release by the University of Amsterdam, available in [English](https://www.uva.nl/en/content/news/press-releases/2023/09/standing-on-the-shoulders-of-punk-the-early-years-of-dance.html?origin=kUP%2Byx6UTZqvuJiCJKnnEQ){:target="_blank"} and [Dutch](https://www.uva.nl/content/nieuws/persberichten/2023/09/bouwen-op-de-punkscene-de-beginjaren-van-de-dance.html){:target="_blank"}. Interview and text by Joost van Tilburg.
 
-- Onder Mediadoctoren (Dutch language podcast series with media researchers). [Afl 180:](https://ondermediadoctoren.nl/afl-180-waarom-amerikanen-house-niet-begrijpen/){:target="_blank"} Waarom Amerikanen house niet begrijpen.
+- "Nederland, land van kaas, molens en gabber." Interview in [_Trouw_](https://drive.google.com/file/d/1aZlTkNsCaThpJDb-c81JxmxZYIpE-uoX/view?usp=sharing){:target="_blank"}.
+
+- "En zo werd house hot." Interview in [_Parool_](https://drive.google.com/file/d/1hVzAmTfEkClXxLhHQmO4kiqwug5hVfFh/view?usp=sharing){:target="_blank"}.. 
+
+- "Waarom Amerikanen house niet begrijpen." Podcast by [_Onder Mediadoctoren_](https://ondermediadoctoren.nl/afl-180-waarom-amerikanen-house-niet-begrijpen/){:target="_blank"} (Dutch language podcast series with media researchers).
+
+- "Standing on the shoulders of punk: the early years of dance." Press release by the University of Amsterdam, available in [English](https://www.uva.nl/en/content/news/press-releases/2023/09/standing-on-the-shoulders-of-punk-the-early-years-of-dance.html?origin=kUP%2Byx6UTZqvuJiCJKnnEQ){:target="_blank"} and [Dutch](https://www.uva.nl/content/nieuws/persberichten/2023/09/bouwen-op-de-punkscene-de-beginjaren-van-de-dance.html){:target="_blank"}. Interview and text by Joost van Tilburg.
 
 
 
