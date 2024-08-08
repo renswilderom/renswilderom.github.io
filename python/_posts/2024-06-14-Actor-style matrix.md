@@ -27,9 +27,7 @@ In the light of such a "cultural endogneous" dynamic (Van Venrooij, 2015; Godart
 
 ### 1. Open the dataset 
 
-Download a [sample dataset](https://drive.google.com/file/d/1rtlzCniBY5g-wCNmyZf0DrSaIrccPWND/view?usp=sharing){:target="_blank"} and save it locally on your computer. 
-
-This dataset contains a sample of 3000 horror films released in the US. The variables included are:
+Download a [sample dataset](https://drive.google.com/file/d/1rtlzCniBY5g-wCNmyZf0DrSaIrccPWND/view?usp=sharing){:target="_blank"} and save it locally on your computer. This dataset contains a sample of 3000 horror films released in the US. The variables included are:
 - year
 - title
 - producers_list, directors_list, writers_list, editing_list, cinematography_list, production_design_list and music_departments_list, who together can be considered as the 'core crew' (see Cattani and Ferriani, 2009)
@@ -45,8 +43,9 @@ df.head()
 
 ```
 
+The code cell below uses some data wrangling to create a clean 'core crew' column. 
+
 ```python
-# Create a clean 'core crew' column
 # These will be the 'actors' in the actor-style matrix
 df['core_crew'] = df['producers_list'] + df['directors_list'] + df['writers_list'] + df['editing_list'] + df['cinematography_list'] + df['production_design_list'] + df['music_departments_list']
 
