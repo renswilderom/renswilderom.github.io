@@ -27,12 +27,7 @@ In the light of such a "cultural endogneous" dynamic (Van Venrooij, 2015; Godart
 
 ### 1. Open the dataset 
 
-Download a [sample dataset](https://drive.google.com/file/d/1rtlzCniBY5g-wCNmyZf0DrSaIrccPWND/view?usp=sharing){:target="_blank"} and save it locally on your computer. This dataset contains a sample of 3000 horror films released in the US. The variables included are:
-- year
-- title
-- producers_list, directors_list, writers_list, editing_list, cinematography_list, production_design_list and music_departments_list, who together can be considered as the 'core crew' (see Cattani and Ferriani, 2009)
-- keywords_list
-
+Download a [sample dataset](https://drive.google.com/file/d/1rtlzCniBY5g-wCNmyZf0DrSaIrccPWND/view?usp=sharing){:target="_blank"} and save it locally on your computer. This dataset contains a sample of 3000 horror films released in the US. The variables included are: "year," "title," and "keywords_list." Next to this, there is also the "producers_list," "directors_list," "writers_list," "editing_list," "cinematography_list," "production_design_list" and "music_departments_list," who together can be considered as the "core crew" (see Cattani and Ferriani, 2009).
 
 ```python
 import pandas as pd
@@ -40,12 +35,10 @@ df = pd.read_csv('C:/Users/bwilder1/Downloads/film_keywords.csv')
 # change the file path to the location where the data is stored on your computer
 print(df.shape)
 df.head()
-
 ```
 
-The code cell below uses some data wrangling to create a clean 'core crew' column. 
-
 ```python
+# This code cell uses some data wrangling to create a clean 'core crew' column. 
 # These will be the 'actors' in the actor-style matrix
 df['core_crew'] = df['producers_list'] + df['directors_list'] + df['writers_list'] + df['editing_list'] + df['cinematography_list'] + df['production_design_list'] + df['music_departments_list']
 
