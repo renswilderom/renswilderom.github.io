@@ -225,9 +225,10 @@ temp.insert(0, 'year', year)
 datetime = pd.to_datetime(temp['year'], errors = 'coerce', format = "%Y")
 temp.insert(0, 'datetime', datetime) 
 temp = temp.drop('year', axis=1)
-# Add title and keywords
+# Add title
 title = df['title'].values
 temp.insert(1, 'title', title)
+# Add keywords
 keywords_list = df['keywords_list'].values
 temp.insert(2, 'keywords_list', keywords_list)
 temp.head()
