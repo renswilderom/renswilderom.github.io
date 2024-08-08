@@ -167,8 +167,26 @@ for cluster in clusters:
     index += 1
 ```
 
-**Creating a doc-topic matrix**
-This matrix displays the probability of each film title being associated with specific topics, indicating the strength of these associations. It is used to determine a cutoff point, identifying whether a film title is "strongly associated" with a particular topic. A "strong" association is defined as a topic probability that exceeds 2 standard deviations (SD) above the mean probability.
+This gives:
+
+0 [[21, 23, 63], 'christian_persecution_children_propaganda_religious']
+1 [[7, 13, 28, 31, 33, 42, 43, 44, 49, 56, 70], 'werewolf_character_monster_voodoo_film']
+2 [[61, 62], 'hp_lovecraft_works_based_chambers']
+3 [[2, 6, 8, 25], 'independent_film_psychotronic_ghost_haunting']
+4 [[0, 18, 20, 34, 69], 'creature_animal_feature_monster_giant']
+5 [[5, 22, 45, 53, 57, 60, 73], 'killer_serial_police_murder_shot']
+6 [[3, 11, 30, 32, 65], 'slasher_teen_teenager_school_teenage']
+7 [[12, 17, 24, 26, 36, 47, 58, 68], 'nudity_female_frontal_sex_panties']
+8 [[14, 19, 37, 38, 39, 52, 67], 'relationship_sister_daughter_brother_mother']
+9 [[4, 51, 66, 72], 'satanic_devil_demon_supernatural_satanism']
+10 [[1, 64, 71], 'alien_space_outer_spaceship_planet']
+11 [[15, 50, 54, 59], 'killer_murderer_sadistic_masked_serial']
+12 [[27, 41], 'title_punctuation_apostrophe_exclamation_character']
+13 [[9, 29, 35], 'zombie_apocalypse_survival_eating_flesh']
+14 [[46, 48], 'rated_directed_title_direction_cardinal']
+15 [[10, 16, 40], 'vampire_blood_versus_hunter_hybrid']
+
+The code below creates a doc-topic matrix. It shows the probability of each film title being associated with specific topics, indicating the strength of these associations. It is used to determine a cutoff point, identifying whether a film title is "strongly associated" with a particular topic. A "strong" association is defined as a topic probability that exceeds 2 standard deviations (SD) above the mean probability.
 
 ```python
 # Get the doc-topic matrix
