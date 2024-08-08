@@ -14,7 +14,7 @@ This blogpost provides a fully working script to: i) open and prepare a dataset;
 To start your own topic modeling project, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}, which makes Python programming easier (it comes with many packages pre-installed, helps you to install packages, manage package dependencies, and it includes Jupyter Notebooks, among other useful programs). The remainder of this post assumes that you are working with Anaconda and Jupyter Notebooks. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get there.
 
 In addition, you need to install the following extra package(s) for the script below to work:
-> BERT
+> bertopic
 
 
 [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get started with Anaconda, the installation of packages, and Jupyter Notebooks.
@@ -27,7 +27,7 @@ In addition, you need to install the following extra package(s) for the script b
 
 ## The code
 
-### 1. 
+### 1. Open the dataset 
 
 Download a [sample dataset](https://www.kaggle.com/arushchillar/disneyland-reviews){:target="_blank"} and save it locally on your computer. 
 
@@ -36,9 +36,21 @@ Download a [sample dataset](https://www.kaggle.com/arushchillar/disneyland-revie
 
 ```
 
-### 2. 
+### 2. Create a new BERTopic model and visualize it 
 
 ...
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
 
 ```python
 
@@ -50,9 +62,25 @@ Download a [sample dataset](https://www.kaggle.com/arushchillar/disneyland-revie
 <img src="/assets/img/blog/bastien-nvs-a4UVioeQGGY-unsplash.jpg" alt="disney" width="400" style="padding-top: 15px;"/>
 </p>
 
-### 3. 
+### 3. Unpacking the clusters
 
 ...
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
 
 ```python
 
@@ -65,11 +93,31 @@ This gives:
 
 
 
-### 4. 
+### 4. The actor-style matrix
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
 
 
 
 
 ## Sources
 
-Photos by [Bastien Nvs](https://unsplash.com/@bastien_nvs){:target="_blank"}.
+Photos by [Jakob Owens](https://unsplash.com/@jakobowens1){:target="_blank"}.
