@@ -84,17 +84,64 @@ df = df.loc[df['len_core_crew'] >= 2]
 
 ### 2. Create a new BERTopic model and visualize it 
 
+This section draws on the code from the [BERT documentation](https://maartengr.github.io/BERTopic/getting_started/visualization/visualize_hierarchy.html){:target="_blank"}. 
+
 
 
 ```python
+# %%time
 
+# Create a new model
+# This model uses a CountVectorizer
+# calculate_probabilities=False to speed up the process
+# min_topic_size= can be decreased (e.g. to 6) for smaller datasets. By default it is 10. 
+
+# Turn the column keywords_list into a list
+doc_list = df['keywords_list'].tolist()
+
+from bertopic import BERTopic
+from sklearn.feature_extraction.text import CountVectorizer
+
+vectorizer_model = CountVectorizer(stop_words="english")
+topic_model = BERTopic(vectorizer_model=vectorizer_model, calculate_probabilities=False, min_topic_size=6)
+
+topics, probs = topic_model.fit_transform(doc_list)
+
+# Optional: load an existing model
+# from bertopic import BERTopic
+# topic_model = BERTopic.load("path to and name of model") # adjust path and name 
 ```
 
 ```python
-
+# Get the descriptives as a topic model table
+topic_df = topic_model.get_topic_info()
+n_topics = topic_df.shape[0] 
+n_obs = df.shape[0] 
+topic_df.head()
 ```
 
+This gives:
+|    |   Topic |   Count | Name                                          | Representation                                                                                                                 |
+|---:|--------:|--------:|:----------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
+|  0 |      -1 |    1525 | -1_female_nudity_woman_film                   | ['female', 'nudity', 'woman', 'film', 'murder', 'death', 'man', 'sex', 'horror', 'killer']                                     |
+|  1 |       0 |      81 | 0_creature_shark_feature_giant                | ['creature', 'shark', 'feature', 'giant', 'monster', 'sea', 'underwater', 'animal', 'attack', 'insect']                        |
+|  2 |       1 |      68 | 1_alien_space_outer_planet                    | ['alien', 'space', 'outer', 'planet', 'spaceship', 'sci', 'fi', 'invasion', 'creature', 'spacecraft']                          |
+|  3 |       2 |      58 | 2_psychotronic_film_independent_vacation      | ['psychotronic', 'film', 'independent', 'vacation', 'time', 'brain', 'travel', 'gone', 'wrong', 'anthology']                   |
+|  4 |       3 |      47 | 3_slasher_sorority_teen_college               | ['slasher', 'sorority', 'teen', 'college', 'student', 'school', 'killer', 'girl', 'female', 'teenager']                        |
+|  5 |       4 |      47 | 4_devil_demon_satanic_satan                   | ['devil', 'demon', 'satanic', 'satan', 'satanism', 'priest', 'demonic', 'catholic', 'supernatural', 'eclipse']                 |
+|  6 |       5 |      46 | 5_serial_killer_slasher_film                  | ['serial', 'killer', 'slasher', 'film', 'police', 'independent', 'officer', 'cop', 'chevrolet', 'murder']                      |
+|  7 |       6 |      46 | 6_independent_film_experimental_jackalope     | ['independent', 'film', 'experimental', 'jackalope', 'improvisation', 'shakespearean', 'dunne', 'post', 'andronicus', 'titus'] |
+|  8 |       7 |      39 | 7_voodoo_zombie_film_haiti                    | ['voodoo', 'zombie', 'film', 'haiti', 'island', 'opera', 'cult', 'calypso', 'psychotronic', 'graveyard']                       |
+|  9 |       8 |      39 | 8_ghost_haunted_haunting_house                | ['ghost', 'haunted', 'haunting', 'house', 'suspense', 'story', 'hampshire', 'spirit', 'attraction', 'true']                    |
+| 10 |       9 |      36 | 9_zombie_apocalypse_survival_flesh            | ['zombie', 'apocalypse', 'survival', 'flesh', 'eating', 'outbreak', 'horror', 'sequel', 'undead', 'violence']|
+
+_Note:_ row 11-74 are removed to save space. 
+
+Now you can visualize the topics with an intertopic distance map and a hierarchical cluster graph
+
 ```python
+# Intertopic distance map 
+topic_model.visualize_topics()
 
 ```
 
