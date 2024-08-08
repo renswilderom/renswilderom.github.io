@@ -21,13 +21,18 @@ In addition, you need to install the following extra package(s) for the script b
 
 Imagine a director of horror films who develops the innovative idea to produce a "zombie" film. The title resonates with audiences and becomes a success, so more directors follow and more zombie movies are released. At one point, however, audiences would be bored with yet another film about brain-dead walkers. The market for this stylistic variation is saturated and the production of such films declines. Audiences are now looking for something new, and there is an opportunity for a new stylistic variation to emerge. 
 
-In the light of such a "cultural endogneous" dynamic (Van Venrooij, 2015; Godart and Galunic, 2019; Sgourev, Aadland, and Formilan, 2023), it is interesting to ask who is associated with the production of which film styles? Insights into this question could help us to understand how, for instance, film makers' network positions is shaped by such recurring style dynamics. Ultimately, this can help us to better comprehend the market-shaping effects of style and the performative effects of culture more generally. 
+In the light of such a "cultural endogneous" dynamic (Van Venrooij, 2015; Godart and Galunic, 2019; Sgourev, Aadland, and Formilan, 2023), it is interesting to ask who is associated with the production of which film styles? Insights into this question could help us to understand how, for instance, film makers' network positions is shaped by such recurring style dynamics. Ultimately, this can help us to better comprehend how style dynamics shape the film industry, as well as the performative effects of culture more generally. 
+
+This blog post uses BERTopic (Grootendorst, 2022) to cluster frequently co-appearing film key words into topics, which, in turn, represent distinct styles within films.  
+
+
+
 
 ## The code
 
 ### 1. Open the dataset 
 
-Download a [sample dataset](https://drive.google.com/file/d/1rtlzCniBY5g-wCNmyZf0DrSaIrccPWND/view?usp=sharing){:target="_blank"} and save it locally on your computer. This dataset contains a sample of 3000 horror films released in the US. The variables included are: "year," "title," and "keywords_list." Next to this, there is also the "producers_list," "directors_list," "writers_list," "editing_list," "cinematography_list," "production_design_list" and "music_departments_list," who together can be considered as the "core crew" (see Cattani and Ferriani, 2009).
+Download this [sample dataset](https://drive.google.com/file/d/1rtlzCniBY5g-wCNmyZf0DrSaIrccPWND/view?usp=sharing){:target="_blank"} and save it locally on your computer. It contains a sample of 3000 horror films released in the US. The variables included are: "year," "title," and "keywords_list." Next to this, there is also the "producers_list," "directors_list," "writers_list," "editing_list," "cinematography_list," "production_design_list" and "music_departments_list," who together can be considered as the "core crew" (see Cattani and Ferriani, 2009).
 
 ```python
 import pandas as pd
@@ -65,7 +70,6 @@ df['core_crew'] = df['core_crew'].str.split(',')
 import numpy as np
 df['len_core_crew'] = df['core_crew'].apply(len)
 df = df.loc[df['len_core_crew'] >= 2]
-
 ```
 
 ### 2. Create a new BERTopic model and visualize it 
@@ -282,6 +286,8 @@ pivot_df
 Cattani, G., & Ferianni, S. (2008). A Core/Periphery Perspective on Individual Creative Performance. _Organization Science_, 19(6), 824—844.
 
 Godart, F.C., & Galunic, C. (2019). Explaining the Popularity of Cultural Elements: Networks, Culture, and the Structural Embeddedness of High Fashion Trends. _Organization Science_, 30(1), 151-168.
+
+Grootendorst, M. (2022). BERTopic: Neural topic modeling with a class-based TF-IDF procedure. Available at Arxiv: https://arxiv.org/pdf/2203.05794.pdf
 
 Sgourev, S., Aadland, E., & Formilan, G. (2023). Relations in Aesthetic Space: How Color Enables Market Positioning. _Administrative Science Quarterly_, 68(1), 146-185.
 
