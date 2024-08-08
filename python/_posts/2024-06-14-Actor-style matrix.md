@@ -142,18 +142,26 @@ Now you can visualize the topics with an intertopic distance map and a hierarchi
 ```python
 # Intertopic distance map 
 topic_model.visualize_topics()
-
 ```
-
-```python
-
-```
-
-
 
 <p align="center">
-<img src="/assets/img/blog/bastien-nvs-a4UVioeQGGY-unsplash.jpg" alt="disney" width="400" style="padding-top: 15px;"/>
+<img src="/assets/img/blog/newplot (12).png" alt="distance" width="800" style="padding-top: 15px;"/>
 </p>
+
+```python
+# Hierarchichal clustering
+hierarchical_topics = topic_model.hierarchical_topics(doc_list)
+fig = topic_model.visualize_hierarchy()
+fig
+```
+
+<p align="center">
+<img src="/assets/img/blog/newplot (14).png" alt="hierarchical" width="800" style="padding-top: 15px;"/>
+</p>
+
+
+
+
 
 ### 3. Unpacking the clusters
 
