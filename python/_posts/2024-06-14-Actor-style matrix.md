@@ -26,9 +26,6 @@ Imagine a director of horror films who develops the innovative idea to produce a
 
 In the light of such a "cultural endogneous" dynamic (Van Venrooij, 2015; Godart and Galunic, 2019; Sgourev, Aadland, and Formilan, 2023), it is interesting to ask who is associated with the production of which film styles? Insights into this question could help us to understand how, for instance, film makers' network positions is shaped by such recurring style dynamics. Ultimately, this can help us to better comprehend the market-shaping effects of style and the performative effects of culture more generally. 
 
-...something about BERTopic
-
-
 ## The code
 
 ### 1. Open the dataset 
