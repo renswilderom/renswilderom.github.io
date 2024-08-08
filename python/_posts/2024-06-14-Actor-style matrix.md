@@ -1,8 +1,8 @@
 ---
 layout: post
-title: BERTopic actor-style matrix with film data
+title: BERTopic actor-style matrix
 image:
-  path: /assets/img/blog/bastien-nvs-g3CR0UJ1CyM-unsplash.jpg
+  path: /assets/img/blog/jakob-owens-ntqaFfrDdEA-unsplash-scaled.jpg
 description: >
   Linking film styles to 'core crew' members with BERTopic
 sitemap: false
