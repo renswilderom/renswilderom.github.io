@@ -11,7 +11,7 @@ comments: false
 
 This blogpost provides a fully working script to: i) open and prepare a dataset; ii) run a model; and iii) retrieve new, useful information from the model's output.
 
-To start your own topic modeling project, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}, which makes Python programming easier (it comes with many packages pre-installed, helps you to install packages, manage package dependencies, and it includes Jupyter Notebooks, among other useful programs). The remainder of this post assumes that you are working with Anaconda and Jupyter Notebooks. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get there.
+To start your own actor-style project, you need a working Python programming environment. For this I strongly recommend [Anaconda](https://www.anaconda.com/){:target="_blank"}, which makes Python programming easier (it comes with many packages pre-installed, helps you to install packages, manage package dependencies, and it includes Jupyter Notebooks, among other useful programs). The remainder of this post assumes that you are working with Anaconda and Jupyter Notebooks. [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get there.
 
 In addition, you need to install the following extra package(s) for the script below to work:
 > bertopic
@@ -24,14 +24,20 @@ In addition, you need to install the following extra package(s) for the script b
 
 Imagine a director of horror films who develops the innovative idea to produce a "zombie" film. The title resonates with audiences and becomes a success, so more directors follow and more zombie movies are released. At one point, however, audiences would be bored with yet another film about brain-dead walkers. The market for this stylistic variation is saturated and the production of such films declines. Audiences are now looking for something new, and there is an opportunity for a new stylistic variation to emerge. 
 
-In the light of such a "cultural endogneous" dynamic (Van Venrooij, 2015; Godart and Galunic, 2019; Sgourev, Aadland, and Formilan, 2023), it is interesting to ask who is associated with which film styles? Insights into this question could help us to understand how, for instance, film makers' network positions - and, ultimately, the organization of the film industry as a whole - is shaped by such recurring style dynamics. 
+In the light of such a "cultural endogneous" dynamic (Van Venrooij, 2015; Godart and Galunic, 2019; Sgourev, Aadland, and Formilan, 2023), it is interesting to ask how the popularity of film styles changes with time and who is associated with which film styles? Insights into this question could help us to understand how, for instance, film makers' network positions is shaped by such recurring style dynamics. 
 
 
 ## The code
 
 ### 1. Open the dataset 
 
-Download a [sample dataset](https://www.kaggle.com/arushchillar/disneyland-reviews){:target="_blank"} and save it locally on your computer. 
+Download a [sample dataset](https://drive.google.com/file/d/1rtlzCniBY5g-wCNmyZf0DrSaIrccPWND/view?usp=sharing){:target="_blank"} and save it locally on your computer. 
+
+This dataset contains a sample of 3000 horror films released in the US. The variables included are:
+- year
+- title
+- producers_list, directors_list, writers_list, editing_list, cinematography_list, production_design_list and music_departments_list, who together can be considered as the 'core crew' (see Cattani and Ferriani, 2009)
+- keywords_list
 
 
 ```python
@@ -120,8 +126,12 @@ This gives:
 
 ## References
 
+Cattani, G., & Ferianni, S. (2008). A Core/Periphery Perspective on Individual Creative Performance. _Organization Science_, 19(6), 824—844.
+
 Godart, F.C., & Galunic, C. (2019). Explaining the Popularity of Cultural Elements: Networks, Culture, and the Structural Embeddedness of High Fashion Trends. _Organization Science_, 30(1), 151-168.
+
 Sgourev, S., Aadland, E., & Formilan, G. (2023). Relations in Aesthetic Space: How Color Enables Market Positioning. _Administrative Science Quarterly_, 68(1), 146-185.
+
 Van Venrooij, A.T. (2015). A Community Ecology of Genres. _Poetics_, 52, 104-123.
 
 
