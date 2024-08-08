@@ -20,11 +20,13 @@ In addition, you need to install the following extra package(s) for the script b
 [This page](https://renswilderom.github.io/blog/python/2021-11-19-How-to-get-started-with-Python/){:target="_blank"} will help you to get started with Anaconda, the installation of packages, and Jupyter Notebooks.
 
 
-## The case: Who’s Creating Which Film Styles?
+## The case: Who’s creating which film styles?
 
 Imagine a director of horror films who develops the innovative idea to produce a "zombie" film. The title resonates with audiences and becomes a success, so more directors follow and more zombie movies are released. At one point, however, audiences would be bored with yet another film about brain-dead walkers. The market for this stylistic variation is saturated and the production of such films declines. Audiences are now looking for something new, and there is an opportunity for a new stylistic variation to emerge. 
 
-In the light of such a "cultural endogneous" dynamic (Van Venrooij, 2015; Godart and Galunic, 2019; Sgourev, Aadland, and Formilan, 2023), it is interesting to ask how the popularity of film styles changes with time and who is associated with which film styles? Insights into this question could help us to understand how, for instance, film makers' network positions is shaped by such recurring style dynamics. 
+In the light of such a "cultural endogneous" dynamic (Van Venrooij, 2015; Godart and Galunic, 2019; Sgourev, Aadland, and Formilan, 2023), it is interesting to ask who is associated with the production of which film styles? Insights into this question could help us to understand how, for instance, film makers' network positions is shaped by such recurring style dynamics. Ultimately, this can help us to better comprehend the market-shaping effects of style and the performative effects of culture more generally. 
+
+...something about BERTopic
 
 
 ## The code
@@ -41,12 +43,48 @@ This dataset contains a sample of 3000 horror films released in the US. The vari
 
 
 ```python
+import pandas as pd
+df = pd.read_csv('C:/Users/bwilder1/Downloads/film_keywords.csv') 
+# change the file path to the location where the data is stored on your computer
+print(df.shape)
+df.head()
+
+```
+
+```python
+# Create a clean 'core crew' column
+# These will be the 'actors' in the actor-style matrix
+df['core_crew'] = df['producers_list'] + df['directors_list'] + df['writers_list'] + df['editing_list'] + df['cinematography_list'] + df['production_design_list'] + df['music_departments_list']
+
+# Various consecutive cleaning steps to clean up the string
+df["core_crew"] = (
+    df["core_crew"]
+    .str.replace('"', '', regex=False)
+    .str.replace("'][", ',', regex=False)
+    .str.replace("[", '', regex=False)
+    .str.replace("]", '', regex=False)
+    .str.replace("'", '', regex=False)
+    .str.rstrip(',')
+)
+
+# Remove rows with empty lists (strings of only two characters [])
+import numpy as np
+df['len'] = df['core_crew'].apply(len)
+df = df.loc[df['len'] != 0]
+
+# Turn again into a list
+df['core_crew'] = df['core_crew'].str.split(',')
+
+# Keep row with 2 or more core crew members
+import numpy as np
+df['len_core_crew'] = df['core_crew'].apply(len)
+df = df.loc[df['len_core_crew'] >= 2]
 
 ```
 
 ### 2. Create a new BERTopic model and visualize it 
 
-...
+
 
 ```python
 
