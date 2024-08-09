@@ -4,7 +4,7 @@ title: BERTopic actor-style matrix
 image:
   path: /assets/img/blog/jakob-owens-ntqaFfrDdEA-unsplash-scaled.jpg
 description: >
-  Linking film styles to 'core crew' members with BERTopic
+  Linking film styles to film makers with BERTopic
 sitemap: false
 comments: false
 ---
