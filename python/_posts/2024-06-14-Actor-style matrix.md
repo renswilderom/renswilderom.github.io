@@ -32,7 +32,7 @@ To identify distinct styles in films, I use BERTopic (see Grootendorst, 2022, an
 
 Download this [sample dataset](https://drive.google.com/file/d/1rtlzCniBY5g-wCNmyZf0DrSaIrccPWND/view?usp=sharing){:target="_blank"} with US horror films and save it locally on your computer. The variables included are: "year," "title," and "keywords_list." Next to this, there is also the "producers_list," "directors_list," "writers_list," "editing_list," "cinematography_list," "production_design_list" and "music_departments_list," who together can be considered as the "core crew" (see Cattani and Ferriani, 2009).
 
-Please note that some the code cells' output has been removed to improve the readability of this blogpost.
+Please note that some of the code cells' output has been removed to improve the readability of this blogpost.
 
 ```python
 import pandas as pd
