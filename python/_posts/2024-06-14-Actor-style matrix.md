@@ -286,7 +286,7 @@ Cattani, G., & Ferianni, S. (2008). A Core/Periphery Perspective on Individual C
 
 Godart, F.C., & Galunic, C. (2019). Explaining the Popularity of Cultural Elements: Networks, Culture, and the Structural Embeddedness of High Fashion Trends. _Organization Science_, 30(1), 151-168.
 
-Grootendorst, M. (2022). BERTopic: Neural topic modeling with a class-based TF-IDF procedure. Available at Arxiv: https://arxiv.org/pdf/2203.05794.pdf
+Grootendorst, M. (2022). BERTopic: Neural topic modeling with a class-based TF-IDF procedure. Available at [Arxiv](https://arxiv.org/pdf/2203.05794.pdf){:target="_blank"}.
 
 Sgourev, S., Aadland, E., & Formilan, G. (2023). Relations in Aesthetic Space: How Color Enables Market Positioning. _Administrative Science Quarterly_, 68(1), 146-185.
 
