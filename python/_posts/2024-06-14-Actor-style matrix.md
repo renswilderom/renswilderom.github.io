@@ -32,6 +32,8 @@ To identify distinct styles in films, I use BERTopic (see Grootendorst, 2022, an
 
 Download this [sample dataset](https://drive.google.com/file/d/1rtlzCniBY5g-wCNmyZf0DrSaIrccPWND/view?usp=sharing){:target="_blank"} with US horror films and save it locally on your computer. The variables included are: "year," "title," and "keywords_list." Next to this, there is also the "producers_list," "directors_list," "writers_list," "editing_list," "cinematography_list," "production_design_list" and "music_departments_list," who together can be considered as the "core crew" (see Cattani and Ferriani, 2009).
 
+Please note that some the code cells' output has been removed to improve the readability of this blogpost.
+
 ```python
 import pandas as pd
 df = pd.read_csv('C:/Users/bwilder1/Downloads/film_keywords.csv') 
@@ -72,14 +74,14 @@ df = df.loc[df['len_core_crew'] >= 2]
 
 ### 2. Create a new BERTopic model and visualize it 
 
-This section draws on the code from the [BERT documentation](https://maartengr.github.io/BERTopic/getting_started/visualization/visualize_hierarchy.html){:target="_blank"}. 
+This section draws on some of illustrative code from [BERT's homepage](https://maartengr.github.io/BERTopic/getting_started/visualization/visualize_hierarchy.html){:target="_blank"}. The `doc_list` serving as the model's input is created from the column with plot-related keywords. Running a BERTopic takes quite a bit longer than, for instance, a conventional LDA topic model. So, it can be smart to [save a BERTopic model](https://maartengr.github.io/BERTopic/getting_started/serialization/serialization.html){:target="_blank"} in order to re-use it at a later point. 
 
 
 ```python
 # %%time
 
 # Create a new model
-# This model uses a CountVectorizer
+# This model uses the default CountVectorizer
 # calculate_probabilities=False to speed up the process
 # min_topic_size= can be decreased (e.g. to 6) for smaller datasets. By default it is 10. 
 
@@ -93,10 +95,6 @@ vectorizer_model = CountVectorizer(stop_words="english")
 topic_model = BERTopic(vectorizer_model=vectorizer_model, calculate_probabilities=False, min_topic_size=6)
 
 topics, probs = topic_model.fit_transform(doc_list)
-
-# Optional: load an existing model
-# from bertopic import BERTopic
-# topic_model = BERTopic.load("path to and name of model") # adjust path and name 
 ```
 
 ```python
