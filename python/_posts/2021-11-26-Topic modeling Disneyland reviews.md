@@ -20,11 +20,11 @@ Additionally, you'll need to install the following extra package(s) for the scri
 
 ## The case: a decade of Disneyland Paris Tripadvisor reviews
 
-Studying reviews longitudinally can help, for instance, to analyze how understandings of particular product or leisure activity may change with time. This post works with more than 12.000 Tripadvisor reviews of Disneyland Paris, which can be downloaded from [Kaggle](https://www.kaggle.com/arushchillar/disneyland-reviews){:target="_blank"}.
+Studying reviews over time provides insights into changing perceptions of products or activities. I analyzed over 12,000 Tripadvisor reviews of Disneyland Paris, available on [Kaggle](https://www.kaggle.com/arushchillar/disneyland-reviews){:target="_blank"}, to uncover dynamic themes using an LDA topic model. While I won't delve deeply into the model's outputs here, the data and Python code demonstrate the analytical process.
 
-To my surprise, I actually found some amusing dynamics in themes that the reviews discussed (note that a "theme" corresponds in this case to a distinct "topic" which the LDA topic model produces), yet I will not go to too deep into interpreting the output of the topic model. The Disneyland Paris review data and the code below are used to demonstrate how such an analytical process in terms of Python code can look like.
+For a deeper theoretical exploration of how public understandings shift, I recommend a paper I co-authored with Giselinde Kuipers and Alex van Venrooij, titled “How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005.” This study, which analyzes _Guardian_ newspaper articles over a 21-year period, is available upon request and illustrates changing frames within the British dance field.
 
-For a theoretically meaningful example of shifting public understandings, and how we can use topic models to study these, I refer to a paper that I wrote with Giselinde Kuipers and Alex van Venrooij titled "How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005" (available upon request). Drawing on an analysis of _Guardian_ newspaper articles, the study demonstrates and explains how distinct frames of the British dance field were present over a 21 year period.
+
 
 
 ## The code
@@ -290,9 +290,9 @@ This gives:
 <iframe width="700" height="400" frameborder="0" scrolling="no" src="//plotly.com/~renswilderom/305.embed?link=false"></iframe>
 
 
-Keeping in mind that the main purpose of this post is to demonstrate how discursive trends can be investigated with topic models, we may tentatively try to interpret what happens in this graph. It appears that the salience of the "Disney as a magical world" theme (topic #1) won terrain compared to the "Disneyland as a hassle" theme (topic #9). Topic #3, which we may interpret as a "practical issues" theme (given terms such as "food," "meal," "bus," and "train"), started as the most dominant review topic, yet, after 2015, it became less salient compared to the rest.
+The primary aim of this post is to showcase how topic models can be used to explore discursive trends. A tentative interpretation of the results from our analysis reveals interesting dynamics: the theme of "Disney as a magical world" (topic #1) gained prominence over the "Disneyland as a hassle" theme (topic #9). Initially, the "practical issues" theme (topic #3), characterized by terms like “food,” “meal,” “bus,” and “train,” dominated the reviews. However, post-2015, its prevalence diminished relative to other topics.
 
-Such findings usually become meaningful when researchers have in-depth knowledge about the case and complement (or "triangulate") the topic models by other methods, such as qualitative analyses of the associated documents, through interviews, or even participant observation. For instance, in the study of newspaper coverage of the British dance field, referred to above, we qualitatively analyzed the top-100 articles associated with each topic included in the analysis. In addition, we collected publically available policy documents, and had a good understandings of the main events that took place (e.g. which new laws were constituted). This allowed us to unveil an interplay between discursive dynamics, on the one hand, and people's actions, on the other hand.      
+Such findings are often more insightful when researchers possess deep knowledge about the subject and use a combination of methods to analyze the data. This approach, known as triangulation, may include qualitative analyses of documents, interviews, or even participant observation. For example, in our study of British newspaper coverage of the dance field, we conducted qualitative analyses of the top-100 articles associated with each topic. We also reviewed publicly available policy documents and had a thorough understanding of key events, such as new legislation. This comprehensive approach allowed us to uncover how discursive trends interact with real-world actions and changes.     
 
 
 ## Sources
