@@ -30,14 +30,16 @@ To identify distinct styles in films, I use BERTopic (see Grootendorst, 2022, an
 
 ### 1. Open the dataset 
 
-Download this [sample dataset](https://drive.google.com/file/d/1rtlzCniBY5g-wCNmyZf0DrSaIrccPWND/view?usp=sharing){:target="_blank"} with US horror films and save it locally on your computer. The variables included are: "year," "title," and "keywords_list." Next to this, there is also the "producers_list," "directors_list," "writers_list," "editing_list," "cinematography_list," "production_design_list" and "music_departments_list," who together can be considered as the "core crew" (see Cattani and Ferriani, 2009).
+To load a sample dataset on US horror films directly from GitHub, you can use the following Python code. This code utilizes pandas to read the dataset from a GitHub repository URL. 
+
+The variables included are: "year," "title," and "keywords_list." Next to this, there is also the "producers_list," "directors_list," "writers_list," "editing_list," "cinematography_list," "production_design_list" and "music_departments_list," who together contitute the "core crew" (see Cattani and Ferriani, 2009).
 
 Please note that some of the code cells' output has been removed to improve the readability of this blogpost.
 
 ```python
 import pandas as pd
-df = pd.read_csv('C:/Users/bwilder1/Downloads/film_keywords.csv') 
-# change the file path to the location where the data is stored on your computer
+url = 'https://raw.githubusercontent.com/renswilderom/Various/main/film_keywords.csv'
+df = pd.read_csv(url)
 print(df.shape)
 df.head()
 ```
