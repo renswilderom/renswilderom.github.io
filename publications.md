@@ -20,10 +20,11 @@ Procedure for Identifying Research-Relevant Text. With Alicia Eads, among others
 
 ## Media
 
+- "How did dance music go from underground to mainstream?" Interview for [_UvA - Social Sciences & Behaviour_](https://www.youtube.com/watch?v=2a8y46gIKf4){:target="_blank"} Youtube Channel.
 
 - "Nederland, land van kaas, molens en gabber." Interview in [_Trouw_](https://drive.google.com/file/d/1aZlTkNsCaThpJDb-c81JxmxZYIpE-uoX/view?usp=sharing){:target="_blank"}.
 
-- "En zo werd house hot." Interview in [_Parool_](https://drive.google.com/file/d/1hVzAmTfEkClXxLhHQmO4kiqwug5hVfFh/view?usp=sharing){:target="_blank"}.. 
+- "En zo werd house hot." Interview in [_Parool_](https://drive.google.com/file/d/1hVzAmTfEkClXxLhHQmO4kiqwug5hVfFh/view?usp=sharing){:target="_blank"}. 
 
 - "Waarom Amerikanen house niet begrijpen." Podcast by [_Onder Mediadoctoren_](https://ondermediadoctoren.nl/afl-180-waarom-amerikanen-house-niet-begrijpen/){:target="_blank"} (Dutch language podcast series with media researchers).
 
