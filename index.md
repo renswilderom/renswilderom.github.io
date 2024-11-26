@@ -11,6 +11,15 @@ posts_page: /blog/
 featured: True
 ---
 
+**Cultural Sociologist**
+In my research, I explore the interplay between culture and social structures, such as markets and organizational fields. I study these interactions in the context of music, gastronomy, and art, benefitting from state-of-the-art computational methods, such as BERTopic, GPT models, and a wide range of data processing techniques. 
+
+In my latest research project, [_"AI-Augmented Cultural Sociology: Guidelines for LLM-Assisted Text Analysis and an Illustrative Example,"_](https://docs.google.com/document/d/17GMIdOGSOFJAkbbqWiBqJpNTO2NdjJAUCBRZHJUDs3o/edit?usp=sharing){:target="_blank"} currently under review, my co-authors and I explore the potential of large language models (LLMs) for large-scale automated text analysis. Using consumer reviews as our data source, we demonstrate how LLMs can reliably identify the complex, multifaceted concept of “personalized service” in Michelin-starred restaurants.
+
+I currently work as a Lecturer and Academic Liaison in Bachelor Computational Social Science at the University of Amsterdam. Under the supervision of Alex van Venrooij and Giselinde Kuipers, I defended my [PhD dissertation](https://drive.google.com/file/d/1-DKHgvI4YEHkV6PB8xV9UpGsJlSC6a1g/view?usp=sharing){:target="_blank"}  at the Sociology Department of the University of Amsterdam on September 23, 2023. During my doctoral studies, I spent five months in 2018 as a visiting PhD researcher at the University of Toronto's Sociology Department under Shyon Baumann's supervision. Additionally, I hold a master’s degree in Cultural Sociology (Cum Laude) from the University of Amsterdam.
+
+<!-- I am a Core Lecturer in Computational Social Sciences at the University of Amsterdam and a Visiting Lecturer at the School of Business Administration at the American University Kyiv.
+
 I work as a Core Lecturer in Computational Social Sciences at the University of Amsterdam and a Visiting Lecturer at the American University Kyiv, where I teach Introduction to Sociology and Innovations in Society. 
 
 My PhD dissertation [“Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005”](https://drive.google.com/file/d/1-DKHgvI4YEHkV6PB8xV9UpGsJlSC6a1g/view?usp=sharing){:target="_blank"} has recently (27 September, 2023) been completed.
@@ -18,9 +27,6 @@ My PhD dissertation [“Genres, webs of fields, and institutional change: The de
 I am currently setting up a new project titled [“How style impacts organization: modeling stylistic variations in the film art world”](https://docs.google.com/document/d/1-keicHpcssowyzRC1oLQQb_1S6maaTzi92CS2AVoF60/edit){:target="_blank"} for which I received a Valorization grant from the Social and Behavioural Data Science Centre at the University of Amsterdam. 
 
 Previously, I completed my master in Cultural Sociology (Cum Laude, University of Amsterdam) with a thesis titled “The culinary order: sustainable consumer identities and new organizational forms on the alternative market for foods.”
-
-
-<!-- I am a Core Lecturer in Computational Social Sciences at the University of Amsterdam and a Visiting Lecturer at the School of Business Administration at the American University Kyiv.
 
 My PhD dissertation [“Genres, webs of fields, and institutional change: The development of dance in the US, UK, and the Netherlands, 1985-2005”](https://drive.google.com/file/d/1-DKHgvI4YEHkV6PB8xV9UpGsJlSC6a1g/view?usp=sharing){:target="_blank"} has recently (27 September, 2023) been completed. See [this page](https://www.renswilderom.nl/dissertation/) for more information
 
