@@ -12,6 +12,7 @@ featured: True
 ---
 
 **Cultural Sociologist**
+
 In my research, I explore the interplay between culture and social structures, such as markets and organizational fields. I study these interactions in the context of music, gastronomy, and art, benefitting from state-of-the-art computational methods, such as BERTopic, GPT models, and a wide range of data processing techniques. 
 
 In my latest research project, [_"AI-Augmented Cultural Sociology: Guidelines for LLM-Assisted Text Analysis and an Illustrative Example,"_](https://docs.google.com/document/d/17GMIdOGSOFJAkbbqWiBqJpNTO2NdjJAUCBRZHJUDs3o/edit?usp=sharing){:target="_blank"} currently under review, my co-authors and I explore the potential of large language models (LLMs) for large-scale automated text analysis. Using consumer reviews as our data source, we demonstrate how LLMs can reliably identify complex, multifaceted concepts, such as the presence of “personalized service” in Michelin-starred restaurants.
