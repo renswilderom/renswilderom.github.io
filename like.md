@@ -10,11 +10,11 @@ People _love_ to share what they like (think, for example, about all the social 
 
 ## Audio books
 
-[Ingrained](https://www.callumrobinson.org/ingrained){:target="_blank"}
-
-<!-- <p align="center">
+<p align="center">
 <img src="/assets/img/blog/91vmziWnDsL._SY522_.jpg" alt="prompt" width="400" style="padding-top: 15px;"/>
-</p> --> 
+</p> 
+
+[Ingrained](https://www.callumrobinson.org/ingrained){:target="_blank"}
 
 This audiobook, also available in print, tells the memoir of Callum Robinson, a woodworker based on Scotland’s east coast. Robinson reflects on his journey, from crafting pieces for local families to creating bespoke designs for prestigious luxury brands.
 
@@ -23,7 +23,7 @@ This audiobook, also available in print, tells the memoir of Callum Robinson, a 
 ## Podcasts
 [Winds of Change](https://www.rollingstone.com/culture/culture-features/wind-of-change-cia-propaganda-cold-war-podcast-1027873/){:target="_blank"} 
 
-Some of the best things I came across in recent years consist of podcasts. This one asks the question whether the CIA exercises "soft power" through the production of culture, and, in particular, if they attempted to do so through the 1980s ballad rock band the Scorpions. Yes, this is a wild story :)
+Some of the most fascinating discoveries I’ve made in recent years have been through podcasts. This one explores whether the CIA exerts "soft power" by influencing cultural production—specifically, whether they had a hand in shaping the 1980s ballad rock band, The Scorpions. It’s a wild and intriguing story, to say the least! :)
 
 [Nice white parents](https://www.nytimes.com/2020/07/23/podcasts/nice-white-parents-serial.html){:target="_blank"} (podcast, morality, ethnography, 10/10).
 
