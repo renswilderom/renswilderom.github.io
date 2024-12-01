@@ -31,12 +31,21 @@ This audiobook, also available in print, tells the memoir of Callum Robinson, a 
 Some of the most fascinating discoveries I’ve made in recent years have been through podcasts. This one explores whether the CIA exerts "soft power" by influencing cultural production—specifically, whether they had a hand in shaping the 1980s ballad rock band, The Scorpions. It’s a wild and intriguing story, to say the least! :)
 
 
+<p align="center">
+<img src="/assets/img/blog/23NWP-IMAGE-jumbo.jpg" alt="prompt" width="400" style="padding-top: 15px;"/>
+</p> 
+
+[Nice white parents](https://www.nytimes.com/2020/07/23/podcasts/nice-white-parents-serial.html){:target="_blank"}
+
+Morality, ethnography, 10/10.
 
 
-[Nice white parents](https://www.nytimes.com/2020/07/23/podcasts/nice-white-parents-serial.html){:target="_blank"} (podcast, morality, ethnography, 10/10).
 
 
-<!-- ## Credits 
+
+
+
+<!--
 
 _What am I watching?_
 * [Netflix's The Last Kingdom](https://www.rottentomatoes.com/tv/the_last_kingdom){:target="_blank"} (Power play between kings, warriors and vikings in the Anglo-Saxon period).
