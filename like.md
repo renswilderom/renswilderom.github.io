@@ -11,7 +11,7 @@ People _love_ to share what they like (think, for example, about all the social 
 ## Audio books
 
 <p align="center">
-<img src="/assets/img/blog/91vmziWnDsL._SY522_.jpg" alt="prompt" width="400" style="padding-top: 15px;"/>
+<img src="/assets/img/blog/91vmziWnDsL._SY522_.jpg" alt="prompt" width="500" style="padding-top: 15px;"/>
 </p> 
 
 [**Ingrained**](https://www.callumrobinson.org/ingrained){:target="_blank"}
@@ -23,7 +23,7 @@ This audiobook, also available in print, tells the memoir of Callum Robinson, a 
 ## Podcasts
 
 <p align="center">
-<img src="/assets/img/blog/wind-of-change-pod-logo-916069-eLEHhDHC.png" alt="prompt" width="400" style="padding-top: 15px;"/>
+<img src="/assets/img/blog/wind-of-change-pod-logo-916069-eLEHhDHC.png" alt="prompt" width="500" style="padding-top: 15px;"/>
 </p> 
 
 [**Winds of Change**](https://www.rollingstone.com/culture/culture-features/wind-of-change-cia-propaganda-cold-war-podcast-1027873/){:target="_blank"} 
@@ -31,8 +31,9 @@ This audiobook, also available in print, tells the memoir of Callum Robinson, a 
 Some of the most fascinating discoveries I’ve made in recent years have been through podcasts. This one explores whether the CIA exerts "soft power" by influencing cultural production—specifically, whether they had a hand in shaping the 1980s ballad rock band, The Scorpions. It’s a wild and intriguing story, to say the least! :)
 
 
+
 <p align="center">
-<img src="/assets/img/blog/23NWP-IMAGE-jumbo.jpg" alt="prompt" width="400" style="padding-top: 15px;"/>
+<img src="/assets/img/blog/23NWP-IMAGE-jumbo.jpg" alt="prompt" width="500" style="padding-top: 15px;"/>
 </p> 
 
 [**Nice white parents**](https://www.nytimes.com/2020/07/23/podcasts/nice-white-parents-serial.html){:target="_blank"}
