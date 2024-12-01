@@ -16,7 +16,7 @@ People _love_ to share what they like (think, for example, about all the social 
 
 [**Ingrained**](https://www.callumrobinson.org/ingrained){:target="_blank"}
 
-This audiobook, also available in print, tells the memoir of Callum Robinson, a woodworker based on Scotland’s east coast. Robinson reflects on his path, from crafting pieces for local families to making bespoke creations for renowned luxury brands.
+This audiobook, also available in print, tells the memoir of Callum Robinson, a woodworker based on Scotland’s east coast. Robinson reflects on his path, from crafting pieces for local families to how he started creating bespoke pieces of carpentery for luxury brands.
 
 
 
