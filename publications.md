@@ -8,18 +8,18 @@ sitemap: true
 
 ## Preprints
 
-- **Wilderom**, B.R., Price, T., & Heitland, T. (2024) AI-Augmented Cultural Sociology: Guidelines for LLM-Assisted Text Analysis and an Illustrative Example. [SocArXiv](https://docs.google.com/document/d/17GMIdOGSOFJAkbbqWiBqJpNTO2NdjJAUCBRZHJUDs3o/edit?usp=sharing). 
+- **Wilderom, B.R.**, Price, T., & Heitland, T. (2024) AI-Augmented Cultural Sociology: Guidelines for LLM-Assisted Text Analysis and an Illustrative Example. [SocArXiv](https://docs.google.com/document/d/17GMIdOGSOFJAkbbqWiBqJpNTO2NdjJAUCBRZHJUDs3o/edit?usp=sharing). 
 
-- **Wilderom**, B.R., & Van Venrooij, A.T. (2024). The dance of markets and movements: The emergence and development of dance genres in the US, UK, and the Netherlands, 1985–2005. [SocArXiv](https://doi.org/10.31235/osf.io/aq8ep){:target="_blank"}.
+- **Wilderom, B.R.**, & Van Venrooij, A.T. (2024). The dance of markets and movements: The emergence and development of dance genres in the US, UK, and the Netherlands, 1985–2005. [SocArXiv](https://doi.org/10.31235/osf.io/aq8ep){:target="_blank"}.
 
 
 ## Papers published
 
-Arda, L., Esposito, G., & **Wilderom**, B.R. (2024). Sense and Sensibility: narrative strategies shaping megaproject development, [_Project Leadership & Society_](https://www.sciencedirect.com/science/article/pii/S2666721524000036?via%3Dihub){:target="_blank"}_, 5, 1-13.
+Arda, L., Esposito, G., & **Wilderom, B.R.** (2024). Sense and Sensibility: narrative strategies shaping megaproject development, [_Project Leadership & Society_](https://www.sciencedirect.com/science/article/pii/S2666721524000036?via%3Dihub){:target="_blank"}_, 5, 1-13.
 
-Eads, A., Schofield, A., Mahootian, F., Mimno, D. & **Wilderom**, B.R. (2021). Separating the wheat from the chaff: A topic and keyword-based procedure for identifying research-relevant text. [_Poetics_](https://www.sciencedirect.com/science/article/abs/pii/S0304422X20302813){:target="_blank"}, 86, 1-19.
+Eads, A., Schofield, A., Mahootian, F., Mimno, D. & **Wilderom, B.R.** (2021). Separating the wheat from the chaff: A topic and keyword-based procedure for identifying research-relevant text. [_Poetics_](https://www.sciencedirect.com/science/article/abs/pii/S0304422X20302813){:target="_blank"}, 86, 1-19.
 
-**Wilderom**, B.R., & Van Venrooij, A.T. (2019). Intersecting fields: The influence of proximate field dynamics on the development of electronic/dance music in the US and UK. [_Poetics_](https://www.sciencedirect.com/science/article/abs/pii/S0304422X18300342){:target="_blank"}, 77, 1-16.
+**Wilderom, B.R.**, & Van Venrooij, A.T. (2019). Intersecting fields: The influence of proximate field dynamics on the development of electronic/dance music in the US and UK. [_Poetics_](https://www.sciencedirect.com/science/article/abs/pii/S0304422X18300342){:target="_blank"}, 77, 1-16.
  
 
 
