@@ -8,9 +8,9 @@ sitemap: true
 
 ## Preprints
 
-- **Wilderom, B.R.**, Price, T., & Heitland, T. (2024) AI-Augmented Cultural Sociology: Guidelines for LLM-Assisted Text Analysis and an Illustrative Example. [SocArXiv](https://doi.org/10.31235/osf.io/tx8jn){:target="_blank"}. 
+**Wilderom, B.R.**, Price, T., & Heitland, T. (2024) AI-Augmented Cultural Sociology: Guidelines for LLM-Assisted Text Analysis and an Illustrative Example. [SocArXiv](https://doi.org/10.31235/osf.io/tx8jn){:target="_blank"}. 
 
-- **Wilderom, B.R.**, & Van Venrooij, A.T. (2024). The dance of markets and movements: The emergence and development of dance genres in the US, UK, and the Netherlands, 1985–2005. [SocArXiv](https://doi.org/10.31235/osf.io/aq8ep){:target="_blank"}.
+**Wilderom, B.R.**, & Van Venrooij, A.T. (2024). The dance of markets and movements: The emergence and development of dance genres in the US, UK, and the Netherlands, 1985–2005. [SocArXiv](https://doi.org/10.31235/osf.io/aq8ep){:target="_blank"}.
 
 
 ## Papers published
@@ -25,15 +25,15 @@ Eads, A., Schofield, A., Mahootian, F., Mimno, D. & **Wilderom, B.R.** (2021). S
 
 ## Media appearances
 
-- "How did dance music go from underground to mainstream?" Interview for [_UvA - Social Sciences & Behaviour_](https://www.youtube.com/watch?v=2a8y46gIKf4){:target="_blank"} Youtube Channel.
+"How did dance music go from underground to mainstream?" Interview for [_UvA - Social Sciences & Behaviour_](https://www.youtube.com/watch?v=2a8y46gIKf4){:target="_blank"} Youtube Channel.
 
-- "Nederland, land van kaas, molens en gabber." Interview in [_Trouw_](https://drive.google.com/file/d/1aZlTkNsCaThpJDb-c81JxmxZYIpE-uoX/view?usp=sharing){:target="_blank"}.
+"Nederland, land van kaas, molens en gabber." Interview in [_Trouw_](https://drive.google.com/file/d/1aZlTkNsCaThpJDb-c81JxmxZYIpE-uoX/view?usp=sharing){:target="_blank"}.
 
-- "En zo werd house hot." Interview in [_Parool_](https://drive.google.com/file/d/1hVzAmTfEkClXxLhHQmO4kiqwug5hVfFh/view?usp=sharing){:target="_blank"}. 
+"En zo werd house hot." Interview in [_Parool_](https://drive.google.com/file/d/1hVzAmTfEkClXxLhHQmO4kiqwug5hVfFh/view?usp=sharing){:target="_blank"}. 
 
-- "Waarom Amerikanen house niet begrijpen." Podcast by [_Onder Mediadoctoren_](https://ondermediadoctoren.nl/afl-180-waarom-amerikanen-house-niet-begrijpen/){:target="_blank"} (Dutch language podcast series with media researchers).
+"Waarom Amerikanen house niet begrijpen." Podcast by [_Onder Mediadoctoren_](https://ondermediadoctoren.nl/afl-180-waarom-amerikanen-house-niet-begrijpen/){:target="_blank"} (Dutch language podcast series with media researchers).
 
-- "Standing on the shoulders of punk: the early years of dance." Press release by the University of Amsterdam, available in [English](https://www.uva.nl/en/content/news/press-releases/2023/09/standing-on-the-shoulders-of-punk-the-early-years-of-dance.html?origin=kUP%2Byx6UTZqvuJiCJKnnEQ){:target="_blank"} and [Dutch](https://www.uva.nl/content/nieuws/persberichten/2023/09/bouwen-op-de-punkscene-de-beginjaren-van-de-dance.html){:target="_blank"}. Interview and text by Joost van Tilburg.
+"Standing on the shoulders of punk: the early years of dance." Press release by the University of Amsterdam, available in [English](https://www.uva.nl/en/content/news/press-releases/2023/09/standing-on-the-shoulders-of-punk-the-early-years-of-dance.html?origin=kUP%2Byx6UTZqvuJiCJKnnEQ){:target="_blank"} and [Dutch](https://www.uva.nl/content/nieuws/persberichten/2023/09/bouwen-op-de-punkscene-de-beginjaren-van-de-dance.html){:target="_blank"}. Interview and text by Joost van Tilburg.
 
 
 
@@ -41,13 +41,13 @@ Eads, A., Schofield, A., Mahootian, F., Mimno, D. & **Wilderom, B.R.** (2021). S
 
 _Related to PhD_
 
-- When existing genre communities adopt new genres: combining network and field perspectives to explain the rise of trance music. Status: revise and resubmit at _Cultural Sociology_.
+When existing genre communities adopt new genres: combining network and field perspectives to explain the rise of trance music. Status: revise and resubmit at _Cultural Sociology_.
 
-- How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005. With Giselinde Kuipers and Alex van Venrooij. Status: will be submitted in due course.
+How disqualification leads to legitimation: dance music as a societal threat, legitimate leisure activity and established art in a British web of fields, 1985-2005. With Giselinde Kuipers and Alex van Venrooij. Status: will be submitted in due course.
 
 _Unrelated to PhD_
 
-- The moral affordances of online sex talk: Sexual meaning-making and the creation of moral spaces on a Dutch discussion forum. With Myra Bosman and Giselinde Kuipers. Status: Revise and resubmit at _The Sociological Review_.
+The moral affordances of online sex talk: Sexual meaning-making and the creation of moral spaces on a Dutch discussion forum. With Myra Bosman and Giselinde Kuipers. Status: Revise and resubmit at _The Sociological Review_.
 
 
 
