@@ -1,60 +1,18 @@
 ---
 layout: page
-title: What I like
+title: About
 cover: true
 sitemap: true
 ---
 
-People _love_ to share what they like (think, for example, about all the social media posts or dinner table conversations where someone is lyrically telling about a recently discovered restaurant, Netflix show, or book). Cultural sociologists, in their turn, become enthusiastic when discussing _why_ people love to do this. Here, however, I will refrain from such sociological reflexivity and simply share with you my favorites of the moment.  
+**Cultural Sociologist**
 
+My research focuses on the interplay between cultural and social structures in the context of music, art and gastronomy. It uses state-of-the-art computational methods, such as BERTopic, GPT models, and a wide range of data processing techniques. 
 
-## Audio books
+In my latest research project, [_"AI-Augmented Cultural Sociology: Guidelines for LLM-Assisted Text Analysis and an Illustrative Example,"_](https://doi.org/10.31235/osf.io/tx8jn){:target="_blank"} currently under review, my co-authors and I explore the potential of large language models (LLMs) for large-scale automated text analysis. Using consumer reviews as our data source, we demonstrate how LLMs can reliably identify complex, multifaceted concepts, such as the presence of “personalized service” in reviews on Michelin-starred restaurants.
 
-<p align="center">
-<img src="/assets/img/blog/91vmziWnDsL._SY522_.jpg" alt="prompt" width="500" style="padding-top: 15px;"/>
-</p> 
-
-[**Ingrained**](https://www.callumrobinson.org/ingrained){:target="_blank"}
-
-This audiobook, also available in print, tells the memoir of Callum Robinson, a woodworker based on Scotland’s east coast. Robinson reflects on his path, from crafting pieces for local families to how he started creating bespoke pieces of carpentery for luxury brands.
-
-
-
-## Podcasts
-
-<p align="center">
-<img src="/assets/img/blog/wind-of-change-pod-logo-916069-eLEHhDHC.png" alt="prompt" width="500" style="padding-top: 15px;"/>
-</p> 
-
-[**Winds of Change**](https://www.rollingstone.com/culture/culture-features/wind-of-change-cia-propaganda-cold-war-podcast-1027873/){:target="_blank"} 
-
-Some of the most fascinating discoveries I’ve made in recent years have been through podcasts. This one explores whether the CIA exerts "soft power" by influencing cultural production—specifically, whether they had a hand in shaping the 1980s ballad rock band, The Scorpions. It’s a wild and intriguing story, to say the least! :)
-
-
-
-<p align="center">
-<img src="/assets/img/blog/23NWP-IMAGE-jumbo.jpg" alt="prompt" width="500" style="padding-top: 15px;"/>
-</p> 
-
-[**Nice white parents**](https://www.nytimes.com/2020/07/23/podcasts/nice-white-parents-serial.html){:target="_blank"}
-
-Morality, ethnography, 10/10.
+I am currently working as a Lecturer and Academic Liaison in Bachelor Computational Social Science at the University of Amsterdam. Under the supervision of Alex van Venrooij and Giselinde Kuipers, I defended my [PhD dissertation](https://drive.google.com/file/d/1-DKHgvI4YEHkV6PB8xV9UpGsJlSC6a1g/view?usp=sharing){:target="_blank"}  at the Sociology Department of the University of Amsterdam on September 23, 2023. During my doctoral studies, I spent five months in 2018 as a visiting PhD researcher at the University of Toronto's Sociology Department under Shyon Baumann's supervision. Additionally, I hold a master’s degree in Cultural Sociology (Cum Laude) from the University of Amsterdam.
 
 
 
 
-
-
-
-<!--
-
-_What am I watching?_
-* [Netflix's The Last Kingdom](https://www.rottentomatoes.com/tv/the_last_kingdom){:target="_blank"} (Power play between kings, warriors and vikings in the Anglo-Saxon period).
-* [Netflix's Feel Good](https://www.rottentomatoes.com/tv/feel_good/s01){:target="_blank"} (addiction, British, humor).
-
-
-_What am I reading?_
-* [The Little Prince](https://www.goodreads.com/book/show/157993.The_Little_Prince){:target="_blank"} (A classic which you may re-read now and then from the kind, imaginative Antoine de Saint-Exupéry).
-* [Harry Potter and the Chamber of Secrets](https://harrypotter.fandom.com/wiki/Harry_Potter_and_the_Chamber_of_Secrets#Chapter_1:_The_Worst_Birthday){:target="_blank"} (the wizard who needs no explaining).
-
--->
