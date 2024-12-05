@@ -57,7 +57,7 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             About
-    url:               /about/
+    url:               /About/
   - title:             Blog/Python
     url:               /blog/
   - title:             Dissertation
