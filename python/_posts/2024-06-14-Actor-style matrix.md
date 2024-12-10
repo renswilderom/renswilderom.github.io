@@ -45,33 +45,26 @@ df.head()
 ```
 
 ```python
-# This code cell uses some data wrangling to create a clean 'core crew' column. 
+# Merge the people from multiple lists into one "core_crew" column
 # These will be the 'actors' in the actor-style matrix
-df['core_crew'] = df['producers_list'] + df['directors_list'] + df['writers_list'] + df['editing_list'] + df['cinematography_list'] + df['production_design_list'] + df['music_departments_list']
 
-# Various consecutive cleaning steps to clean up the string
-df["core_crew"] = (
-    df["core_crew"]
-    .str.replace('"', '', regex=False)
-    .str.replace("'][", ',', regex=False)
-    .str.replace("[", '', regex=False)
-    .str.replace("]", '', regex=False)
-    .str.replace("'", '', regex=False)
-    .str.rstrip(',')
-)
 
-# Remove rows with empty lists (strings of only two characters [])
+columns_to_process = ['producers_list','directors_list','writers_list','editing_list','cinematography_list','production_design_list', 'music_departments_list']
+
+# Convert string representations of lists to actual lists
+import ast
+for col in columns_to_process:
+    df[col] = df[col].apply(ast.literal_eval)
+    
+# Combine lists from all specified columns
+df['combined_list'] = df.apply(lambda row: sum([row[col] for col in columns_to_process], []), axis=1)
+
+# Keep rows with 2 or more core crew members (this is relevant for the network analysis, where we are interested in relations between 2 or more people)
 import numpy as np
-df['len'] = df['core_crew'].apply(len)
-df = df.loc[df['len'] != 0]
-
-# Turn again into a list
-df['core_crew'] = df['core_crew'].str.split(',')
-
-# Keep row with 2 or more core crew members
-import numpy as np
-df['len_core_crew'] = df['core_crew'].apply(len)
+df['len_core_crew'] = df['combined_list'].apply(len)
 df = df.loc[df['len_core_crew'] >= 2]
+print(df.shape)
+df.head()
 ```
 
 ### 2. Create a new BERTopic model and visualize it 
