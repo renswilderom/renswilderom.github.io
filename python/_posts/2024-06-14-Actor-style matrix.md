@@ -19,7 +19,7 @@ Additionally, you'll need to install the following extra package(s) for the scri
 
 ## The case: Who’s creating which film styles?
 
-Imagine a horror film director who conceives the idea of producing a "zombie" movie. The title captures the public's imagination and becomes a hit, prompting other directors to follow suit. However, over time, audiences may grow weary of the same brain-dead walkers, and interest wanes. The market for this particular style becomes saturated, leading to a decline in production. As audiences seek something fresh, a new stylistic trend has the opportunity to emerge.
+Imagine a horror film director who conceives the idea of producing a movie about zombies. The title captures the public's imagination and becomes a hit, prompting other directors to follow suit. However, over time, audiences may grow weary of the same brain-dead walkers, and interest wanes. The market for this particular style becomes saturated, leading to a decline in production. As audiences seek something fresh, a new stylistic trend has the opportunity to emerge.
 
 In the context of such 'cultural endogenous' dynamics (Van Venrooij, 2015; Godart and Galunic, 2019; Sgourev, Aadland, and Formilan, 2023), it is interesting to ask: How do film styles evolve over time? And, how do filmmakers adapt to styles that fall in and out of fashion? Understanding these dynamics could offer valuable insights into how the evolution of styles influences markets for creative works and social life more generally.
 
