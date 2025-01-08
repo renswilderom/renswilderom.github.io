@@ -10,10 +10,10 @@ sitemap: true
 
 **Wilderom, B.R.**, Price, T., & Heitland, T. (2024) AI-Augmented Cultural Sociology: Guidelines for LLM-Assisted Text Analysis and an Illustrative Example. [SocArXiv](https://doi.org/10.31235/osf.io/tx8jn){:target="_blank"}. 
 
-**Wilderom, B.R.**, & Van Venrooij, A.T. (2024). The dance of markets and movements: The emergence and development of dance genres in the US, UK, and the Netherlands, 1985–2005. [SocArXiv](https://doi.org/10.31235/osf.io/aq8ep){:target="_blank"}.
-
 
 ## Papers published
+
+**Wilderom, B.R.**, & Van Venrooij, A.T. (2025). The dance of markets and movements: The emergence and development of dance genres in the US, UK, and the Netherlands, 1985–2005. [Forth coming in _Poetics_, SocArXiv](https://doi.org/10.31235/osf.io/aq8ep){:target="_blank"}.
 
 Arda, L., Esposito, G., & **Wilderom, B.R.** (2024). Sense and Sensibility: narrative strategies shaping megaproject development, [_Project Leadership & Society_](https://www.sciencedirect.com/science/article/pii/S2666721524000036?via%3Dihub){:target="_blank"}, 5, 1-13.
 
